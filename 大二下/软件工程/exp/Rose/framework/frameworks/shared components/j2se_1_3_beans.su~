@@ -1,0 +1,796 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "beans"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39CD6B0200FD"
+    physical_models 	(list unit_reference_list
+	(object module "PropertyChangeSupport" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyChangeSupport.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B0200FE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AppletInitializer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AppletInitializer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BFE0286"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BeanDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BeanDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BFF0129"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FeatureDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FeatureDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BFF013D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BeanInfo" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BeanInfo.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BFF0183"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Beans$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Beans$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BFF0328"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Beans$2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Beans$2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C00009E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Beans" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Beans.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C00031F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BeansAppletContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BeansAppletContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C010122"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BeansAppletStub" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BeansAppletStub.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C010385"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Customizer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Customizer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C020033"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DesignMode" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DesignMode.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0200AB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventSetDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventSetDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0203A4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MethodDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MethodDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C030002"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GenericBeanInfo" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GenericBeanInfo.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C04037F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SimpleBeanInfo" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SimpleBeanInfo.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C04038A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0403C5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "IndexedPropertyDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"IndexedPropertyDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0501C8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "IntrospectionException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"IntrospectionException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0502C2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Introspector$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Introspector$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C050395"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Introspector" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Introspector.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C07035B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ParameterDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ParameterDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0900F1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectInputStreamWithLoader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectInputStreamWithLoader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C09023C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyChangeEvent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyChangeEvent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0A00CB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyChangeListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyChangeListener.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0A01BB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyEditor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyEditor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0B0357"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyEditorManager" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyEditorManager.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0C0069"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyEditorSupport" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyEditorSupport.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0C0290"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PropertyVetoException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PropertyVetoException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0D002F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SimpleBeanInfo$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SimpleBeanInfo$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0D01D3"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "VetoableChangeListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"VetoableChangeListener.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0E010D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "VetoableChangeSupport" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"VetoableChangeSupport.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0E02B1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Visibility" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Visibility.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C0E0365"
+	    stereotype 	""
+	    language   	"Java")
+	(object SubSystem "beancontext"
+	    quid       	"39CD6C0F02A9"
+	    physical_models 	(list unit_reference_list
+		(object module "BeanContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContext.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C0F02AA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextChild" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextChild.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C0F02BE"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextChildComponentProxy" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextChildComponentProxy.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C0F0335"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextChildSupport" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextChildSupport.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C10025A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextContainerProxy" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextContainerProxy.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C100340"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C110021"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextMembershipEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextMembershipEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1101C5"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextMembershipListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextMembershipListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C110265"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextProxy" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextProxy.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C11028D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServiceAvailableEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServiceAvailableEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C11034C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServiceProvider" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServiceProvider.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C110388"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServiceProviderBeanInfo" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServiceProviderBeanInfo.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C120018"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServiceRevokedEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServiceRevokedEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1200EA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServiceRevokedListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServiceRevokedListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C12018B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServices" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServices.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C120253"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C12032F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesSupport$BCSSChild$BCSSCServiceClassRef" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesSupport$BCSSChild$BCSSCServiceClassRef.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1301D2"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesSupport" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesSupport.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C130240"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesSupport$BCSSChild$BCSSCServiceRef" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesSupport$BCSSChild$BCSSCServiceRef.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1303B3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesSupport$BCSSChild" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesSupport$BCSSChild.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1500D1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextSupport" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextSupport.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1500E5"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesSupport$BCSSProxyServiceProvider" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesSupport$BCSSProxyServiceProvider.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C16005A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextServicesSupport$BCSSServiceProvider" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextServicesSupport$BCSSServiceProvider.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C16017C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextSupport$1" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextSupport$1.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1902FD"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextSupport$2" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextSupport$2.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1A0042"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextSupport$BCSChild" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextSupport$BCSChild.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1A01DC"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BeanContextSupport$BCSIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BeanContextSupport$BCSIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6C1A039F"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <LinearLayout
+        android:id="@+id/searchL1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/hend"
+        android:gravity="center_vertical" >
+        
+        <RelativeLayout
+            android:id="@+id/searchL2"
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"  >
+
+          <AutoCompleteTextView 
+              android:id="@+id/search_Keywords"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:background="@drawable/edittext"
+              android:layout_marginLeft="8dp"
+              android:ellipsize="start"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:imeOptions="actionDone"
+              android:maxLength="25"
+              android:maxLines="1"
+              android:paddingLeft="3dip"
+              android:singleLine="true" />
+       
+              <ImageView
+                    android:id="@+id/ivSButtonClear"
+                    android:layout_width="22dip"
+                    android:layout_height="22dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/bus_btn_clear" />
+              
+              
+       
+        </RelativeLayout>
+        <ImageButton
+            android:id="@+id/search_button"
+             android:background="@drawable/search_imgbtn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/searchContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/itemcolcor" >
+        <com.cn.sousuo.KeywordsView
+            android:id="@+id/word"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="2dip" />
+    </LinearLayout>
+
+</LinearLayout>

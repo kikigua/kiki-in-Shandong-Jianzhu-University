@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+    
+    
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/biaoti_bg" >
+
+        <TextView
+            android:id="@+id/fenlei_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="住宿" >
+        </TextView>
+        
+         <ImageButton
+            android:id="@+id/fl_back"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/back_bg" />
+        
+     </RelativeLayout>
+
+   <GridView
+        android:id="@+id/gv_zhusu"  
+        android:layout_width="fill_parent"   
+	    android:layout_height="fill_parent" 
+	    android:numColumns="2"      
+        android:gravity="center" 
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp" 
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>

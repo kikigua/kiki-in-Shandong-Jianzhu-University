@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- 版本号及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" > <!-- 工具条布局 -->
+    <include
+        android:id="@+id/head_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/main_tool" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" > <!-- 页面主布局 -->
+        <TabHost
+            android:id="@+id/tabhost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@android:id/tabs" >		<!-- 首页fragment布局 --> 
+                    <fragment
+                        android:id="@+id/tab01"
+                        android:name="com.example.tabFragment.HomeFragment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                    <fragment
+                        android:id="@+id/tab02"
+                        android:name="com.example.tabFragment.RandomFragment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                    <fragment
+                        android:id="@+id/tab03"
+                        android:name="com.example.tabFragment.MenuFragment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                    <fragment
+                        android:id="@+id/tab04"
+                        android:name="com.example.tabFragment.MeFragment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </FrameLayout> <!-- 底部按钮布局 -->
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dip" />
+            </RelativeLayout>
+        </TabHost>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1208 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "io"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39CD6AED037E"
+    physical_models 	(list unit_reference_list
+	(object module "Serializable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Serializable.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AED037F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilenameFilter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilenameFilter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B200185"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Externalizable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Externalizable.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BA40132"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "IOException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"IOException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BFE0129"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C090247"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BufferedInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BufferedInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1E021E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilterInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilterInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1E0232"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BufferedOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BufferedOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1E0336"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilterOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilterOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1E034A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BufferedReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BufferedReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1F01C5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Reader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Reader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1F01D9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BufferedWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BufferedWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C1F03D8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Writer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Writer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C200004"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ByteArrayInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ByteArrayInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C20013B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C20014F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ByteArrayOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ByteArrayOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C20023F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "OutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"OutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C200253"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CharArrayReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CharArrayReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2002F3"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CharArrayWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CharArrayWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2003A7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CharConversionException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CharConversionException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C21006A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DataInput" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataInput.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C210092"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DataInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2101D2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DataOutput" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataOutput.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C210240"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DataOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C21038B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EOFException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EOFException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C22006B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "File" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"File.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C23006D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileSystem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileSystem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C230082"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileDescriptor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileDescriptor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2303AC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileFilter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileFilter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C240028"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2400F0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileNotFoundException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileNotFoundException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2401CD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2402A9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilePermission$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilePermission$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C25003D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilePermission" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilePermission.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C250052"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilePermissionCollection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilePermissionCollection.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C26039C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2700A4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InputStreamReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InputStreamReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2700AF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C27022B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "OutputStreamWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"OutputStreamWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C27023F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilterReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilterReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C280132"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilterWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FilterWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C280236"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InterruptedIOException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InterruptedIOException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2902D8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InvalidClassException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidClassException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A001D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A0031"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InvalidObjectException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidObjectException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A00BD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LineNumberInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LineNumberInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A01AD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LineNumberReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LineNumberReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A02A7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NotActiveException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NotActiveException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A035C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NotSerializableException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NotSerializableException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2A03D4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectInput" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectInput.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2B0064"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectInputStream$GetField" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectInputStream$GetField.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2B00A0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectInputStream$GetFieldImpl" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectInputStream$GetFieldImpl.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2B02F9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C2B0335"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectInputValidation" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectInputValidation.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3000ED"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutput" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutput.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C300166"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutputStream$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutputStream$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C300198"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutputStream$HandleTable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutputStream$HandleTable.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C300210"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutputStream$PutField" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutputStream$PutField.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C300288"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutputStream$PutFieldImpl" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutputStream$PutFieldImpl.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3100A9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3100BD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectOutputStream$Stack" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectOutputStream$Stack.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3101D5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C35016D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass$2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass$2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3502CB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass$CompareClassByName" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass$CompareClassByName.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3503D0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass$CompareMemberByName" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass$CompareMemberByName.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C36007E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass$MethodSignature" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass$MethodSignature.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C360218"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamClass$ObjectStreamClassEntry" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamClass$ObjectStreamClassEntry.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3603DB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamField" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamField.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3A039B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectStreamConstants" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectStreamConstants.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3E0025"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SerializablePermission" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SerializablePermission.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3E00C6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "OptionalDataException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"OptionalDataException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C3F029E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PipedInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PipedInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4002DB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PipedOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PipedOutputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C41008E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PipedReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PipedReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4101F6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PipedWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PipedWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C410391"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PrintStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PrintStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C42016C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PrintWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PrintWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C420374"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PushbackInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PushbackInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4300F5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PushbackReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PushbackReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4301EF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "RandomAccessFile" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RandomAccessFile.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C430362"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SequenceInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SequenceInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C440309"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "StreamCorruptedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StreamCorruptedException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4500EE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "StreamTokenizer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StreamTokenizer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C450238"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "StringBufferInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StringBufferInputStream.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C460063"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "StringReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StringReader.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C46017B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "StringWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StringWriter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4602B2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SyncFailedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SyncFailedException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C460366"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "UnsupportedEncodingException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UnsupportedEncodingException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C4603DE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "UTFDataFormatException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UTFDataFormatException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C47006E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ValidationCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ValidationCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C470141"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Win32FileSystem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Win32FileSystem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C47023B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "WriteAbortedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"WriteAbortedException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6C48000C"
+	    stereotype 	""
+	    language   	"Java"))
+    physical_presentations 	(list unit_reference_list))

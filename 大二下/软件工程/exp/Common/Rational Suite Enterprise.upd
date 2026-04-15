@@ -1,0 +1,9 @@
+INCREMENT RationalSuiteEnterprise rational 1.0 permanent uncounted \
+	F3AA21F1FF8F \
+	VENDOR_STRING="3121-08470|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	TestFactory:7.1, Robot:7.1, TestManager:7.1, LogViewer:7.1, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY SUPERSEDE \
+	vendor_info="3121-08470|Rational Suite Enterprise|<B.O.V.>" \
+	ISSUED=10-JUL-2000 NOTICE="DimoSoft Corporation." ck=185

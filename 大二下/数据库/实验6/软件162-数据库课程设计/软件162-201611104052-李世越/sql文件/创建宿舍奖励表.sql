@@ -1,0 +1,8 @@
+CREATE TABLE Reward
+(DormID VARCHAR(10) PRIMARY KEY,
+	AvergeGrade FLOAT(3) NOT NULL,
+	RewardLevel VARCHAR(5),
+	RewardRecord Varchar(10),
+	FOREIGN KEY(DormID) REFERENCES Dorm(DormID)
+	   ON DELETE CASCADE	
+	ON UPDATE CASCADE);

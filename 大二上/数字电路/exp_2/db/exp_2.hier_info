@@ -1,0 +1,34 @@
+|exp_2
+Y7 <= decoder38:inst.Y7
+A2 => decoder38:inst.A2
+A1 => decoder38:inst.A1
+A0 => decoder38:inst.A0
+E1 => decoder38:inst.E1
+E2N => decoder38:inst.E2N
+E3N => decoder38:inst.E3N
+Y6 <= decoder38:inst.Y6
+Y5 <= decoder38:inst.Y5
+Y4 <= decoder38:inst.Y4
+Y3 <= decoder38:inst.Y3
+Y2 <= decoder38:inst.Y2
+Y1 <= decoder38:inst.Y1
+Y0 <= decoder38:inst.Y0
+
+
+|exp_2|decoder38:inst
+A2 => Decoder0.IN0
+A1 => Decoder0.IN1
+A0 => Decoder0.IN2
+E1 => comb~0.IN1
+E2N => comb~0.IN0
+E3N => E.IN1
+Y7 <= Y7~0.DB_MAX_OUTPUT_PORT_TYPE
+Y6 <= Y6~0.DB_MAX_OUTPUT_PORT_TYPE
+Y5 <= Y5~0.DB_MAX_OUTPUT_PORT_TYPE
+Y4 <= Y4~0.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Y3~0.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2~0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1~0.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

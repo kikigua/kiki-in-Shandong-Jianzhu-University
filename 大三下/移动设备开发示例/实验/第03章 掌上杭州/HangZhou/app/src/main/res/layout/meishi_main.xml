@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattr="http://schemas.android.com/apk/res/com.cn.hangzhou"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/biaoti_bg" >
+       
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="杭州美食" >
+        </TextView>
+        
+        
+     </RelativeLayout>
+     
+     <com.cn.hangzhou.SlidingSwitcherView
+        android:id="@+id/slidingLayout"
+        myattr:auto_play="true"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/mb01"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 />
+
+            <ImageButton
+                android:id="@+id/mb02"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 />
+
+            <ImageButton
+                android:id="@+id/mb03"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+
+            <ImageButton
+                android:id="@+id/mb04"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dip"
+            android:layout_height="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dip"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </com.cn.hangzhou.SlidingSwitcherView>
+    
+       <TextView
+             android:id="@+id/jianjie"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/black">
+          </TextView>  
+            
+
+          
+	      <GridView
+	        android:id="@+id/meishi_gv"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1.91"
+	        android:horizontalSpacing="5dip"
+	        android:stretchMode="columnWidth"
+	        android:verticalSpacing="18dip" >
+	      </GridView>
+            
+         
+</LinearLayout>

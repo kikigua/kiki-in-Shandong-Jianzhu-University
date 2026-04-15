@@ -1,0 +1,5641 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "awt"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39CD6ADC0336"
+    physical_models 	(list unit_reference_list
+	(object module "Panel" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Panel.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6ADC0337"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ActiveEvent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ActiveEvent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6ADE010F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Adjustable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Adjustable.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6ADE0123"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AlphaComposite" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AlphaComposite.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6ADF021F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Composite" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Composite.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6ADF0229"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AlphaCompositeContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AlphaCompositeContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE0011C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CompositeContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CompositeContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE00129"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AttributeValue" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AttributeValue.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE10100"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AWTError" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AWTError.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE101F0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AWTEvent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AWTEvent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE102CC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AWTEventMulticaster" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AWTEventMulticaster.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE30153"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AWTException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AWTException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE40000"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AWTPermission" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AWTPermission.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE400C8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BasicStroke$FillAdapter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BasicStroke$FillAdapter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE40317"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BasicStroke" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BasicStroke.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE40344"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Stroke" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Stroke.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE50188"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BorderLayout" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BorderLayout.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE7022B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LayoutManager2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LayoutManager2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE70230"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Component" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Component.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE70240"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Button$AccessibleAWTButton" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Button$AccessibleAWTButton.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE80268"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Button" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Button.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AE80284"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Canvas$AccessibleAWTCanvas" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Canvas$AccessibleAWTCanvas.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEA0153"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Canvas" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Canvas.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEA015E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CardLayout" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CardLayout.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEB00E6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Checkbox$AccessibleAWTCheckbox" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Checkbox$AccessibleAWTCheckbox.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEB03AD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Checkbox" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Checkbox.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEB03C8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ItemSelectable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ItemSelectable.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AED0130"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CheckboxGroup" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CheckboxGroup.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AED0143"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CheckboxMenuItem$AccessibleAWTCheckboxMenuItem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CheckboxMenuItem$AccessibleAWTCheckboxMenuItem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEE01BD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuItem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuItem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEE01C7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CheckboxMenuItem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CheckboxMenuItem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AEE01D2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Choice$AccessibleAWTChoice" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Choice$AccessibleAWTChoice.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF00025"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Choice" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Choice.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF00039"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Color" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Color.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF30051"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Paint" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Paint.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF3005B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PaintContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PaintContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF301BA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ColorPaintContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ColorPaintContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF403BA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Component$AccessibleAWTComponent$AccessibleAWTComponentHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Component$AccessibleAWTComponent$AccessibleAWTComponentHandler.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF500CC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Component$AccessibleAWTComponent$AccessibleAWTFocusHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Component$AccessibleAWTComponent$AccessibleAWTFocusHandler.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF501E5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Component$AccessibleAWTComponent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Component$AccessibleAWTComponent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF60182"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Component$AWTTreeLock" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Component$AWTTreeLock.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF6034F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Component$NativeInLightFixer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Component$NativeInLightFixer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF70170"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Container" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Container.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6AF70190"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Font" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Font.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B000046"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Cursor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Cursor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B00006E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsConfiguration" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsConfiguration.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B0000B4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Dimension" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Dimension.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B000213"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ComponentOrientation" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ComponentOrientation.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B00024F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Conditional" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Conditional.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1202F5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Container$AccessibleAWTContainer$AccessibleContainerHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Container$AccessibleAWTContainer$AccessibleContainerHandler.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B13004D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Container$AccessibleAWTContainer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Container$AccessibleAWTContainer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B130210"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LayoutManager" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LayoutManager.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1500AA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LightweightDispatcher" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LightweightDispatcher.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1500B4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Cursor$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Cursor$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1602C9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Cursor$2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Cursor$2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B160373"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Dialog$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Dialog$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1900D8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Dialog" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Dialog.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1900E5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Dialog$2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Dialog$2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1901F1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Dialog$AccessibleAWTDialog" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Dialog$AccessibleAWTDialog.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B190309"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Window" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Window.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B190314"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Event" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Event.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1B02F8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventDispatchThread$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventDispatchThread$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1C0263"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventDispatchThread" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventDispatchThread.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1C0270"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventDispatchThread$EmptyEvent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventDispatchThread$EmptyEvent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1D0016"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventQueue" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventQueue.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1E018D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventQueue$1$AWTInvocationLock" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventQueue$1$AWTInvocationLock.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1E0252"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Queue" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Queue.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1F013B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EventQueueItem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventQueueItem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B1F02FE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FileDialog" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileDialog.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B200150"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FlowLayout" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FlowLayout.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2002AF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FocusManager" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FocusManager.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B210062"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Font$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Font$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2100D0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Font$FontLineMetrics" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Font$FontLineMetrics.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2101CA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FontFormatException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FontFormatException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B23029F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FontMetrics" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FontMetrics.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B23037C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Frame$AccessibleAWTFrame" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Frame$AccessibleAWTFrame.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B240142"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Frame" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Frame.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B24014F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuContainer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuContainer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2502AD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Image" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Image.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B25032E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuBar" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuBar.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B25033D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GradientPaint" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GradientPaint.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B260290"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GradientPaintContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GradientPaintContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B27010A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Graphics" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Graphics.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2701DD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Graphics2D" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Graphics2D.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2703E5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PaintAllCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PaintAllCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2801FC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B280206"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PaintCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PaintCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B280315"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PaintHeavyweightComponentsCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PaintHeavyweightComponentsCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B29004F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PeerPaintCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PeerPaintCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B290167"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PeerPrintCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PeerPrintCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B29028A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PrintAllCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PrintAllCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2903AC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PrintCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PrintCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2A00E7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsCallback$PrintHeavyweightComponentsCallback" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsCallback$PrintHeavyweightComponentsCallback.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2A0209"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsConfigTemplate" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsConfigTemplate.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2C0248"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsDevice" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsDevice.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2C02AC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GraphicsEnvironment" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GraphicsEnvironment.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2C037F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GridBagConstraints" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GridBagConstraints.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2D0177"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Insets" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Insets.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2D01FA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GridBagLayout" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GridBagLayout.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2E00D8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GridBagLayoutInfo" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GridBagLayoutInfo.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2E0115"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "GridLayout" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GridLayout.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2E0309"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "IllegalComponentStateException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"IllegalComponentStateException.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2F0026"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ImageMediaEntry" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ImageMediaEntry.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2F02A7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MediaEntry" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MediaEntry.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B2F02B2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JobAttributes$DefaultSelectionType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JobAttributes$DefaultSelectionType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B300280"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JobAttributes" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JobAttributes.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3002A8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JobAttributes$DestinationType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JobAttributes$DestinationType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B310097"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JobAttributes$DialogType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JobAttributes$DialogType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3102DB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JobAttributes$MultipleDocumentHandlingType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JobAttributes$MultipleDocumentHandlingType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3200F2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JobAttributes$SidesType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JobAttributes$SidesType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B32034B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Label$AccessibleAWTLabel" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Label$AccessibleAWTLabel.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B360166"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Label" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Label.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B36017B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LightweightDispatcher$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LightweightDispatcher$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B370230"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LightweightDispatcher$2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LightweightDispatcher$2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B37030C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LightweightPeer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LightweightPeer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3901F7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "List$AccessibleAWTList$AccessibleAWTListChild" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"List$AccessibleAWTList$AccessibleAWTListChild.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3A00AE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "List" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"List.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3A00C4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "List$AccessibleAWTList" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"List$AccessibleAWTList.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3B00E1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MediaTracker" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MediaTracker.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3E019A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Menu$AccessibleAWTMenu" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Menu$AccessibleAWTMenu.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3F0173"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Menu" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Menu.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B3F0188"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuBar$AccessibleAWTMenuBar" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuBar$AccessibleAWTMenuBar.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B40020B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuComponent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuComponent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B400216"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuComponent$AccessibleAWTMenuComponent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuComponent$AccessibleAWTMenuComponent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B420023"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuItem$AccessibleAWTMenuItem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuItem$AccessibleAWTMenuItem.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B4403A1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MenuShortcut" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MenuShortcut.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B460119"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PageAttributes$ColorType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PageAttributes$ColorType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B470229"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PageAttributes" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PageAttributes.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B470253"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PageAttributes$MediaType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PageAttributes$MediaType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B5403CC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PageAttributes$OrientationRequestedType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PageAttributes$OrientationRequestedType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B610190"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PageAttributes$OriginType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PageAttributes$OriginType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B6103B7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PageAttributes$PrintQualityType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PageAttributes$PrintQualityType.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B62025A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Transparency" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Transparency.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B75003A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Panel$AccessibleAWTPanel" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Panel$AccessibleAWTPanel.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B750149"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PeerFixer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PeerFixer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B76012C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ScrollPane" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ScrollPane.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B760143"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Point" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Point.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B76024E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Polygon$PolygonPathIterator" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Polygon$PolygonPathIterator.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7700F1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Polygon" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Polygon.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B77010F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Shape" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Shape.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B78007B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Rectangle" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Rectangle.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B780099"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PopupMenu$AccessibleAWTPopupMenu" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PopupMenu$AccessibleAWTPopupMenu.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7802E8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PopupMenu" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PopupMenu.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7802FD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PrintGraphics" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PrintGraphics.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7900EA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PrintJob" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PrintJob.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7900FE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "RenderingHints$Key" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RenderingHints$Key.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7A013C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "RenderingHints" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RenderingHints.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7E001F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Robot$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Robot$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7F00FD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Robot" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Robot.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B7F0111"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Scrollbar$AccessibleAWTScrollBar" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Scrollbar$AccessibleAWTScrollBar.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B81009C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Scrollbar" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Scrollbar.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8100BA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ScrollPane$AccessibleAWTScrollPane" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ScrollPane$AccessibleAWTScrollPane.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B820292"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ScrollPane$PeerFixer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ScrollPane$PeerFixer.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B83001C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ScrollPaneAdjustable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ScrollPaneAdjustable.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8400B4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SystemColor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SystemColor.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8702FD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextArea$AccessibleAWTTextArea" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextArea$AccessibleAWTTextArea.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8900B1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextComponent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextComponent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8900BC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextArea" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextArea.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8900C8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextComponent$AccessibleAWTTextComponent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextComponent$AccessibleAWTTextComponent.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8A017B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextField$AccessibleAWTTextField" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextField$AccessibleAWTTextField.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8C0083"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextField" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextField.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8C008F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TexturePaint" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TexturePaint.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8D00F3"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TexturePaintContext$Any" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TexturePaintContext$Any.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8D023E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TexturePaintContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TexturePaintContext.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8D0252"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TexturePaintContext$Byte" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TexturePaintContext$Byte.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8E0004"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TexturePaintContext$ByteFilter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TexturePaintContext$ByteFilter.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8E020D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TexturePaintContext$Int" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TexturePaintContext$Int.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B8F002E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Toolkit$1" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Toolkit$1.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B910302"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Toolkit$2" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Toolkit$2.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B910398"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Toolkit$3" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Toolkit$3.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B920028"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Toolkit$SelectiveAWTEventListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Toolkit$SelectiveAWTEventListener.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B9201D7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Toolkit" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Toolkit.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B92020A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Toolkit$ToolkitEventMulticaster" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Toolkit$ToolkitEventMulticaster.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B92030D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Window$1$DisposeAction" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Window$1$DisposeAction.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B960056"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Window$AccessibleAWTWindow" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Window$AccessibleAWTWindow.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6B960128"
+	    stereotype 	""
+	    language   	"Java")
+	(object SubSystem "image"
+	    quid       	"39CD6AE00132"
+	    physical_models 	(list unit_reference_list
+		(object module "ColorModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ColorModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AE00133"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "WritableRaster" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"WritableRaster.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AF403D8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ImageObserver" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ImageObserver.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AFF0316"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Raster" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Raster.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B27013D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DirectColorModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirectColorModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B8001E5"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BufferedImage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BufferedImage.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B8D00FE"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AffineTransformOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AffineTransformOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE002BF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BufferedImageOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BufferedImageOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE002CA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AreaAveragingScaleFilter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AreaAveragingScaleFilter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE10072"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ReplicateScaleFilter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ReplicateScaleFilter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE1007D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BandCombineOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BandCombineOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE10220"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RasterOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RasterOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE1022B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BandedSampleModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BandedSampleModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE10325"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ComponentSampleModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComponentSampleModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE10339"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "WritableRenderedImage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"WritableRenderedImage.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE30062"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "BufferedImageFilter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BufferedImageFilter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE40116"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ImageFilter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ImageFilter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE40121"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ByteLookupTable" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ByteLookupTable.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE40289"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "LookupTable" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LookupTable.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE4029D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ColorConvertOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ColorConvertOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE5023A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ComponentColorModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComponentColorModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE7012F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SampleModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SampleModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE70279"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ConvolveOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ConvolveOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE80126"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Kernel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Kernel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE8013B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CropImageFilter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CropImageFilter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE80216"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataBuffer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataBuffer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE80284"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataBufferByte" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataBufferByte.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE803E3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataBufferInt" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataBufferInt.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE900AF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataBufferShort" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataBufferShort.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE90164"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataBufferUShort" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataBufferUShort.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE90222"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PackedColorModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PackedColorModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BE90330"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FilteredImageSource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FilteredImageSource.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEA01F1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ImageProducer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ImageProducer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEA0205"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ImageConsumer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ImageConsumer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEA0273"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ImagingOpException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ImagingOpException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEC0230"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "IndexColorModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"IndexColorModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEC0367"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "LookupOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LookupOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BED02F0"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MemoryImageSource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MemoryImageSource.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEE01B1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MultiPixelPackedSampleModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MultiPixelPackedSampleModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEE03D8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PixelGrabber" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PixelGrabber.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BEF028F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PixelInterleavedSampleModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PixelInterleavedSampleModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF00023"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RasterFormatException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RasterFormatException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF101C9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RenderedImage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RenderedImage.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF1020F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RescaleOp" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RescaleOp.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF200C6"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RGBImageFilter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RGBImageFilter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF2026B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ShortLookupTable" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ShortLookupTable.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF30190"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SinglePixelPackedSampleModel" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SinglePixelPackedSampleModel.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF30226"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TileObserver" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TileObserver.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF302EE"
+		    stereotype 	""
+		    language   	"Java")
+		(object SubSystem "renderable"
+		    quid       	"39CD6BF402E6"
+		    physical_models 	(list unit_reference_list
+			(object module "ContextualRenderedImageFactory" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"ContextualRenderedImageFactory.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF402E7"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "RenderedImageFactory" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"RenderedImageFactory.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF402FB"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "ParameterBlock" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"ParameterBlock.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF501CF"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "RenderableImage" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"RenderableImage.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF5034B"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "RenderableImageOp" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"RenderableImageOp.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF601DA"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "RenderableImageProducer" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"RenderableImageProducer.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF70073"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "RenderContext" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"RenderContext.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BF7009B"
+			    stereotype 	""
+			    language   	"Java"))
+		    physical_presentations 	(list unit_reference_list)))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "event"
+	    quid       	"39CD6AE3015E"
+	    physical_models 	(list unit_reference_list
+		(object module "ComponentListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComponentListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AE3015F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ActionListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ActionListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AE90364"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ItemListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ItemListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AEB03C1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FocusListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FocusListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AF501F9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HierarchyListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HierarchyListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B0002D1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HierarchyBoundsListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HierarchyBoundsListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B0002EF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "KeyListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"KeyListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B000317"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MouseListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MouseListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B000335"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MouseMotionListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MouseMotionListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B00035D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InputMethodListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputMethodListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B00037B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ContainerListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContainerListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B130059"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AdjustmentListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AdjustmentListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B760137"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B8B01B8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AWTEventListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AWTEventListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B9201E1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "WindowListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"WindowListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B980077"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ActionEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ActionEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB500D3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AdjustmentEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AdjustmentEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB50259"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ComponentAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComponentAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB60020"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ComponentEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComponentEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB60098"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ContainerAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContainerAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB601C4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ContainerEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContainerEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB602C9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FocusAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FocusAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB603E1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FocusEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FocusEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB70067"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HierarchyBoundsAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HierarchyBoundsAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB70176"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HierarchyEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HierarchyEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB702FC"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InputEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB80069"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InputMethodEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputMethodEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB802D6"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InvocationEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvocationEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB901AB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ItemEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ItemEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB902E1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "KeyAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"KeyAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBA001B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "KeyEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"KeyEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBA0116"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MouseAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MouseAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBB02DA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MouseEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MouseEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBB0352"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MouseMotionAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MouseMotionAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBC00C9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "NativeLibLoader" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NativeLibLoader.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBC0160"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PaintEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PaintEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBC021D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBC02BD"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "WindowAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"WindowAdapter.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBC03AE"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "WindowEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"WindowEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBD0052"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "geom"
+	    quid       	"39CD6AE40337"
+	    physical_models 	(list unit_reference_list
+		(object module "GeneralPath" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GeneralPath.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AE40338"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Dimension2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Dimension2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B1B00D1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Point2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Point2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B26029B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PathIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PathIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B770105"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AffineTransform" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AffineTransform.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B770119"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Rectangle2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Rectangle2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B790343"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Arc2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Arc2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCD02B8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Arc2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Arc2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCD02CC"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Arc2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Arc2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCD038A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RectangularShape" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RectangularShape.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCE0179"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ArcIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ArcIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCF00EE"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Area" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Area.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCF0329"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AreaIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AreaIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD003B6"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CubicCurve2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CubicCurve2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD100E7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CubicCurve2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CubicCurve2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD100FB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CubicCurve2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CubicCurve2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD101B9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CubicIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CubicIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD202D3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Ellipse2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Ellipse2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD30068"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Ellipse2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Ellipse2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD3007C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Ellipse2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Ellipse2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD30112"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "EllipseIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"EllipseIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD303A7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FlatteningPathIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FlatteningPathIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD400E1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "GeneralPathIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GeneralPathIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD5007E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "IllegalPathStateException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"IllegalPathStateException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD50133"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Line2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Line2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD501F1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Line2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Line2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD50205"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Line2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Line2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD5029B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "LineIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LineIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD602D9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "NoninvertibleTransformException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NoninvertibleTransformException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD60383"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Point2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Point2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD700B3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Point2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Point2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD70140"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "QuadCurve2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"QuadCurve2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD800A1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "QuadCurve2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"QuadCurve2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD800B5"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "QuadCurve2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"QuadCurve2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD80169"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "QuadIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"QuadIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD9020B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Rectangle2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Rectangle2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD902B5"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Rectangle2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Rectangle2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BD90369"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RectIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RectIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDB039E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RoundRectangle2D$Double" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RoundRectangle2D$Double.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDC00A7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RoundRectangle2D" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RoundRectangle2D.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDC00BB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RoundRectangle2D$Float" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RoundRectangle2D$Float.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDC0165"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RoundRectIterator" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RoundRectIterator.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDD0094"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "color"
+	    quid       	"39CD6AF30174"
+	    physical_models 	(list unit_reference_list
+		(object module "ColorSpace" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"colorColorSpace.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AF30175"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CMMException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CMMException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B990367"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ICC_ColorSpace" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ICC_ColorSpace.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B9C01B3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ICC_Profile" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ICC_Profile.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B9C01C7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ICC_Profile$1" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ICC_Profile$1.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B9C0376"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ICC_Profile$2" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ICC_Profile$2.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B9D0074"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ICC_ProfileGray" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ICC_ProfileGray.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA100B6"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ICC_ProfileRGB" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ICC_ProfileRGB.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA1012E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ProfileDataException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ProfileDataException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA101BA"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "peer"
+	    quid       	"39CD6AFF032A"
+	    physical_models 	(list unit_reference_list
+		(object module "ComponentPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComponentPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6AFF0334"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FontPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FontPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B22029E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "LightweightPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LightweightPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B390202"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MenuComponentPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MenuComponentPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B4302FF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "RobotPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RobotPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B800195"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ButtonPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ButtonPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF7036C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CanvasPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CanvasPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF703DB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CheckboxMenuItemPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CheckboxMenuItemPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF800A7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MenuItemPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MenuItemPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF800BB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CheckboxPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CheckboxPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF8011F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ChoicePeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ChoicePeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF80197"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ContainerPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContainerPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF80300"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DialogPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DialogPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF803BE"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "WindowPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"WindowPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF803D3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FileDialogPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FileDialogPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF9009E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FramePeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FramePeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF9012A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "LabelPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LabelPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF901A3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ListPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ListPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF9027F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MenuBarPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MenuBarPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BF9031F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MenuPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MenuPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA0032"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PanelPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PanelPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA00FA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PopupMenuPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PopupMenuPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA01AE"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ScrollbarPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ScrollbarPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA024E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ScrollPanePeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ScrollPanePeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA02D0"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextAreaPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextAreaPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA03A3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextComponentPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextComponentPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFA03AF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextFieldPeer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextFieldPeer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFB00E7"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "dnd"
+	    quid       	"39CD6B000154"
+	    physical_models 	(list unit_reference_list
+		(object module "DropTarget" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTarget.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B000155"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Autoscroll" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Autoscroll.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA802FB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DnDConstants" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DnDConstants.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA80310"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragGestureEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragGestureEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA90324"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragSource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragSource.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA90342"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragGestureListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragGestureListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAA0041"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragGestureRecognizer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragGestureRecognizer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAA0253"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragSourceContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragSourceContext.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAD00C7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragSourceListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragSourceListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAD00D1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragSourceDragEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragSourceDragEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAD02DA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragSourceEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragSourceEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAD02E4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DragSourceDropEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DragSourceDropEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAD035C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTarget$DropTargetAutoScroller" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTarget$DropTargetAutoScroller.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BAF0174"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTargetListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTargetListener.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB100FF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTargetContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTargetContext.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB1011F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTargetContext$TransferableProxy" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTargetContext$TransferableProxy.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB2004C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTargetDragEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTargetDragEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB3009E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTargetEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTargetEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB300A9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DropTargetDropEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DropTargetDropEvent.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB301FC"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InvalidDnDOperationException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvalidDnDOperationException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB400C7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MouseDragGestureRecognizer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MouseDragGestureRecognizer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB40226"
+		    stereotype 	""
+		    language   	"Java")
+		(object SubSystem "peer"
+		    quid       	"39CD6BAD0103"
+		    physical_models 	(list unit_reference_list
+			(object module "DragSourceContextPeer" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"DragSourceContextPeer.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BAD0104"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "DropTargetContextPeer" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"DropTargetContextPeer.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BB202E1"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "DropTargetPeer" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"DropTargetPeer.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BB402E4"
+			    stereotype 	""
+			    language   	"Java"))
+		    physical_presentations 	(list unit_reference_list)))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "font"
+	    quid       	"39CD6B2101D5"
+	    physical_models 	(list unit_reference_list
+		(object module "LineMetrics" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LineMetrics.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B2101D6"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextHitInfo" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextHitInfo.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BB8031C"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FontRenderContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FontRenderContext.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBD02AB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "GlyphJustificationInfo" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GlyphJustificationInfo.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBD02E7"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "GlyphMetrics" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GlyphMetrics.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBE0003"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "GlyphVector" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GlyphVector.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBE00CB"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "GraphicAttribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GraphicAttribute.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBE013A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ImageGraphicAttribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ImageGraphicAttribute.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBE027A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "LineBreakMeasurer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LineBreakMeasurer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBF0055"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextMeasurer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextMeasurer.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBF007E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MultipleMaster" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MultipleMaster.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBF0113"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "OpenType" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"OpenType.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBF014F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ShapeGraphicAttribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ShapeGraphicAttribute.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BBF03A8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextAttribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextAttribute.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC50112"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextJustifier" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextJustifier.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC7006A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLayout$CaretPolicy" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLayout$CaretPolicy.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC700B0"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLayout" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLayout.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC70395"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC703B4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$1" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$1.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC80351"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$2" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$2.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC803BF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$3" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$3.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC90045"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$ACIFontSource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$ACIFontSource.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC90168"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$FontSource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$FontSource.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC901B8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$Function" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$Function.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC901F4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TextLine$TextLineMetrics" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TextLine$TextLineMetrics.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BC90212"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TransformAttribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TransformAttribute.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BCC0202"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "im"
+	    quid       	"39CD6B9800A9"
+	    physical_models 	(list unit_reference_list
+		(object module "InputContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputContext.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6B9800AA"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InputMethodHighlight" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputMethodHighlight.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDE008B"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InputMethodRequests" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputMethodRequests.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDE0168"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "InputSubset" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InputSubset.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BDF019B"
+		    stereotype 	""
+		    language   	"Java")
+		(object SubSystem "spi"
+		    quid       	"39CD6BDF026E"
+		    physical_models 	(list unit_reference_list
+			(object module "InputMethod" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"InputMethod.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BDF026F"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "InputMethodContext" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"InputMethodContext.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BDF034A"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "InputMethodDescriptor" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"InputMethodDescriptor.class")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39CD6BDF037C"
+			    stereotype 	""
+			    language   	"Java"))
+		    physical_presentations 	(list unit_reference_list)))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "datatransfer"
+	    quid       	"39CD6BA2008F"
+	    physical_models 	(list unit_reference_list
+		(object module "Clipboard" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Clipboard.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA20090"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ClipboardOwner" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ClipboardOwner.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA200AF"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Transferable" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Transferable.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA200C1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataFlavor$1" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataFlavor$1.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA20157"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DataFlavor" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DataFlavor.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA40128"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MimeType" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeType.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA401B4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FlavorMap" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FlavorMap.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA50134"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MimeTypeParameterList" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeTypeParameterList.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA503D3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MimeTypeParseException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeTypeParseException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA60294"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "StringSelection" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"StringSelection.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA7000A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SystemFlavorMap$1" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SystemFlavorMap$1.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA701B9"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SystemFlavorMap" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SystemFlavorMap.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA701E1"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "UnsupportedFlavorException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"UnsupportedFlavorException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BA802DD"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "print"
+	    quid       	"39CD6BFC00C1"
+	    physical_models 	(list unit_reference_list
+		(object module "Book$BookPage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Book$BookPage.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFC00C2"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PageFormat" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PageFormat.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFC00D8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Printable" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Printable.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFC00EC"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Book" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Book.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFC0107"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Pageable" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Pageable.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFC0342"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Paper" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Paper.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFD0130"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PrinterAbortException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PrinterAbortException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFD034D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PrinterException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PrinterException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFD0361"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PrinterGraphics" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PrinterGraphics.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFD03E4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PrinterIOException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PrinterIOException.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFE0114"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PrinterJob$1" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PrinterJob$1.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFE01A0"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "PrinterJob" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PrinterJob.class")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39CD6BFE0222"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

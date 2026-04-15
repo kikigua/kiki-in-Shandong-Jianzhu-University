@@ -1,0 +1,313 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "sql"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926A9030B"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C926A9033D"
+	    supplier   	"Component View::java::sql"
+	    quidu      	"39C926A90320"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926A9033F"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926AB02CC"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926B00329"
+	    supplier   	"Component View::java::math"
+	    quidu      	"39C926A70296"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926B3005D"
+	    supplier   	"Component View::javax::transaction::xa"
+	    quidu      	"39C926A001E5"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "ConnectionEvent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConnectionEvent.java"))
+	    quid       	"39C926A9030C"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A9033E"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A90340"
+		    supplier   	"Component View::java::util::EventObject"
+		    quidu      	"39C926A90317"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ConnectionEventListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConnectionEventListener.java"))
+	    quid       	"39C926AA037A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AA0399"
+		    supplier   	"Component View::java::util::EventListener"
+		    quidu      	"39C926AA0384"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ConnectionPoolDataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConnectionPoolDataSource.java"))
+	    quid       	"39C926AB02AA"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AB02CD"
+		    supplier   	"Component View::java::io::PrintWriter"
+		    quidu      	"39C926AB02C8"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AB02D2"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "DataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataSource.java"))
+	    quid       	"39C926AC01A7"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AC01CF"
+		    supplier   	"Component View::java::io::PrintWriter"
+		    quidu      	"39C926AB02C8"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AC01D0"
+		    supplier   	"Component View::java::sql::Connection"
+		    quidu      	"39C926AC01C6"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AC01D1"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "PooledConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PooledConnection.java"))
+	    quid       	"39C926AC028D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AC02A3"
+		    supplier   	"Component View::java::sql::Connection"
+		    quidu      	"39C926AC01C6"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926AC02AB"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RowSet" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSet.java"))
+	    quid       	"39C926B0018E"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B00323"
+		    supplier   	"Component View::java::io::InputStream"
+		    quidu      	"39C926A70286"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B00324"
+		    supplier   	"Component View::java::io::Reader"
+		    quidu      	"39C926B0030C"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B0032A"
+		    supplier   	"Component View::java::math::BigDecimal"
+		    quidu      	"39C926B00317"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B0032B"
+		    supplier   	"Component View::java::sql"
+		    quidu      	"39C926A90320"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B0032C"
+		    supplier   	"Component View::java::util::Calendar"
+		    quidu      	"39C926B0031B"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B00333"
+		    supplier   	"Component View::java::util::Map"
+		    quidu      	"39C926B0031F"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RowSetEvent" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSetEvent.java"))
+	    quid       	"39C926B003B5"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B003D4"
+		    supplier   	"Component View::java::util::EventObject"
+		    quidu      	"39C926A90317"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RowSetInternal" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSetInternal.java"))
+	    quid       	"39C926B003E7"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B10028"
+		    supplier   	"Component View::java::sql"
+		    quidu      	"39C926A90320"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "RowSetListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSetListener.java"))
+	    quid       	"39C926B100F0"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B10122"
+		    supplier   	"Component View::java::util::EventListener"
+		    quidu      	"39C926AA0384"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RowSetMetaData" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSetMetaData.java"))
+	    quid       	"39C926B20209"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B20282"
+		    supplier   	"Component View::java::sql::ResultSetMetaData"
+		    quidu      	"39C926B20215"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B20283"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RowSetReader" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSetReader.java"))
+	    quid       	"39C926B202FA"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B2030F"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RowSetWriter" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RowSetWriter.java"))
+	    quid       	"39C926B203B8"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B203C4"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "XAConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XAConnection.java"))
+	    quid       	"39C926B30048"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B3005C"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B3005E"
+		    supplier   	"Component View::javax::transaction::xa::XAResource"
+		    quidu      	"39C926A001E6"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "XADataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XADataSource.java"))
+	    quid       	"39C926B3011A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B30139"
+		    supplier   	"Component View::java::io::PrintWriter"
+		    quidu      	"39C926AB02C8"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B3013A"
+		    supplier   	"Component View::java::sql::SQLException"
+		    quidu      	"39C926A90321"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java"))
+    physical_presentations 	(list unit_reference_list))

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EFEFEF"
+     >
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:listSelector="@color/bule_overlay"
+        android:numColumns="3" >
+    </GridView>
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.8"
+        android:background="@android:color/black" >
+		<TextView 
+		    android:id="@+id/button3"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:textSize="20sp"
+		    android:layout_alignParentLeft="true"
+		    android:text="已选择(0)张"
+		    android:gravity="center"
+		    android:layout_centerVertical="true"
+		    />
+        <Button
+            android:textSize="15sp"  
+            android:layout_margin="5dip"
+            android:padding="5dip"
+            android:id="@+id/button2"          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#ADD8E6"
+            android:onClick="sendfiles"
+            android:textColor="@android:color/black"
+            android:text="完成" 
+            />
+    </RelativeLayout>
+</RelativeLayout>

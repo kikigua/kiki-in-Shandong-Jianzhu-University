@@ -1,0 +1,17 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "org"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39CD6E090043"
+    physical_models 	(list unit_reference_list
+	(object SubSystem "omg"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_omg.sub"
+	    quid       	"39CD6E090044"))
+    physical_presentations 	(list unit_reference_list))

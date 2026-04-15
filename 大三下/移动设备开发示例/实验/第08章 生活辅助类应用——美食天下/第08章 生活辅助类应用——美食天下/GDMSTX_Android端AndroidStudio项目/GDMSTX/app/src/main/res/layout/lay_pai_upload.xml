@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_pai"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1" >
+
+    <include
+        android:id="@+id/include_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        layout="@layout/head_general" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_below="@id/include_head">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+            <EditText
+                android:id="@+id/upload_pai_inputmsg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_lay_border"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="添加描述"
+                android:lines="8"
+                android:padding="5.0dip"
+                android:textColor="#ff333333"
+                android:textColorHint="#ff888888" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/pai_upload_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/upload_pai_inputmsg"
+                android:layout_marginTop="20dp"
+                android:background="#ffffffff"
+                android:padding="10dip" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tip" />
+
+                <TextView
+                    android:id="@+id/upload_pai_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="标签"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="0.5dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:background="#ff000000" />
+
+                <TextView
+                    android:id="@+id/tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pai_upload_local"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/pai_upload_tip"
+                android:layout_marginTop="20dip"
+                android:background="#ffffffff"
+                android:padding="10dip" >
+
+                <ImageView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/address" />
+
+                <TextView
+                    android:id="@+id/upload_pai_local"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="显示城市"
+                    android:textSize="15sp" 
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <View
+                    android:layout_width="0.5dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:background="#ff000000" />
+
+                <EditText
+                    android:background="@color/white"
+                    android:id="@+id/tv_adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"/>
+                <ImageButton 
+                    android:id="@+id/local"
+                    android:src="@drawable/local"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/white"
+                    />
+            </LinearLayout>
+
+            <com.example.MyGridView.MyGridView
+                android:id="@+id/upload_pai_img_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pai_upload_local"
+                android:layout_marginTop="10.0dip"
+                android:fadingEdgeLength="0dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:padding="10.0dip"
+                android:scrollbars="none"
+                android:verticalSpacing="15.0dip" >
+            </com.example.MyGridView.MyGridView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

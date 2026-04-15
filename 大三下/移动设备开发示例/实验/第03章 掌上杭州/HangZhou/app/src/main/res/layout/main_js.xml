@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:background="@drawable/biaoti_bg" >
+        
+        <TextView
+            android:id="@+id/diming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="介绍" >
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ImageButtonback02"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back_bg" />
+     </RelativeLayout>
+        
+  <Gallery 
+	    android:id="@+id/jietu" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="180dip"
+	    android:spacing="2dip"
+        />
+   <ScrollView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:scrollbars="vertical"
+	     android:fadingEdge="vertical">
+        
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/jiebackgroud">
+    <TextView 
+        android:id="@+id/jiezi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="详细介绍美食"
+        android:textColor="#000000"
+        />
+    </LinearLayout>  
+  </ScrollView> 
+
+</LinearLayout>
+

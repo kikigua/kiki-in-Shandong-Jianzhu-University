@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 查找类型的显示列表内容 -->
+    <string-array name="type_name">
+        <item >美食</item>
+        <item >咖啡馆</item>
+        <item >酒吧</item>
+        <item >ATM机</item>
+        <item >公交车站</item>
+        <item >汽车修理</item>
+        <item >洗车</item>
+        <item >警察局</item>
+        <item >搜索</item>
+    </string-array>
+    <!-- 每个类型对应使用的请求值 -->
+    <string-array name="type">
+        <item >food</item>
+        <item >cafe</item>
+        <item >bar</item>
+        <item >atm</item>
+        <item >bus_station</item>
+        <item >car_repair</item>
+        <item >car_wash</item>
+        <item >police</item>
+        <item >searcbyname</item>
+    </string-array>
+</resources>

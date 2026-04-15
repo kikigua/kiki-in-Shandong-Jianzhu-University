@@ -1,0 +1,36 @@
+Action()
+{
+
+web_url("index.htm", 
+"URL=http://127.0.0.1:1080/WebTours/index.htm", 
+"Resource=0", 
+"RecContentType=text/html", 
+"Referer=", 
+"Snapshot=t1.inf", 
+"Mode=HTML", 
+LAST);
+
+lr_think_time(77);
+
+lr_start_transaction("1_login");
+
+web_submit_form("login.pl", 
+"Snapshot=t2.inf", 
+ITEMDATA, 
+"Name=username", "Value=jojo", ENDITEM, 
+"Name=password", "Value=bean", ENDITEM, 
+"Name=login.x", "Value=61", ENDITEM, 
+"Name=login.y", "Value=7", ENDITEM, 
+LAST);
+
+lr_end_transaction("1_login",LR_AUTO);
+
+lr_think_time(22);
+
+web_image("SignOff Button", 
+"Alt=SignOff Button", 
+"Snapshot=t3.inf", 
+LAST);
+
+return 0;
+}

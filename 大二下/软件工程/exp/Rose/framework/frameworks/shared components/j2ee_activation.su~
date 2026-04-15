@@ -1,0 +1,415 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "activation"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926610004"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C9266100E0"
+	    supplier   	"Component View::java::awt::datatransfer"
+	    quidu      	"39C926610036"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926690008"
+	    supplier   	"Component View::java::beans"
+	    quidu      	"39C9266803E6"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C92669000B"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9266E0040"
+	    supplier   	"Component View::java::net"
+	    quidu      	"39C9266E0035"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C92680006D"
+	    supplier   	"::com::sun::activation::registries"
+	    quidu      	"39C9267F0365"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926800071"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "ActivationDataFlavor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ActivationDataFlavor.java"))
+	    quid       	"39C926610005"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266100E1"
+		    supplier   	"Component View::java::awt::datatransfer::DataFlavor"
+		    quidu      	"39C926610037"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "MimeType" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MimeType.java"))
+	    quid       	"39C926610058"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9267100F7"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "CommandInfo" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CommandInfo.java"))
+	    quid       	"39C9266803BC"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926690009"
+		    supplier   	"Component View::java::beans::Beans"
+		    quidu      	"39C9266803E7"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92669000C"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "CommandMap" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CommandMap.java"))
+	    quid       	"39C926690056"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CommandObject" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CommandObject.java"))
+	    quid       	"39C9266902CD"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266902E3"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "DataContentHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataContentHandler.java"))
+	    quid       	"39C9266A03BE"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266A03E7"
+		    supplier   	"Component View::java::awt::datatransfer::DataFlavor"
+		    quidu      	"39C926610037"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266A03E8"
+		    supplier   	"Component View::java::awt::datatransfer::UnsupportedFlavorException"
+		    quidu      	"39C9266A03DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266A03E9"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266A03EA"
+		    supplier   	"Component View::java::io::OutputStream"
+		    quidu      	"39C9266A03E0"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "DataContentHandlerFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataContentHandlerFactory.java"))
+	    quid       	"39C9266B0027"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DataHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataHandler.java"))
+	    quid       	"39C9266D02DC"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E003A"
+		    supplier   	"Component View::java::awt::datatransfer"
+		    quidu      	"39C926610036"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E003F"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E0041"
+		    supplier   	"Component View::java::net::URL"
+		    quidu      	"39C9266E0036"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "DataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataSource.java"))
+	    quid       	"39C9266D02F2"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266F013B"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "DataHandlerDataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataHandlerDataSource.java"))
+	    quid       	"39C9266E0067"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E0087"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "DataSourceDataContentHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DataSourceDataContentHandler.java"))
+	    quid       	"39C9266E01F8"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E0248"
+		    supplier   	"Component View::java::awt::datatransfer::DataFlavor"
+		    quidu      	"39C926610037"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E0249"
+		    supplier   	"Component View::java::awt::datatransfer::UnsupportedFlavorException"
+		    quidu      	"39C9266A03DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E024A"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266E0252"
+		    supplier   	"Component View::java::io::OutputStream"
+		    quidu      	"39C9266A03E0"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ObjectDataContentHandler" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectDataContentHandler.java"))
+	    quid       	"39C9266F009A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266F00FF"
+		    supplier   	"Component View::java::awt::datatransfer::DataFlavor"
+		    quidu      	"39C926610037"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266F0100"
+		    supplier   	"Component View::java::awt::datatransfer::UnsupportedFlavorException"
+		    quidu      	"39C9266A03DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266F0109"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266F010A"
+		    supplier   	"Component View::java::io::OutputStream"
+		    quidu      	"39C9266A03E0"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "FileDataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileDataSource.java"))
+	    quid       	"39C9266F0307"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9266F0359"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "FileTypeMap" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FileTypeMap.java"))
+	    quid       	"39C9266F0334"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92670020E"
+		    supplier   	"Component View::java::io::File"
+		    quidu      	"39C9266F0312"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "MimeTypeParameterList" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MimeTypeParameterList.java"))
+	    quid       	"39C926710064"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926820287"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926820288"
+		    supplier   	"Component View::java::util::Hashtable"
+		    quidu      	"39C92682021E"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "MailcapCommandMap" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MailcapCommandMap.java"))
+	    quid       	"39C9267F0350"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92680006E"
+		    supplier   	"::com::sun::activation::registries::MailcapFile"
+		    quidu      	"39C9267F0366"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92680006F"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926800072"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "MimeTypeParseException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MimeTypeParseException.java"))
+	    quid       	"39C926830099"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MimetypesFileTypeMap" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MimetypesFileTypeMap.java"))
+	    quid       	"39C926840023"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268400AF"
+		    supplier   	"::com::sun::activation::registries::MimeTypeFile"
+		    quidu      	"39C92684002F"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268400B9"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "URLDataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"URLDataSource.java"))
+	    quid       	"39C926850313"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926850346"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926850347"
+		    supplier   	"Component View::java::net::URL"
+		    quidu      	"39C9266E0036"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92685034F"
+		    supplier   	"Component View::java::net::URLConnection"
+		    quidu      	"39C926850327"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "UnsupportedDataTypeException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UnsupportedDataTypeException.java"))
+	    quid       	"39C92686017A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92686018E"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java"))
+    physical_presentations 	(list unit_reference_list))

@@ -1,0 +1,72 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "java"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39CD6ADC02F7"
+    physical_models 	(list unit_reference_list
+	(object SubSystem "applet"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_applet.sub"
+	    quid       	"39CD6ADC030B")
+	(object SubSystem "awt"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_awt.sub"
+	    quid       	"39CD6ADC0336")
+	(object SubSystem "lang"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_lang.sub"
+	    quid       	"39CD6AE1010E")
+	(object SubSystem "util"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_util.sub"
+	    quid       	"39CD6AE102D9")
+	(object SubSystem "security"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_security.sub"
+	    quid       	"39CD6AE400D3")
+	(object SubSystem "io"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_io.sub"
+	    quid       	"39CD6AED037E")
+	(object SubSystem "beans"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_beans.sub"
+	    quid       	"39CD6B0200FD")
+	(object SubSystem "text"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_text.sub"
+	    quid       	"39CD6BB802FE")
+	(object SubSystem "math"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_math.sub"
+	    quid       	"39CD6BEC038F")
+	(object SubSystem "net"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_net.sub"
+	    quid       	"39CD6C0103C1")
+	(object SubSystem "rmi"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_rmi.sub"
+	    quid       	"39CD6CC2031E")
+	(object SubSystem "sql"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_sql.sub"
+	    quid       	"39CD6D09021C"))
+    physical_presentations 	(list unit_reference_list))

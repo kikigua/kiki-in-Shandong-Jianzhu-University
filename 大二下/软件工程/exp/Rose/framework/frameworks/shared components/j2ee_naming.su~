@@ -1,0 +1,1672 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "naming"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926B80334"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C926BB01B6"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926BC013C"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926C500D0"
+	    supplier   	"::com::sun::naming::internal"
+	    quidu      	"39C926C500BD"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926C500DB"
+	    supplier   	"Component View::javax::naming::spi"
+	    quidu      	"39C926C500C8"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "AuthenticationException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AuthenticationException.java"))
+	    quid       	"39C926B80335"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NamingSecurityException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NamingSecurityException.java"))
+	    quid       	"39C926B8033E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NamingException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NamingException.java"))
+	    quid       	"39C926B80366"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BB01B7"
+		    supplier   	"Component View::java::io::PrintStream"
+		    quidu      	"39C926BB01B2"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BB01BC"
+		    supplier   	"Component View::java::io::PrintWriter"
+		    quidu      	"39C926AB02C8"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Name" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Name.java"))
+	    quid       	"39C926BB011D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BC013B"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BC013D"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "InvalidNameException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidNameException.java"))
+	    quid       	"39C926BC014F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CompositeName" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CompositeName.java"))
+	    quid       	"39C926BC038A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BD0095"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BD009D"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "NameImpl" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NameImpl.java"))
+	    quid       	"39C926BC039F"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BF0399"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926BF03A3"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "NameImplEnumerator" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NameImplEnumerator.java"))
+	    quid       	"39C926C001A5"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C001E1"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "AuthenticationNotSupportedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AuthenticationNotSupportedException.java"))
+	    quid       	"39C926C001EB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Binding" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Binding.java"))
+	    quid       	"39C926C00232"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NameClassPair" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NameClassPair.java"))
+	    quid       	"39C926C0023F"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C003CD"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "BinaryRefAddr" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BinaryRefAddr.java"))
+	    quid       	"39C926C10016"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "RefAddr" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RefAddr.java"))
+	    quid       	"39C926C10023"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C10107"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "CannotProceedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CannotProceedException.java"))
+	    quid       	"39C926C1037D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C20004"
+		    supplier   	"Component View::java::util::Hashtable"
+		    quidu      	"39C92682021E"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Context" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Context.java"))
+	    quid       	"39C926C103A9"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C3005F"
+		    supplier   	"Component View::java::util::Hashtable"
+		    quidu      	"39C92682021E"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "NamingEnumeration" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NamingEnumeration.java"))
+	    quid       	"39C926C300D7"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C300EC"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "NameParser" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NameParser.java"))
+	    quid       	"39C926C300FF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CommunicationException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CommunicationException.java"))
+	    quid       	"39C926C30113"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "CompoundName" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CompoundName.java"))
+	    quid       	"39C926C3029A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C30328"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C30330"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C30331"
+		    supplier   	"Component View::java::util::Properties"
+		    quidu      	"39C9268C01C1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ConfigurationException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConfigurationException.java"))
+	    quid       	"39C926C30344"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ContextNotEmptyException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ContextNotEmptyException.java"))
+	    quid       	"39C926C30362"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InitialContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InitialContext.java"))
+	    quid       	"39C926C403B4"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C500D1"
+		    supplier   	"::com::sun::naming::internal::ResourceManager"
+		    quidu      	"39C926C500BE"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C500DA"
+		    supplier   	"Component View::java::util::Hashtable"
+		    quidu      	"39C92682021E"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C500E4"
+		    supplier   	"Component View::javax::naming::spi::NamingManager"
+		    quidu      	"39C926C500C9"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "NoInitialContextException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NoInitialContextException.java"))
+	    quid       	"39C926C500F8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Reference" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Reference.java"))
+	    quid       	"39C926C601C2"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C60280"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C6028A"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C6028B"
+		    supplier   	"Component View::java::util::Vector"
+		    quidu      	"39C926BF00DC"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Referenceable" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Referenceable.java"))
+	    quid       	"39C926C60294"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "StringRefAddr" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StringRefAddr.java"))
+	    quid       	"39C926C602BC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "OperationNotSupportedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"OperationNotSupportedException.java"))
+	    quid       	"39C926C602EE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InterruptedNamingException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InterruptedNamingException.java"))
+	    quid       	"39C926C60316"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LinkRef" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LinkRef.java"))
+	    quid       	"39C926C701E1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InsufficientResourcesException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InsufficientResourcesException.java"))
+	    quid       	"39C926C70246"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LimitExceededException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LimitExceededException.java"))
+	    quid       	"39C926C7026E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LinkException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LinkException.java"))
+	    quid       	"39C926C702D2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "LinkLoopException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"LinkLoopException.java"))
+	    quid       	"39C926C70368"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MalformedLinkException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MalformedLinkException.java"))
+	    quid       	"39C926C7039A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NameAlreadyBoundException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NameAlreadyBoundException.java"))
+	    quid       	"39C926C703C2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NameNotFoundException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NameNotFoundException.java"))
+	    quid       	"39C926C80002"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NoPermissionException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NoPermissionException.java"))
+	    quid       	"39C926C80034"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NotContextException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NotContextException.java"))
+	    quid       	"39C926C80070"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "PartialResultException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PartialResultException.java"))
+	    quid       	"39C926C800B6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ReferralException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ReferralException.java"))
+	    quid       	"39C926C8014D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926C80175"
+		    supplier   	"Component View::java::util::Hashtable"
+		    quidu      	"39C92682021E"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServiceUnavailableException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServiceUnavailableException.java"))
+	    quid       	"39C926C8017F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SizeLimitExceededException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SizeLimitExceededException.java"))
+	    quid       	"39C926C801B1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TimeLimitExceededException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TimeLimitExceededException.java"))
+	    quid       	"39C926C801D9"
+	    stereotype 	""
+	    language   	"Java")
+	(object SubSystem "spi"
+	    quid       	"39C926C500C8"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926CC039B"
+		    supplier   	"::com::sun::naming::internal"
+		    quidu      	"39C926C500BD"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926CC03A2"
+		    supplier   	"Component View::java::net"
+		    quidu      	"39C9266E0035"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926CC03A4"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926CC03AB"
+		    supplier   	"Component View::javax::naming"
+		    quidu      	"39C926B80334"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D2002F"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D300C8"
+		    supplier   	"Component View::javax::naming::directory"
+		    quidu      	"39C926D300B2"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "NamingManager" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NamingManager.java"))
+		    quid       	"39C926C500C9"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CC03A1"
+			    supplier   	"::com::sun::naming::internal"
+			    quidu      	"39C926C500BD"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CC03A3"
+			    supplier   	"Component View::java::net::MalformedURLException"
+			    quidu      	"39C926CC0397"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CC03A5"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CC03AC"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "ObjectFactoryBuilder" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ObjectFactoryBuilder.java"))
+		    quid       	"39C926CC027F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CD0138"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CD0140"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InitialContextFactoryBuilder" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InitialContextFactoryBuilder.java"))
+		    quid       	"39C926CC029D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CD01D8"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CD01E0"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ObjectFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ObjectFactory.java"))
+		    quid       	"39C926CE030E"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CE0323"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CE032C"
+			    supplier   	"Component View::javax::naming::Context"
+			    quidu      	"39C926C103A9"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CE032D"
+			    supplier   	"Component View::javax::naming::Name"
+			    quidu      	"39C926BB011D"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "Resolver" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Resolver.java"))
+		    quid       	"39C926CE034A"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CE0360"
+			    supplier   	"Component View::javax::naming::Name"
+			    quidu      	"39C926BB011D"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CE0368"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InitialContextFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InitialContextFactory.java"))
+		    quid       	"39C926CE03D6"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CE03E2"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CF0002"
+			    supplier   	"Component View::javax::naming::Context"
+			    quidu      	"39C926C103A9"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926CF0003"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ContinuationContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContinuationContext.java"))
+		    quid       	"39C926D00086"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D00176"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D00177"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "StateFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"StateFactory.java"))
+		    quid       	"39C926D001DA"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D001EE"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D001EF"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "ResolveResult" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ResolveResult.java"))
+		    quid       	"39C926D103BD"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D20030"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D20031"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "DirectoryManager" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirectoryManager.java"))
+		    quid       	"39C926D30076"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D300BC"
+			    supplier   	"::com::sun::naming::internal::FactoryEnumeration"
+			    quidu      	"39C926D300AC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D300BD"
+			    supplier   	"::com::sun::naming::internal::ResourceManager"
+			    quidu      	"39C926C500BE"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D300C6"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D300C7"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D300C9"
+			    supplier   	"Component View::javax::naming::directory::Attributes"
+			    quidu      	"39C926D300B3"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D300D0"
+			    supplier   	"Component View::javax::naming::directory::DirContext"
+			    quidu      	"39C926D300B7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "DirStateFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirStateFactory.java"))
+		    quid       	"39C926D30329"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D3036F"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D30370"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D30379"
+			    supplier   	"Component View::javax::naming::directory::Attributes"
+			    quidu      	"39C926D300B3"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ContinuationDirContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContinuationDirContext.java"))
+		    quid       	"39C926D502BE"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D60034"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D60035"
+			    supplier   	"Component View::javax::naming::directory"
+			    quidu      	"39C926D300B2"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "DirContextNamePair" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirContextNamePair.java"))
+		    quid       	"39C926D6008F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D600C1"
+			    supplier   	"Component View::javax::naming::Name"
+			    quidu      	"39C926BB011D"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D600CB"
+			    supplier   	"Component View::javax::naming::directory::DirContext"
+			    quidu      	"39C926D300B7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "DirContextStringPair" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirContextStringPair.java"))
+		    quid       	"39C926D600F3"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D60126"
+			    supplier   	"Component View::javax::naming::directory::DirContext"
+			    quidu      	"39C926D300B7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "DirObjectFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirObjectFactory.java"))
+		    quid       	"39C926D6019D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D601BC"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D601C5"
+			    supplier   	"Component View::javax::naming::Context"
+			    quidu      	"39C926C103A9"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D601C6"
+			    supplier   	"Component View::javax::naming::Name"
+			    quidu      	"39C926BB011D"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D601C7"
+			    supplier   	"Component View::javax::naming::directory::Attributes"
+			    quidu      	"39C926D300B3"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "directory"
+	    quid       	"39C926D300B2"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926DC023C"
+		    supplier   	"Component View::javax::naming"
+		    quidu      	"39C926B80334"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926DD01BD"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E1035E"
+		    supplier   	"Component View::java::lang::reflect"
+		    quidu      	"39C926A7028A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E10360"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "Attributes" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Attributes.java"))
+		    quid       	"39C926D300B3"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DD01C5"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DD01C6"
+			    supplier   	"Component View::javax::naming::NamingEnumeration"
+			    quidu      	"39C926C300D7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "DirContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DirContext.java"))
+		    quid       	"39C926D300B7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DC023D"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "InitialDirContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InitialDirContext.java"))
+		    quid       	"39C926DA00E7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E302DC"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E302DD"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "ModificationItem" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ModificationItem.java"))
+		    quid       	"39C926DE0004"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DE0040"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "Attribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Attribute.java"))
+		    quid       	"39C926DE0018"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DE03D9"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DE03DA"
+			    supplier   	"Component View::javax::naming::NamingEnumeration"
+			    quidu      	"39C926C300D7"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DE03E3"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SearchControls" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SearchControls.java"))
+		    quid       	"39C926DE027B"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DE0307"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "AttributeInUseException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AttributeInUseException.java"))
+		    quid       	"39C926DF01B4"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DF01D2"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "AttributeModificationException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AttributeModificationException.java"))
+		    quid       	"39C926DF01F0"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DF022C"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "BasicAttribute" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BasicAttribute.java"))
+		    quid       	"39C926E1026B"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E1035D"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E1035F"
+			    supplier   	"Component View::java::lang::reflect::Array"
+			    quidu      	"39C926E10352"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E10361"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E10365"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "BasicAttributes" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BasicAttributes.java"))
+		    quid       	"39C926E20281"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E2033F"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E20340"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E20349"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E2034A"
+			    supplier   	"Component View::javax::naming::NamingEnumeration"
+			    quidu      	"39C926C300D7"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E20353"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SearchResult" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SearchResult.java"))
+		    quid       	"39C926E401F7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E40247"
+			    supplier   	"Component View::javax::naming::Binding"
+			    quidu      	"39C926C00232"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InvalidAttributesException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvalidAttributesException.java"))
+		    quid       	"39C926E40265"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E40284"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InvalidAttributeValueException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvalidAttributeValueException.java"))
+		    quid       	"39C926E402A1"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E402C2"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InvalidAttributeIdentifierException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvalidAttributeIdentifierException.java"))
+		    quid       	"39C926E402DE"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E402FD"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InvalidSearchFilterException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvalidSearchFilterException.java"))
+		    quid       	"39C926E4031A"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E40339"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InvalidSearchControlsException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InvalidSearchControlsException.java"))
+		    quid       	"39C926E40356"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E40375"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "NoSuchAttributeException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NoSuchAttributeException.java"))
+		    quid       	"39C926E40392"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E403B1"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SchemaViolationException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SchemaViolationException.java"))
+		    quid       	"39C926E403CE"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E50005"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "ldap"
+	    quid       	"39C926D70194"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D701D0"
+		    supplier   	"Component View::javax::naming"
+		    quidu      	"39C926B80334"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D701DA"
+		    supplier   	"Component View::javax::naming::directory"
+		    quidu      	"39C926D300B2"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D80037"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D80286"
+		    supplier   	"::com::sun::naming::internal"
+		    quidu      	"39C926C500BD"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926D80290"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926DB02E5"
+		    supplier   	"Component View::javax::naming::event"
+		    quidu      	"39C926DB02B3"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "LdapContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LdapContext.java"))
+		    quid       	"39C926D70195"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D701D1"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D701DB"
+			    supplier   	"Component View::javax::naming::directory::DirContext"
+			    quidu      	"39C926D300B7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ExtendedResponse" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ExtendedResponse.java"))
+		    quid       	"39C926D80019"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D80038"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ExtendedRequest" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ExtendedRequest.java"))
+		    quid       	"39C926D800A5"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D800C4"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D800C5"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "Control" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Control.java"))
+		    quid       	"39C926D8016E"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D80196"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HasControls" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HasControls.java"))
+		    quid       	"39C926D801A0"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D801B4"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ControlFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ControlFactory.java"))
+		    quid       	"39C926D80268"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D80287"
+			    supplier   	"::com::sun::naming::internal::FactoryEnumeration"
+			    quidu      	"39C926D300AC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D80288"
+			    supplier   	"::com::sun::naming::internal::ResourceManager"
+			    quidu      	"39C926C500BE"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D80291"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D80292"
+			    supplier   	"Component View::javax::naming::Context"
+			    quidu      	"39C926C103A9"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D8029A"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "LdapReferralException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"LdapReferralException.java"))
+		    quid       	"39C926D900CF"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D9011F"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926D90120"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "InitialLdapContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InitialLdapContext.java"))
+		    quid       	"39C926DA00DA"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DA0135"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DA0136"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DA0137"
+			    supplier   	"Component View::javax::naming::directory::InitialDirContext"
+			    quidu      	"39C926DA00E7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "UnsolicitedNotification" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"UnsolicitedNotification.java"))
+		    quid       	"39C926DA0149"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DA015F"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "UnsolicitedNotificationEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"UnsolicitedNotificationEvent.java"))
+		    quid       	"39C926DA0383"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DA03B5"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "UnsolicitedNotificationListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"UnsolicitedNotificationListener.java"))
+		    quid       	"39C926DB029F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926DB02E6"
+			    supplier   	"Component View::javax::naming::event::NamingListener"
+			    quidu      	"39C926DB02B4"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "event"
+	    quid       	"39C926DB02B3"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E6024A"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E60268"
+		    supplier   	"Component View::javax::naming"
+		    quidu      	"39C926B80334"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E802B1"
+		    supplier   	"Component View::javax::naming::directory"
+		    quidu      	"39C926D300B2"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "NamingListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NamingListener.java"))
+		    quid       	"39C926DB02B4"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E702A6"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "NamingEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NamingEvent.java"))
+		    quid       	"39C926E601C8"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E6024B"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E60269"
+			    supplier   	"Component View::javax::naming::Binding"
+			    quidu      	"39C926C00232"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "EventContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"EventContext.java"))
+		    quid       	"39C926E70039"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E70077"
+			    supplier   	"Component View::javax::naming"
+			    quidu      	"39C926B80334"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "NamespaceChangeListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NamespaceChangeListener.java"))
+		    quid       	"39C926E702B0"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ObjectChangeListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ObjectChangeListener.java"))
+		    quid       	"39C926E702D8"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "NamingExceptionEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NamingExceptionEvent.java"))
+		    quid       	"39C926E80135"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E80167"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E80168"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "EventDirContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"EventDirContext.java"))
+		    quid       	"39C926E80275"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E802A7"
+			    supplier   	"Component View::javax::naming::Name"
+			    quidu      	"39C926BB011D"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E802A8"
+			    supplier   	"Component View::javax::naming::NamingException"
+			    quidu      	"39C926B80366"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E802B2"
+			    supplier   	"Component View::javax::naming::directory::DirContext"
+			    quidu      	"39C926D300B7"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926E802B3"
+			    supplier   	"Component View::javax::naming::directory::SearchControls"
+			    quidu      	"39C926DE027B"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

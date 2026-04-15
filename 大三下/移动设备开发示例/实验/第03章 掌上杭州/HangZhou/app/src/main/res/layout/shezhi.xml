@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/biaoti_bg" >
+
+        <TextView
+            android:id="@+id/shizhe_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="设置" >
+        </TextView>
+       
+     </RelativeLayout>
+     <GridView
+	        android:id="@+id/shezhi_gv"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1.91"
+	        android:horizontalSpacing="5dip"
+	        android:stretchMode="columnWidth"
+	        android:verticalSpacing="18dip" >
+	      </GridView>
+</LinearLayout>

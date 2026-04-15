@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:myattr="http://schemas.android.com/apk/res/com.cn.hangzhou"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivityGroup" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/bg_header" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bt_hz" />
+    </LinearLayout>
+
+    <com.cn.hangzhou.SlidingSwitcherView
+        android:id="@+id/slidingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        myattr:auto_play="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/b01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:scaleType="fitXY"
+                />
+
+            <ImageButton
+                android:id="@+id/b02"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ImageButton
+                android:id="@+id/b03"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ImageButton
+                android:id="@+id/b04"
+                android:scaleType="fitXY"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dip"
+            android:layout_height="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dip"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </com.cn.hangzhou.SlidingSwitcherView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.35"
+        
+        android:orientation="vertical"
+         >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+             android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/l_meishi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_weight="0.40"
+                android:background="@drawable/shouye_bt"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/main_meishi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/meishi_tb" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/ItemText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="美食"
+                    android:textColor="#000000" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l_yiliao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:background="@drawable/shouye_bt"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/yiliao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yiliao" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/ItemText01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/yiliao"
+                    android:layout_centerHorizontal="true"
+                    android:text="医疗"
+                    android:textColor="#000000" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                 android:id="@+id/l_gouwu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:background="@drawable/shouye_bt"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/main_gouwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gouwu" />
+
+                <TextView
+                    android:id="@+id/ItemText02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gouwu"
+                    android:layout_centerHorizontal="true"
+                    android:text="购物"
+                    android:textColor="#000000" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/l_lvyou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="20dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/shouye_bt"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/lvyou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lvyou" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/ItemText02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="景点"
+                    android:textColor="#000000" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l_yule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:background="@drawable/shouye_bt"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/yule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yule" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/ItemText02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/yule"
+                    android:layout_centerHorizontal="true"
+                    android:text="娱乐"
+                    android:textColor="#000000" >
+                </TextView>
+            </LinearLayout>
+            
+            
+            <LinearLayout
+                android:id="@+id/l_zhusu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:background="@drawable/shouye_bt"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/zhusu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/zhusu" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/ItemText02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/zhusu"
+                    android:layout_centerHorizontal="true"
+                    android:text="住宿"
+                    android:textColor="#000000" >
+                </TextView>
+            </LinearLayout>
+            
+            
+            
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

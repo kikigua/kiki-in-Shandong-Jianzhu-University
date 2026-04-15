@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 随拍界面头 -->
+
+    <include
+        android:id="@+id/random_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_general" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.example.MyScrollView.MyRandomScrollView
+            android:id="@+id/mrsv_xml"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:orientation="vertical" >
+
+                <!-- 用户信息 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:orientation="horizontal" >
+
+                    <com.example.MyRoundedImageView.RoundImageView
+                        android:id="@+id/uid_randomshow"
+                        android:layout_width="80dip"
+                        android:layout_height="80dip"
+                        android:layout_margin="5dip"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/recipe_defult_img"
+                        imagecontrol:border_inside_color="#fff7f2e9"
+                        imagecontrol:border_outside_color="#ffd5d1c8"
+                        imagecontrol:border_thickness="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/uid_randomshow_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:text="美食天下"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/time_randomshow_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:text=""
+                            android:textColor="@color/gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <ToggleButton
+                        android:id="@+id/attention_bt"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/bg_pinglun_atten"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="5dip"
+                        android:textColor="@color/red"
+                        android:textOff="关注"
+                        android:textOn="取消关注"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/black" />
+                <!-- 随拍介绍 -->
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/more_or_less" />
+
+                <!-- 随拍相关信息 -->
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/randomshow_info" />
+                <!-- 随拍图片 TableLayout -->
+
+                <LinearLayout
+                    android:id="@+id/random_pic_tbl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500px"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/recipe_defult_img" />
+                </LinearLayout>
+
+                <!-- 随拍标签和地址等信息 -->
+
+                <LinearLayout
+                    android:id="@+id/random_vic_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/random_label_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/tip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/random_city_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/address" />
+
+                        <TextView
+                            android:id="@+id/random_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:text="北京" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginBottom="20dip"
+                    android:layout_marginTop="20dip"
+                    android:background="@color/gray" />
+            </LinearLayout>
+        </com.example.MyScrollView.MyRandomScrollView>
+        <!-- 底部菜单 -->
+
+        <include
+            android:id="@+id/random_bottom_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            layout="@layout/random_bottom_menu" />
+    </FrameLayout>
+
+</LinearLayout>

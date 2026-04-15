@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.cn.meishi.DIYGallery
+        android:id="@+id/GalleryMax"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:spacing="10dip"
+        android:unselectedAlpha="1" />
+
+</LinearLayout>

@@ -1,0 +1,429 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "net"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926E90321"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C926E9035B"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926E9035E"
+	    supplier   	"Component View::java::net"
+	    quidu      	"39C9266E0035"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "DefaultServerSocketFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DefaultServerSocketFactory.java"))
+	    quid       	"39C926E9032B"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E9035D"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E9035F"
+		    supplier   	"Component View::java::net::InetAddress"
+		    quidu      	"39C926E90353"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926E90360"
+		    supplier   	"Component View::java::net::ServerSocket"
+		    quidu      	"39C926E90357"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServerSocketFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServerSocketFactory.java"))
+	    quid       	"39C926E90335"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EB01BB"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EB01BC"
+		    supplier   	"Component View::java::net::InetAddress"
+		    quidu      	"39C926E90353"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EB01C5"
+		    supplier   	"Component View::java::net::ServerSocket"
+		    quidu      	"39C926E90357"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "DefaultSocketFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DefaultSocketFactory.java"))
+	    quid       	"39C926EA016A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EA019C"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EA019D"
+		    supplier   	"Component View::java::net"
+		    quidu      	"39C9266E0035"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "SocketFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SocketFactory.java"))
+	    quid       	"39C926EA0175"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EF0008"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EF0009"
+		    supplier   	"Component View::java::net"
+		    quidu      	"39C9266E0035"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object SubSystem "ssl"
+	    quid       	"39C926EF0211"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EF022F"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926EF03DE"
+		    supplier   	"Component View::javax::security::cert"
+		    quidu      	"39C926A10313"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926F00070"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926F80048"
+		    supplier   	"Component View::java::net"
+		    quidu      	"39C9266E0035"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926F8004A"
+		    supplier   	"Component View::java::security"
+		    quidu      	"39C9268C01B7"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926F80051"
+		    supplier   	"Component View::javax::net"
+		    quidu      	"39C926E90321"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "SSLException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLException.java"))
+		    quid       	"39C926EF021B"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926EF0230"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLHandshakeException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLHandshakeException.java"))
+		    quid       	"39C926EF0243"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SSLPeerUnverifiedException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLPeerUnverifiedException.java"))
+		    quid       	"39C926EF0261"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SSLProtocolException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLProtocolException.java"))
+		    quid       	"39C926EF027F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SSLKeyException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLKeyException.java"))
+		    quid       	"39C926EF029D"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "SSLSession" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLSession.java"))
+		    quid       	"39C926EF03AC"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926EF03DF"
+			    supplier   	"Component View::javax::security::cert::X509Certificate"
+			    quidu      	"39C926A70222"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLSessionContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLSessionContext.java"))
+		    quid       	"39C926F0005A"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F00071"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLSocketFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLSocketFactory.java"))
+		    quid       	"39C926F703DF"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F80047"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F80049"
+			    supplier   	"Component View::java::net::Socket"
+			    quidu      	"39C926F8003D"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F8004B"
+			    supplier   	"Component View::java::security"
+			    quidu      	"39C9268C01B7"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F80052"
+			    supplier   	"Component View::javax::net::SocketFactory"
+			    quidu      	"39C926EA0175"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "DefaultSSLSocketFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DefaultSSLSocketFactory.java"))
+		    quid       	"39C926F800B6"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F800F3"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F800FC"
+			    supplier   	"Component View::java::net"
+			    quidu      	"39C9266E0035"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "SSLSocket" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLSocket.java"))
+		    quid       	"39C926F80318"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F80373"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F80374"
+			    supplier   	"Component View::java::net"
+			    quidu      	"39C9266E0035"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "HandshakeCompletedListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HandshakeCompletedListener.java"))
+		    quid       	"39C926F9019D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F901BB"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLSessionBindingListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLSessionBindingListener.java"))
+		    quid       	"39C926F90229"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926F90248"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLServerSocket" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLServerSocket.java"))
+		    quid       	"39C926FA0127"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FA0163"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FA0164"
+			    supplier   	"Component View::java::net::InetAddress"
+			    quidu      	"39C926E90353"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FA016D"
+			    supplier   	"Component View::java::net::ServerSocket"
+			    quidu      	"39C926E90357"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLSessionBindingEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLSessionBindingEvent.java"))
+		    quid       	"39C926FB0150"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FB0182"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SSLServerSocketFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SSLServerSocketFactory.java"))
+		    quid       	"39C926FC0089"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FC00C7"
+			    supplier   	"Component View::java::security"
+			    quidu      	"39C9268C01B7"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FC00CF"
+			    supplier   	"Component View::javax::net::ServerSocketFactory"
+			    quidu      	"39C926E90335"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "DefaultSSLServerSocketFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DefaultSSLServerSocketFactory.java"))
+		    quid       	"39C926FC0133"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FC015D"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FC015E"
+			    supplier   	"Component View::java::net"
+			    quidu      	"39C9266E0035"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "HandshakeCompletedEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HandshakeCompletedEvent.java"))
+		    quid       	"39C926FC01DE"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FC0210"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926FC0211"
+			    supplier   	"Component View::javax::security::cert::X509Certificate"
+			    quidu      	"39C926A70222"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

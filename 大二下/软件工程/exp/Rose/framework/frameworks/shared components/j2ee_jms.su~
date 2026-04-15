@@ -1,0 +1,592 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "jms"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926B30157"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C926B30369"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926B600B1"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926B800D2"
+	    supplier   	"Component View::javax::transaction::xa"
+	    quidu      	"39C926A001E5"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "BytesMessage" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BytesMessage.java"))
+	    quid       	"39C926B30161"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Message" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Message.java"))
+	    quid       	"39C926B3016B"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B3036A"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "JMSException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JMSException.java"))
+	    quid       	"39C926B4036B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DeliveryMode" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DeliveryMode.java"))
+	    quid       	"39C926B403A7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Destination" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Destination.java"))
+	    quid       	"39C926B403CF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Connection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Connection.java"))
+	    quid       	"39C926B403E3"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ConnectionMetaData" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConnectionMetaData.java"))
+	    quid       	"39C926B50091"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B500B0"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ExceptionListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ExceptionListener.java"))
+	    quid       	"39C926B500B9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ConnectionConsumer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConnectionConsumer.java"))
+	    quid       	"39C926B500D7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServerSessionPool" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServerSessionPool.java"))
+	    quid       	"39C926B500EB"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServerSession" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServerSession.java"))
+	    quid       	"39C926B50109"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Session" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Session.java"))
+	    quid       	"39C926B60060"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B600B2"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "MapMessage" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MapMessage.java"))
+	    quid       	"39C926B60129"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B601AB"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ObjectMessage" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectMessage.java"))
+	    quid       	"39C926B60269"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B60287"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "StreamMessage" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StreamMessage.java"))
+	    quid       	"39C926B6029B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TextMessage" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TextMessage.java"))
+	    quid       	"39C926B60309"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Queue" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Queue.java"))
+	    quid       	"39C926B60328"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageListener" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageListener.java"))
+	    quid       	"39C926B60346"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ConnectionFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ConnectionFactory.java"))
+	    quid       	"39C926B6035A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageConsumer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageConsumer.java"))
+	    quid       	"39C926B6036E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageNotReadableException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageNotReadableException.java"))
+	    quid       	"39C926B603A0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageNotWriteableException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageNotWriteableException.java"))
+	    quid       	"39C926B603BE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageProducer" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageProducer.java"))
+	    quid       	"39C926B603E6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "QueueBrowser" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueBrowser.java"))
+	    quid       	"39C926B7008A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B7009F"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "QueueConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueConnection.java"))
+	    quid       	"39C926B700B2"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "QueueSession" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueSession.java"))
+	    quid       	"39C926B700DA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "QueueReceiver" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueReceiver.java"))
+	    quid       	"39C926B7010C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "QueueSender" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueSender.java"))
+	    quid       	"39C926B70134"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TemporaryQueue" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TemporaryQueue.java"))
+	    quid       	"39C926B70166"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "QueueConnectionFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueConnectionFactory.java"))
+	    quid       	"39C926B7018E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "QueueRequestor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"QueueRequestor.java"))
+	    quid       	"39C926B701E8"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TemporaryTopic" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TemporaryTopic.java"))
+	    quid       	"39C926B70261"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Topic" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Topic.java"))
+	    quid       	"39C926B70275"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TopicConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TopicConnection.java"))
+	    quid       	"39C926B702A7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TopicSession" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TopicSession.java"))
+	    quid       	"39C926B702E3"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TopicSubscriber" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TopicSubscriber.java"))
+	    quid       	"39C926B70333"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TopicPublisher" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TopicPublisher.java"))
+	    quid       	"39C926B7035B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TopicConnectionFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TopicConnectionFactory.java"))
+	    quid       	"39C926B70397"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TopicRequestor" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TopicRequestor.java"))
+	    quid       	"39C926B703C9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XAConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XAConnection.java"))
+	    quid       	"39C926B8003B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XAConnectionFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XAConnectionFactory.java"))
+	    quid       	"39C926B8004F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XAQueueConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XAQueueConnection.java"))
+	    quid       	"39C926B8006D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XAQueueSession" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XAQueueSession.java"))
+	    quid       	"39C926B8008B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XASession" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XASession.java"))
+	    quid       	"39C926B80097"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926B800D3"
+		    supplier   	"Component View::javax::transaction::xa::XAResource"
+		    quidu      	"39C926A001E6"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "XAQueueConnectionFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XAQueueConnectionFactory.java"))
+	    quid       	"39C926B800DC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XATopicConnection" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XATopicConnection.java"))
+	    quid       	"39C926B80104"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XATopicSession" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XATopicSession.java"))
+	    quid       	"39C926B80122"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "XATopicConnectionFactory" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"XATopicConnectionFactory.java"))
+	    quid       	"39C926B80154"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageEOFException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageEOFException.java"))
+	    quid       	"39C926B8019A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TransactionRolledBackException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TransactionRolledBackException.java"))
+	    quid       	"39C926B801D6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageFormatException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageFormatException.java"))
+	    quid       	"39C926B801FE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "IllegalStateException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"IllegalStateException.java"))
+	    quid       	"39C926B80226"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "JMSSecurityException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"JMSSecurityException.java"))
+	    quid       	"39C926B8024E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ResourceAllocationException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ResourceAllocationException.java"))
+	    quid       	"39C926B80280"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TransactionInProgressException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TransactionInProgressException.java"))
+	    quid       	"39C926B8029E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InvalidDestinationException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidDestinationException.java"))
+	    quid       	"39C926B802C6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InvalidClientIDException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidClientIDException.java"))
+	    quid       	"39C926B802E4"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "InvalidSelectorException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidSelectorException.java"))
+	    quid       	"39C926B8030C"
+	    stereotype 	""
+	    language   	"Java"))
+    physical_presentations 	(list unit_reference_list))

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="(C) Copyright IBM Corporation 2006" />
+<meta name="DC.rights.owner" content="(C) Copyright IBM Corporation 2006" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))' />
+<meta name="DC.Type" content="task" />
+<meta name="DC.Title" content="Setting up redundant license servers" />
+<meta name="abstract" content="You can configure a redundant license server environment." />
+<meta name="description" content="You can configure a redundant license server environment." />
+<meta name="DC.Relation" scheme="URI" content="t_lkad_setup_server.htm" />
+<meta name="DC.Relation" scheme="URI" content="c_ovw_redunserver.htm" />
+<meta name="DC.Relation" scheme="URI" content="t_setup_server.htm" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="wp153762" />
+<meta name="DC.Language" content="en-us" />
+<!-- All rights reserved. Licensed Materials Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="./ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="./swg_info_common.css" />
+<title>Setting up redundant license servers</title>
+<SCRIPT LANGUAGE="JavaScript">
+
+	function openLocalContents() {
+		var subWindow = window.open("index.htm")
+		subWindow.focus()
+	}
+
+
+	function createSubWin(urlName, winType) {
+	
+		var browser_type = navigator.userAgent
+		var date_string = new Date()
+		
+		if (browser_type.indexOf("MSIE") != -1) {
+			// browser is IE ("MSIE" found in browser_type)
+			newWinType = winType + date_string.getTime()
+			newWindow = window.open(urlName, newWinType)
+			newWindow.focus()
+		} else {
+			// browser is not IE ("MSIE" not found in browser_type)
+			newWindow = window.open(urlName, winType)
+			newWindow.focus()
+		}
+	}
+	
+</SCRIPT></head>
+<body id="wp153762"><a name="wp153762"><!-- --></a>
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- 
+
+// If single-pane display, but not from a TOC or Index call, 
+// include buttons to access TOC and Index files. 
+// 
+// 
+if ((window.name.indexOf("tocWin") == -1) && (window.name.indexOf("indexWin") == -1)) {
+   // window.name does not contain either the "tocWin" or the "indexWin" string 
+   // (insert header link code)
+   //
+   document.write("<p style=\"float:right; font-size:smaller;\">")
+   document.write("<a href=\"javascript:void(0)\" onClick=\"createSubWin(\'index.htm\', \'tocWin\')\">Help contents</a><br>")
+   document.write("</p>")
+}
+
+// --> 
+</SCRIPT>
+<h1 class="topictitle1">Setting up redundant license servers</h1>
+<div><p>You can configure a redundant license server environment.</p>
+<div class="section"><p id="wp153762__wp155376"><a name="wp153762__wp155376"><!-- --></a>To understand why you may want to set up a redundant server
+environment, see <a href="c_ovw_redunserver.htm">Understanding
+redundant license servers</a>.</p>
+<p id="wp153762__wp153710"><a name="wp153762__wp153710"><!-- --></a>To set up redundant
+license servers:</p>
+</div>
+<ol><li class="stepexpand" id="wp153762__wp149524"><a name="wp153762__wp149524"><!-- --></a><span>Install the license server software on each server
+computer. For instructions, see the <cite>IBM Rational License Management Guide</cite> in
+the <span class="filepath">Rational</span> common directory.   </span> <div class="note" id="wp153762__wp154566"><a name="wp153762__wp154566"><!-- --></a><span class="notetitle">Note:</span> Do not implement servers on a mix of operating systems (Windows,
+Linux, and the UNIX system). Use a redundant environment of all servers on
+the same operating system.</div>
+ </li>
+<li class="stepexpand" id="wp153762__wp149525"><a name="wp153762__wp149525"><!-- --></a><span>Make sure that the three servers operate on the same
+TCP/IP port.</span></li>
+<li class="stepexpand" id="wp153762__wp149572"><a name="wp153762__wp149572"><!-- --></a><span>Make sure that other processes are not sharing the
+TCP/IP port.</span></li>
+<li class="stepexpand" id="wp153762__wp149527"><a name="wp153762__wp149527"><!-- --></a><span>Enter or import the license keys on each license
+server.</span></li>
+<li class="stepexpand" id="wp153762__wp155159"><a name="wp153762__wp155159"><!-- --></a><span>To configure named-user floating licenses, edit the
+options file.</span></li>
+<li class="stepexpand" id="wp153762__wp149528"><a name="wp153762__wp149528"><!-- --></a><span>Start each license server.</span></li>
+<li class="stepexpand" id="wp153762__wp155152"><a name="wp153762__wp155152"><!-- --></a><span>Enter port values (optional).</span></li>
+<li class="stepexpand" id="wp153762__wp149529"><a name="wp153762__wp149529"><!-- --></a><span>Give users the license server names (in the correct
+order: Primary, Secondary, and Tertiary) to enter into their License Key Administrator.
+This step is not necessary if the server names were entered into a site defaults
+file in a network release area. For more information about release areas,
+read your IBM Rational product installation guide.</span></li>
+</ol>
+<div class="section"></div>
+</div>
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="t_lkad_setup_server.htm" title="With floating and named-user licenses you can manage and maintain licenses on single, multiple, or redundant license servers. Use the information in the following topics to help you set up IBM Rational license servers.">Setting up the Rational license server</a></div>
+</div>
+<div class="relconcepts"><strong>Related concepts</strong><br />
+<div><a href="c_ovw_redunserver.htm" title="IBM Rational license servers can be set up to run in a fault-tolerant configuration known as redundant servers.">Understanding redundant license servers</a></div>
+</div>
+<div class="reltasks"><strong>Related tasks</strong><br />
+<div><a href="t_setup_server.htm" title="You can set up an environment with single or multiple license servers.">Setting up single or multiple license servers</a></div>
+</div>
+</div>
+</body>
+</html>

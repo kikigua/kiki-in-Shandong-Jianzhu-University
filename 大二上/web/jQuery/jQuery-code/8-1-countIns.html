@@ -1,0 +1,62 @@
+<!doctype html>
+<!doctype html>
+<html lang="zh-cn">
+ <head>
+  <meta charset="UTF-8">
+  <title>数量加减</title>
+  <style>	
+     p.count{
+       margin-top:10px;
+}
+p.count>span{
+       font-size:15px;
+}
+p.count>button{
+      width:36px;
+      height:36px;
+      text-align:center;
+      border:1px solid #ddd;
+      vertical-align:middle;
+      font-size:14px;
+}
+p.count>input{
+      width:36px;
+      height:36px;
+      border:1px solid #ddd;
+      text-align:center;
+      font-size:14px;
+      box-sizing:border-box;
+      position:relative;
+      top:2px;
+}
+  </style>
+ </head>
+ <body>
+	<p class="count">
+	  <span>数量：</span>
+	  <button id="minus" class="number-reduce">-</button>
+	  <input type="text" value="1" class="input_count"/>
+	  <button id="add" class="number-add">+</button>   
+	</p>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+$("#add").click(()=>{
+	  var $nowCount = $(".input_count").val();
+	  if($nowCount)
+	  {
+		$nowCount++;
+		$(".input_count").val($nowCount);
+	  }
+});
+$("#minus").click(()=>{
+	var $nowCount = $(".input_count").val();
+	if($nowCount>1)
+	{
+		$nowCount--;
+		$(".input_count").val($nowCount);
+	}else{
+		$(".input_count").val(0);
+	}
+});
+</script>
+</html>

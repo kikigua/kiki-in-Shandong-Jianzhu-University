@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_btn_more"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/llChange"
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_changeNum"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:textColor="#ff111111"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="80dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_changeBus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:gravity="center_vertical"
+            android:text="60路"
+            android:textColor="#ff111111"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_changeStation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:gravity="center_vertical"
+            android:text="理工大学"
+            android:textColor="#ff555555"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/tv_changeAllStationNum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:gravity="center_vertical"
+            android:text="直达，共20站"
+            android:textColor="#ff999999"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/you_bt"
+        android:focusable="false" />
+
+</LinearLayout>

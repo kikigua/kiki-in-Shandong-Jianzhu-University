@@ -1,0 +1,478 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "rmi"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C9268C015A"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268C01D8"
+	    supplier   	"Component View::java::rmi"
+	    quidu      	"39C9268C01D7"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268C01DA"
+	    supplier   	"Component View::java::security"
+	    quidu      	"39C9268C01B7"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268C01DC"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268C01DE"
+	    supplier   	"Component View::javax::rmi::CORBA"
+	    quidu      	"39C9268C0169"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268C01E7"
+	    supplier   	"Component View::org::omg::CORBA"
+	    quidu      	"39C9268C01CB"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268C01E9"
+	    supplier   	"::sun::security::action"
+	    quidu      	"39C9268C01D2"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9268E0125"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "PortableRemoteObject" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PortableRemoteObject.java"))
+	    quid       	"39C9268C015B"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01D9"
+		    supplier   	"Component View::java::rmi"
+		    quidu      	"39C9268C01D7"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01DB"
+		    supplier   	"Component View::java::security::AccessController"
+		    quidu      	"39C9268C01B8"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01DD"
+		    supplier   	"Component View::java::util::Properties"
+		    quidu      	"39C9268C01C1"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01DF"
+		    supplier   	"Component View::javax::rmi::CORBA::PortableRemoteObjectDelegate"
+		    quidu      	"39C9268C016A"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01E0"
+		    supplier   	"Component View::javax::rmi::CORBA::Util"
+		    quidu      	"39C9268C01C5"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01E8"
+		    supplier   	"Component View::org::omg::CORBA::INITIALIZE"
+		    quidu      	"39C9268C01CC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268C01EA"
+		    supplier   	"::sun::security::action::GetPropertyAction"
+		    quidu      	"39C9268C01D3"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "GetORBPropertiesFileAction" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GetORBPropertiesFileAction.java"))
+	    quid       	"39C9268E010D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268E0126"
+		    supplier   	"Component View::java::io::File"
+		    quidu      	"39C9266F0312"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268E012B"
+		    supplier   	"Component View::java::io::FileInputStream"
+		    quidu      	"39C9268E0121"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268E012C"
+		    supplier   	"Component View::java::security::PrivilegedAction"
+		    quidu      	"39C9268E0112"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9268E012D"
+		    supplier   	"Component View::java::util::Properties"
+		    quidu      	"39C9268C01C1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object SubSystem "CORBA"
+	    quid       	"39C9268C0169"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9269303E9"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926940009"
+		    supplier   	"Component View::java::rmi"
+		    quidu      	"39C9268C01D7"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926940011"
+		    supplier   	"Component View::java::security"
+		    quidu      	"39C9268C01B7"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926940013"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92694001C"
+		    supplier   	"Component View::org::omg::CORBA"
+		    quidu      	"39C9268C01CB"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926940026"
+		    supplier   	"::CORBA_2_3::portable"
+		    quidu      	"39C926930367"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926940028"
+		    supplier   	"::sun::security::action"
+		    quidu      	"39C9268C01D2"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926950352"
+		    supplier   	"Component View::org::omg::CORBA::portable"
+		    quidu      	"39C926950320"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9269C0232"
+		    supplier   	"::com::sun::corba::ee::internal::util"
+		    quidu      	"39C9269C021F"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "PortableRemoteObjectDelegate" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PortableRemoteObjectDelegate.java"))
+		    quid       	"39C9268C016A"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D032C"
+			    supplier   	"Component View::java::rmi"
+			    quidu      	"39C9268C01D7"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "Util" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Util.java"))
+		    quid       	"39C9268C01C5"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C0233"
+			    supplier   	"::com::sun::corba::ee::internal::util::JDKBridge"
+			    quidu      	"39C9269C0220"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C0234"
+			    supplier   	"Component View::java::rmi::Remote"
+			    quidu      	"39C92695033E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C023A"
+			    supplier   	"Component View::java::rmi::RemoteException"
+			    quidu      	"39C9269303E1"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C023B"
+			    supplier   	"Component View::java::security::AccessController"
+			    quidu      	"39C9268C01B8"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C023C"
+			    supplier   	"Component View::java::util::Properties"
+			    quidu      	"39C9268C01C1"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C0244"
+			    supplier   	"Component View::org::omg::CORBA"
+			    quidu      	"39C9268C01CB"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C0245"
+			    supplier   	"Component View::org::omg::CORBA::portable::InputStream"
+			    quidu      	"39C9269C0228"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C0246"
+			    supplier   	"Component View::org::omg::CORBA::portable::OutputStream"
+			    quidu      	"39C9269C022C"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269C024E"
+			    supplier   	"::sun::security::action::GetPropertyAction"
+			    quidu      	"39C9268C01D3"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "Stub" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Stub.java"))
+		    quid       	"39C926930359"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269303EA"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269303EB"
+			    supplier   	"Component View::java::io::ObjectInputStream"
+			    quidu      	"39C9269303D2"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926940007"
+			    supplier   	"Component View::java::io::ObjectOutputStream"
+			    quidu      	"39C9269303DD"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926940008"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92694000A"
+			    supplier   	"Component View::java::rmi::RemoteException"
+			    quidu      	"39C9269303E1"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926940012"
+			    supplier   	"Component View::java::security::AccessController"
+			    quidu      	"39C9268C01B8"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926940014"
+			    supplier   	"Component View::java::util::Properties"
+			    quidu      	"39C9268C01C1"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92694001D"
+			    supplier   	"Component View::org::omg::CORBA::INITIALIZE"
+			    quidu      	"39C9268C01CC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92694001E"
+			    supplier   	"Component View::org::omg::CORBA::ORB"
+			    quidu      	"39C9269303E5"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926940027"
+			    supplier   	"::CORBA_2_3::portable::ObjectImpl"
+			    quidu      	"39C926930368"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926940029"
+			    supplier   	"::sun::security::action::GetPropertyAction"
+			    quidu      	"39C9268C01D3"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "StubDelegate" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"StubDelegate.java"))
+		    quid       	"39C926930380"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269400BF"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269400C6"
+			    supplier   	"Component View::java::rmi::RemoteException"
+			    quidu      	"39C9269303E1"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269400C7"
+			    supplier   	"Component View::org::omg::CORBA::ORB"
+			    quidu      	"39C9269303E5"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "Tie" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Tie.java"))
+		    quid       	"39C926950316"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926950346"
+			    supplier   	"Component View::java::rmi::Remote"
+			    quidu      	"39C92695033E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926950348"
+			    supplier   	"Component View::org::omg::CORBA::ORB"
+			    quidu      	"39C9269303E5"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926950349"
+			    supplier   	"Component View::org::omg::CORBA::Object"
+			    quidu      	"39C926950342"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926950353"
+			    supplier   	"Component View::org::omg::CORBA::portable::InvokeHandler"
+			    quidu      	"39C926950321"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "UtilDelegate" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"UtilDelegate.java"))
+		    quid       	"39C9269C0187"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D00AD"
+			    supplier   	"Component View::java::rmi::Remote"
+			    quidu      	"39C92695033E"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D00AE"
+			    supplier   	"Component View::java::rmi::RemoteException"
+			    quidu      	"39C9269303E1"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D00B5"
+			    supplier   	"Component View::org::omg::CORBA::ORB"
+			    quidu      	"39C9269303E5"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D00B6"
+			    supplier   	"Component View::org::omg::CORBA::SystemException"
+			    quidu      	"39C9269D00A3"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D00B7"
+			    supplier   	"Component View::org::omg::CORBA::portable::InputStream"
+			    quidu      	"39C9269C0228"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D00BF"
+			    supplier   	"Component View::org::omg::CORBA::portable::OutputStream"
+			    quidu      	"39C9269C022C"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ValueHandler" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ValueHandler.java"))
+		    quid       	"39C9269D0231"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D025E"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D025F"
+			    supplier   	"Component View::org::omg::CORBA::portable::InputStream"
+			    quidu      	"39C9269C0228"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D0263"
+			    supplier   	"Component View::org::omg::CORBA::portable::OutputStream"
+			    quidu      	"39C9269C022C"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D0265"
+			    supplier   	"::SendingContext::RunTime"
+			    quidu      	"39C9269D025A"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ClassDesc" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ClassDesc.java"))
+		    quid       	"39C9269D02DB"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269D02FA"
+			    supplier   	"Component View::java::io::Serializable"
+			    quidu      	"39C926930379"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "GetORBPropertiesFileAction" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"GetORBPropertiesFileAction.java"))
+		    quid       	"39C9269E0251"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269E025E"
+			    supplier   	"Component View::java::io::File"
+			    quidu      	"39C9266F0312"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269E0265"
+			    supplier   	"Component View::java::io::FileInputStream"
+			    quidu      	"39C9268E0121"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269E0266"
+			    supplier   	"Component View::java::security::PrivilegedAction"
+			    quidu      	"39C9268E0112"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9269E0267"
+			    supplier   	"Component View::java::util::Properties"
+			    quidu      	"39C9268C01C1"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

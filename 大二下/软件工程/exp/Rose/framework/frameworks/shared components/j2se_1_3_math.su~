@@ -1,0 +1,77 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "math"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39CD6BEC038F"
+    physical_models 	(list unit_reference_list
+	(object module "BigInteger" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BigInteger.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6BEC0390"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BigDecimal" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BigDecimal.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6CA3017F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "BitSieve" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BitSieve.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6CA603AA"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MutableBigInteger" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MutableBigInteger.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6CA70058"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SignedMutableBigInteger" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SignedMutableBigInteger.class")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39CD6CA70211"
+	    stereotype 	""
+	    language   	"Java"))
+    physical_presentations 	(list unit_reference_list))

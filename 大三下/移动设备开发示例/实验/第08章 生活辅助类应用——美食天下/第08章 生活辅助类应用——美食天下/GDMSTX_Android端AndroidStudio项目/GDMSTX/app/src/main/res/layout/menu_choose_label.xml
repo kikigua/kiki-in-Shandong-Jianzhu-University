@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 上传菜谱标签选择 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <include
+        android:id="@+id/include_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/head_general" />
+
+    <ListView
+        android:id="@+id/dishes_types_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include_head" >
+    </ListView>
+
+</RelativeLayout>

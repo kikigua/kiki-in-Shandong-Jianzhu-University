@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+     >
+
+    <LinearLayout
+        android:id="@+id/home_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/random_home"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/home_unselecte" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="首页"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/like_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/random_like_iamge"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/like_grey" />
+
+        <TextView
+            android:id="@+id/random_like_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="喜欢"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/collection_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/random_collection_iamge"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cang_grey" />
+
+        <TextView
+            android:id="@+id/random_collection_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="收藏"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/load_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/random_loaded_iamge"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/loaded_unselecte" />
+
+        <TextView
+            android:id="@+id/random_loaded_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="离线"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pinglun_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/random_pinglun_iamge"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pinglun_grey" />
+
+        <TextView
+            android:id="@+id/random_pinglun_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="评论"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

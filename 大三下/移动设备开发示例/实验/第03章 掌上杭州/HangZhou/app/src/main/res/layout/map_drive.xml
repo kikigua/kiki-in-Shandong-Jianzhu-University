@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout android:id="@+id/ll_calc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:padding="8dip"
+        android:orientation="horizontal">
+	    <Button android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/simulate_btn"
+	        android:textSize="14sp"
+	        android:text="妯℃嫙瀵艰埅"/>   
+	     <Button android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/real_btn"
+	        android:textSize="14sp"
+	        android:text="鐪熷疄瀵艰埅"/>
+    </LinearLayout>
+
+	    <FrameLayout
+	        android:id="@+id/mapview_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_below="@id/ll_calc_btn" >
+
+    </FrameLayout>
+</RelativeLayout>

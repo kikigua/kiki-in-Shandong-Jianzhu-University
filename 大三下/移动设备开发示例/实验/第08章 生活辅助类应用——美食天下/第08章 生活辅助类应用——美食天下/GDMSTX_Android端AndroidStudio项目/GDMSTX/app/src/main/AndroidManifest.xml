@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+					
+					<!-- 请求访问使用照相设备-->    
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <!-- 大 内存 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launch"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.activity.MainActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- 评论 -->
+        <activity android:name="com.example.activity.Pinglun" >
+        </activity>
+        <!-- 收藏 -->
+        <activity android:name="com.example.activity.CollectionActivity" >
+        </activity>
+        <!-- author GCK -->
+        <!-- 菜谱制作过程图片展示 -->
+        <activity android:name="com.example.activity.PictureBrowsing" >
+        </activity>
+        <!-- 随拍图片展示 -->
+        <activity android:name="com.example.activity.PicPreview" >
+        </activity>
+        <!-- 随拍详细信息 -->
+        <activity android:name="com.example.activity.Randomshow" >
+        </activity>
+        <!-- 登陆界面 -->
+        <activity android:name="com.example.activity.Land" >
+        </activity>
+        <!-- 离线下载界面 -->
+        <activity android:name="com.example.activity.Loaded" >
+        </activity>
+        <!-- 菜谱 详细信息 -->
+        <activity android:name="com.example.activity.Menushow" >
+        </activity>
+        <!-- 自定义标签 -->
+        <activity android:name="com.example.activity.RandomChooseLabelActivity" >
+        </activity>
+        <!-- 随拍上传 -->
+        <activity
+            android:name="com.example.activity.UploadPaiActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <!-- 相册 -->
+        <activity android:name="com.example.activity.AlbumActivity" >
+        </activity>
+        <!-- 图片浏览 -->
+        <activity android:name="com.example.activity.GalleryActivity" >
+        </activity>
+        <!-- 菜品制作过程详情 -->
+        <activity android:name="com.example.activity.MenuProshow" >
+        </activity>
+        <!-- 搜索 -->
+        <activity android:name="com.example.activity.SearchActivity" >
+        </activity>
+        <!-- 菜品类别二级列表-->
+        <activity android:name="com.example.activity.MenuChooseLabelActivity" >
+        </activity>
+        <!-- 上传菜品 -->
+        <activity android:name="com.example.activity.UploadActivity" >
+        </activity>
+        <!-- 随拍fragment 选择后弹出 -->
+        <activity android:name="com.example.activity.RandomListViewActivity" >
+        </activity>
+        <!-- 菜品系列 -->
+        <activity android:name="com.example.activity.MenuSearchCondition" >
+        </activity>
+        <!-- 菜品筛选结果列表 -->
+        <activity android:name="com.example.activity.MenuChooseListActivity" >
+        </activity>
+        <!-- 添加菜谱过程 -->
+        <activity android:name="com.example.activity.AddProcessDetail" >
+        </activity>
+        <!-- 注册 -->
+        <activity android:name="com.example.activity.Register" >
+        </activity>
+        <!-- 浏览单张图片 -->
+        <activity
+            android:name="com.example.activity.PreviewSingleImage"
+            android:label="@string/app_name"
+            android:theme="@style/IMTheme.Transparent" >
+        </activity>
+        <!-- 开机动画 -->
+        <activity android:name="com.example.activity.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 百度定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="cLGrFhoTa0ymR8FRKfjtj5S5" />
+    </application>
+
+</manifest>

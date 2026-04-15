@@ -1,0 +1,444 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "ejb"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C9275C0312"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C9275D0384"
+	    supplier   	"Component View::java::security"
+	    quidu      	"39C9268C01B7"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9275D0396"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9275D0398"
+	    supplier   	"Component View::javax::transaction"
+	    quidu      	"39C9269F008F"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9275F0082"
+	    supplier   	"Component View::java::rmi"
+	    quidu      	"39C9268C01D7"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9275F03E0"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "CreateException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"CreateException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275C0313"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "DuplicateKeyException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"DuplicateKeyException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275C036C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EJBContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EJBContext.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275D035A"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275D0385"
+		    supplier   	"Component View::java::security::Identity"
+		    quidu      	"39C9275D037C"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275D038C"
+		    supplier   	"Component View::java::security::Principal"
+		    quidu      	"39C926A7029B"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275D0397"
+		    supplier   	"Component View::java::util::Properties"
+		    quidu      	"39C9268C01C1"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275D0399"
+		    supplier   	"Component View::javax::transaction::UserTransaction"
+		    quidu      	"39C926A0020D"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "EJBException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EJBException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275E018E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EJBHome" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EJBHome.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275F004F"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275F0083"
+		    supplier   	"Component View::java::rmi::Remote"
+		    quidu      	"39C92695033E"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275F0084"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "EJBMetaData" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EJBMetaData.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275F0096"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EJBObject" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EJBObject.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275F0186"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275F01AE"
+		    supplier   	"Component View::java::rmi::Remote"
+		    quidu      	"39C92695033E"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275F01AF"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "EnterpriseBean" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EnterpriseBean.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9275F03CB"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275F03E1"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "EntityBean" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EntityBean.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927600097"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9276000C9"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "EntityContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EntityContext.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C92760010F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FinderException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FinderException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927600141"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Handle" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Handle.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927600228"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92760023E"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927600246"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "HomeHandle" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"HomeHandle.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C92760030E"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92760032C"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92760032D"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "NoSuchEntityException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NoSuchEntityException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927600372"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ObjectNotFoundException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ObjectNotFoundException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9276003D6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "RemoveException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RemoveException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C92761002A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SessionBean" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SessionBean.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9276100A2"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9276100CB"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "SessionContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SessionContext.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9276100D5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SessionSynchronization" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SessionSynchronization.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C92761014D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92761016B"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "MessageDrivenBean" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4EF6A000D"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageDrivenContext" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4EF7A01DC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "EJBLocalHome" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"CmIdentification"
+		    value      	(value Text ""))
+		(object Attribute
+		    tool       	"Java"
+		    name       	"CopyrightNotice"
+		    value      	(value Text "")))
+	    quid       	"3B9000220319"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    attributes 	(list Attribute_Set)
+		    quid       	"3B9000B1029C"
+		    supplier   	"Component View::javax::ejb::RemoveException"
+		    quidu      	"39C92761002A"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    attributes 	(list Attribute_Set)
+		    quid       	"3B9000B102B0"
+		    supplier   	"Component View::javax::ejb::EJBException"
+		    quidu      	"39C9275E018E"
+		    supplier_is_spec 	TRUE))
+	    realized_interfaces 	(list realize_rel_list
+		(object Realize_Relationship
+		    quid       	"3B9004F501CA"
+		    supplier   	"Logical View::javax::ejb::EJBLocalHome"
+		    quidu      	"3B8FFC760154"))
+	    language   	"Java")
+	(object module "EJBLocalObject" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"CmIdentification"
+		    value      	(value Text ""))
+		(object Attribute
+		    tool       	"Java"
+		    name       	"CopyrightNotice"
+		    value      	(value Text "")))
+	    quid       	"3B900A3C03A3"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    attributes 	(list Attribute_Set)
+		    quid       	"3B900A7F006A"
+		    supplier   	"Component View::javax::ejb::RemoveException"
+		    quidu      	"39C92761002A"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    attributes 	(list Attribute_Set)
+		    quid       	"3B900A7F007E"
+		    supplier   	"Component View::javax::ejb::EJBException"
+		    quidu      	"39C9275E018E"
+		    supplier_is_spec 	TRUE))
+	    realized_interfaces 	(list realize_rel_list
+		(object Realize_Relationship
+		    quid       	"3B900A9A0069"
+		    supplier   	"Logical View::javax::ejb::EJBLocalObject"
+		    quidu      	"3B9007D60260"))
+	    language   	"Java"))	    
+    physical_presentations 	(list unit_reference_list))

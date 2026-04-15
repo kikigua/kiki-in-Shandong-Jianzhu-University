@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jiebackgroud" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/biaoti_bg" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="公交路线"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip" />
+        
+     </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="#ff999999" />
+    
+   	 <ListView
+                android:id="@+id/lvChangeFangAn"
+                android:background="#ffffffff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+</LinearLayout>

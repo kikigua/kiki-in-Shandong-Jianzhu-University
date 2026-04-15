@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_general" />	<!-- 界面标题栏 -->
+    <LinearLayout
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <com.example.MyListView.MyListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >		<!-- 评论内容布局 -->
+        </com.example.MyListView.MyListView>
+    </LinearLayout>
+    <include
+        android:id="@+id/pinglun_include"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/pinglun_bottom" />	<!-- 底部评论输入布局 -->
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_general" />			<!-- 标题栏 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:layout_marginTop="20px"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:layout_marginTop="15px" >			<!-- 选项按钮 -->
+
+        <Button
+            android:id="@+id/loaded_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="离线菜品"
+            android:textSize="20sp" />			
+
+        <View
+            android:layout_width="0.5px"
+            android:layout_height="match_parent"
+            android:background="@color/gray" />
+
+        <Button
+            android:id="@+id/loaded_random"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="离线随拍"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/left"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="@color/red" />
+        <View
+            android:id="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="@color/black" 
+           />"
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >				<!-- 离线内容布局 -->
+        <fragment
+            android:id="@+id/loaded_tab01"
+            android:name="com.example.fragment.LoadedMenuFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <fragment
+            android:id="@+id/Loaded_tab02"
+            android:name="com.example.fragment.LoadedRandomFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" />
+    </FrameLayout>
+</LinearLayout>

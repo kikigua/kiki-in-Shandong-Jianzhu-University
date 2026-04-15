@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_detail"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+    <!-- 名称 -->
+    <TextView 
+        android:id="@+id/place_name"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        />
+    <!-- 电话 -->
+    <TextView 
+        android:id="@+id/place_call_number"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        />
+    <!-- 地址 -->
+    <TextView 
+        android:id="@+id/place_address"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        />
+	<!-- 显示拨打电话、查看地图和距离的部分 -->
+	<RelativeLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="5dp"
+	    >
+	    <Button 
+	        android:id="@+id/place_call"
+	        android:text="@string/do_call"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        />
+	    <Button 
+	        android:id="@+id/place_map"
+	        android:text="@string/see_map"
+	        android:layout_toRightOf="@id/place_call"
+	        android:layout_marginLeft="5dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        />
+	    <TextView 
+	        android:id="@+id/place_distance"
+	        android:textColor="@color/blue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="10dp"
+	        />
+	</RelativeLayout>
+	
+</LinearLayout>

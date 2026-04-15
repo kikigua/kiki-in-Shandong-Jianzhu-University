@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="(C) Copyright IBM Corporation 2006" />
+<meta name="DC.rights.owner" content="(C) Copyright IBM Corporation 2006" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))' />
+<meta name="DC.Type" content="task" />
+<meta name="DC.Title" content="Entering port values in clients" />
+<meta name="abstract" content="Assigning a value to the port in your Rational License Key Administrator is necessary in firewall situations." />
+<meta name="description" content="Assigning a value to the port in your Rational License Key Administrator is necessary in firewall situations." />
+<meta name="DC.Relation" scheme="URI" content="t_lkad_config_fltkey.htm" />
+<meta name="DC.Relation" scheme="URI" content="t_enter_server_client.htm" />
+<meta name="DC.Relation" scheme="URI" content="t_lkad_chg_serv_ord.htm" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="wp150208" />
+<meta name="DC.Language" content="en-us" />
+<!-- All rights reserved. Licensed Materials Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="./ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="./swg_info_common.css" />
+<title>Entering port values in clients</title>
+<SCRIPT LANGUAGE="JavaScript">
+
+	function openLocalContents() {
+		var subWindow = window.open("index.htm")
+		subWindow.focus()
+	}
+
+
+	function createSubWin(urlName, winType) {
+	
+		var browser_type = navigator.userAgent
+		var date_string = new Date()
+		
+		if (browser_type.indexOf("MSIE") != -1) {
+			// browser is IE ("MSIE" found in browser_type)
+			newWinType = winType + date_string.getTime()
+			newWindow = window.open(urlName, newWinType)
+			newWindow.focus()
+		} else {
+			// browser is not IE ("MSIE" not found in browser_type)
+			newWindow = window.open(urlName, winType)
+			newWindow.focus()
+		}
+	}
+	
+</SCRIPT></head>
+<body id="wp150208"><a name="wp150208"><!-- --></a>
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- 
+
+// If single-pane display, but not from a TOC or Index call, 
+// include buttons to access TOC and Index files. 
+// 
+// 
+if ((window.name.indexOf("tocWin") == -1) && (window.name.indexOf("indexWin") == -1)) {
+   // window.name does not contain either the "tocWin" or the "indexWin" string 
+   // (insert header link code)
+   //
+   document.write("<p style=\"float:right; font-size:smaller;\">")
+   document.write("<a href=\"javascript:void(0)\" onClick=\"createSubWin(\'index.htm\', \'tocWin\')\">Help contents</a><br>")
+   document.write("</p>")
+}
+
+// --> 
+</SCRIPT>
+<h1 class="topictitle1">Entering port values in clients</h1>
+<div><p>Assigning a value to the port in your Rational License Key Administrator
+is necessary in firewall situations. </p>
+<div class="p">The following procedure assumes that you have entered the hostnames
+of the license servers in the License Key Administrator (LKAD) of your computer.
+Do not assign a value to this port unless your administrator instructs you
+to do so.</div>
+<div class="section"><p id="wp150208__wp153795"><a name="wp150208__wp153795"><!-- --></a>To enter port values
+from single, multiple or redundant servers:</p>
+</div>
+<ol><li id="wp150208__wp150212"><a name="wp150208__wp150212"><!-- --></a><span>Ask your system administrator for the vendor port.</span></li>
+<li id="wp150208__wp150213"><a name="wp150208__wp150213"><!-- --></a><span>Select <span class="menucascade"><span class="uicontrol">Settings</span> &gt; <span class="uicontrol">Client/Server Configuration</span></span>.</span></li>
+<li id="wp150208__wp150214"><a name="wp150208__wp150214"><!-- --></a><span>In the <span class="uicontrol">Client/Server Configuration</span> window,
+click the text box to the right of the vendor port box and enter the value.</span></li>
+<li id="wp150208__wp150215"><a name="wp150208__wp150215"><!-- --></a><span>If there are other license servers, highlight the
+next license server and repeat Steps 1-3.</span></li>
+<li id="wp150208__wp150216"><a name="wp150208__wp150216"><!-- --></a><span>Click <span class="uicontrol">OK</span>.</span></li>
+</ol>
+</div>
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="t_lkad_config_fltkey.htm" title="The license server manages a single pool of floating license keys. It grants one license key per client per product.">Configuring clients to use floating license keys</a></div>
+</div>
+<div class="reltasks"><strong>Related tasks</strong><br />
+<div><a href="t_enter_server_client.htm" title="You can enter host names on your client for single, multiple, or redundant license servers.">Entering license servers on clients</a></div>
+<div><a href="t_lkad_chg_serv_ord.htm" title="You can change the order in which IBM Rational products on your client desktop access license servers.">Changing the server search order</a></div>
+</div>
+</div>
+</body>
+</html>

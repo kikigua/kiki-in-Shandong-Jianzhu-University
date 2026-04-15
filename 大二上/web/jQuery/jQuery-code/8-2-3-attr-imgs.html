@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-cn">
+ <head>
+  <meta charset="UTF-8">
+  <title>attr改变文本颜色</title>
+  <style>
+    img{
+    display: inline-block;
+    width: 200px;
+	height:200px;
+    margin-right:10px;
+  }
+  div{
+    width：80px;
+	height:30px;
+    text-align：center；
+	
+  }
+  </style>
+ </head>
+ <body>
+    <img alt="这是一张图片" src=""/>
+	<img alt="这是一张图片" src=""/>
+	<img alt="这是一张图片" src=""/>
+ </body>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+   $( "img" ).attr("src", function(index){
+	    return "img/" + (index+1) + ".jpg";
+   });
+</script> 
+</html>

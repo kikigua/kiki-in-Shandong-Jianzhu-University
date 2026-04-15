@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/meishi_bg"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/biaoti_bg" >
+
+        <TextView
+            android:id="@+id/zs_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="住宿" >
+        </TextView>
+        
+         <ImageButton
+            android:id="@+id/fl_back"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/back_bg" />
+         <ImageButton
+             android:id="@+id/fl_set"
+             android:layout_width="40dip"
+             android:layout_height="40dip"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="24dp"
+             android:background="@drawable/zhusu_pd" />
+        
+     </RelativeLayout>
+    
+
+     <TextView
+        android:id="@+id/zs_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="品牌名"
+         android:background="@drawable/wenben_bg"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+       
+     <ImageView
+	    android:id="@+id/zs_img" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="210dip"/>
+ 
+    <ScrollView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:scrollbars="vertical"
+	     android:fadingEdge="vertical">
+    <TextView 
+        android:id="@+id/zs_jie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="详细介绍美食"
+        android:textColor="#000000" />
+    
+  </ScrollView>
+</LinearLayout>
+
+

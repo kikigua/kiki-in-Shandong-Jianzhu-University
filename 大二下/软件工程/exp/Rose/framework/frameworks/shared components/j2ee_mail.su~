@@ -1,0 +1,1790 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "mail"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926FC021A"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C926FD02F8"
+	    supplier   	"Component View::java::net"
+	    quidu      	"39C9266E0035"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926FE0119"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926FE0122"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926FE0124"
+	    supplier   	"Component View::javax::activation"
+	    quidu      	"39C926610004"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C927030254"
+	    supplier   	"Component View::javax::mail::event"
+	    quidu      	"39C927030224"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C92703027F"
+	    supplier   	"Component View::javax::mail::search"
+	    quidu      	"39C92703024E"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C92712039A"
+	    supplier   	"::com::sun::mail::util"
+	    quidu      	"39C92712038F"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9271203A3"
+	    supplier   	"Component View::java::lang::reflect"
+	    quidu      	"39C926A7028A"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "Address" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Address.java"))
+	    quid       	"39C926FC0224"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "AuthenticationFailedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"AuthenticationFailedException.java"))
+	    quid       	"39C926FC0242"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessagingException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessagingException.java"))
+	    quid       	"39C926FC0256"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Authenticator" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Authenticator.java"))
+	    quid       	"39C926FD026B"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926FD02F9"
+		    supplier   	"Component View::java::net::InetAddress"
+		    quidu      	"39C926E90353"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "BodyPart" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"BodyPart.java"))
+	    quid       	"39C926FE0082"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926FE011A"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926FE0123"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926FE0125"
+		    supplier   	"Component View::javax::activation::DataHandler"
+		    quidu      	"39C9266D02DC"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Part" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Part.java"))
+	    quid       	"39C926FE008D"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270D02B4"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270D02B5"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270D02BE"
+		    supplier   	"Component View::javax::activation::DataHandler"
+		    quidu      	"39C9266D02DC"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Multipart" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Multipart.java"))
+	    quid       	"39C926FE0099"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270C0335"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270C0336"
+		    supplier   	"Component View::java::io::OutputStream"
+		    quidu      	"39C9266A03E0"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270C033F"
+		    supplier   	"Component View::java::util::Vector"
+		    quidu      	"39C926BF00DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270C0340"
+		    supplier   	"Component View::javax::activation::DataSource"
+		    quidu      	"39C9266D02F2"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "FetchProfile" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FetchProfile.class"))
+	    quid       	"39C926FE037B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Flags" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Flags.java"))
+	    quid       	"39C927000003"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270000D5"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "Folder" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Folder.java"))
+	    quid       	"39C92703001B"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030253"
+		    supplier   	"Component View::java::util::Vector"
+		    quidu      	"39C926BF00DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030256"
+		    supplier   	"Component View::javax::mail::event::ConnectionEvent"
+		    quidu      	"39C927030225"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030257"
+		    supplier   	"Component View::javax::mail::event::ConnectionListener"
+		    quidu      	"39C92703022E"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030260"
+		    supplier   	"Component View::javax::mail::event::FolderEvent"
+		    quidu      	"39C927030232"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030261"
+		    supplier   	"Component View::javax::mail::event::FolderListener"
+		    quidu      	"39C927030236"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92703026A"
+		    supplier   	"Component View::javax::mail::event::MailEvent"
+		    quidu      	"39C92703023A"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92703026B"
+		    supplier   	"Component View::javax::mail::event::MessageChangedEvent"
+		    quidu      	"39C92703023E"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030274"
+		    supplier   	"Component View::javax::mail::event::MessageChangedListener"
+		    quidu      	"39C927030242"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030275"
+		    supplier   	"Component View::javax::mail::event::MessageCountEvent"
+		    quidu      	"39C927030246"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92703027E"
+		    supplier   	"Component View::javax::mail::event::MessageCountListener"
+		    quidu      	"39C92703024A"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927030288"
+		    supplier   	"Component View::javax::mail::search::SearchTerm"
+		    quidu      	"39C92703024F"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Store" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Store.java"))
+	    quid       	"39C927030026"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271302EF"
+		    supplier   	"Component View::java::util::Vector"
+		    quidu      	"39C926BF00DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271302F0"
+		    supplier   	"Component View::javax::mail::event::FolderEvent"
+		    quidu      	"39C927030232"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271302F9"
+		    supplier   	"Component View::javax::mail::event::FolderListener"
+		    quidu      	"39C927030236"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271302FA"
+		    supplier   	"Component View::javax::mail::event::StoreEvent"
+		    quidu      	"39C9271302E5"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927130303"
+		    supplier   	"Component View::javax::mail::event::StoreListener"
+		    quidu      	"39C9271302E9"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "EventQueue" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"EventQueue.java"))
+	    quid       	"39C927030089"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C927180152"
+		    supplier   	"Component View::java::util::Vector"
+		    quidu      	"39C926BF00DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927180153"
+		    supplier   	"Component View::javax::mail::event::MailEvent"
+		    quidu      	"39C92703023A"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "FolderClosedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FolderClosedException.java"))
+	    quid       	"39C92703029C"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FolderNotFoundException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FolderNotFoundException.java"))
+	    quid       	"39C9270302CE"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Header" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Header.java"))
+	    quid       	"39C9270A021A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "IllegalWriteException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"IllegalWriteException.java"))
+	    quid       	"39C9270A026A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Message" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Message.java"))
+	    quid       	"39C9270B0009"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270B0199"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270B019A"
+		    supplier   	"Component View::java::util::Date"
+		    quidu      	"39C926A702A3"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270B019B"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270B01A3"
+		    supplier   	"Component View::javax::activation::DataHandler"
+		    quidu      	"39C9266D02DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270B01A4"
+		    supplier   	"Component View::javax::mail::search::SearchTerm"
+		    quidu      	"39C92703024F"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Session" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Session.java"))
+	    quid       	"39C9270B0032"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92712039B"
+		    supplier   	"::com::sun::mail::util::LineInputStream"
+		    quidu      	"39C927120390"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271203A2"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271203A4"
+		    supplier   	"Component View::java::lang::reflect::Constructor"
+		    quidu      	"39C926A7028B"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271203AC"
+		    supplier   	"Component View::java::lang::reflect::Method"
+		    quidu      	"39C92712013F"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271203AD"
+		    supplier   	"Component View::java::net::InetAddress"
+		    quidu      	"39C926E90353"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271203B6"
+		    supplier   	"Component View::java::net::URL"
+		    quidu      	"39C9266E0036"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271203B7"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    language   	"Java")
+	(object module "MessageAware" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageAware.java"))
+	    quid       	"39C9270B01AD"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageContext.java"))
+	    quid       	"39C9270B01D5"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MethodNotSupportedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MethodNotSupportedException.java"))
+	    quid       	"39C9270C0032"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NoSuchProviderException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NoSuchProviderException.java"))
+	    quid       	"39C9270C005A"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MultipartDataSource" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MultipartDataSource.java"))
+	    quid       	"39C9270D0124"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270D013A"
+		    supplier   	"Component View::javax::activation::DataSource"
+		    quidu      	"39C9266D02F2"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "PasswordAuthentication" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"PasswordAuthentication.java"))
+	    quid       	"39C9270D02E7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SendFailedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SendFailedException.java"))
+	    quid       	"39C9270D034B"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Service" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Service.java"))
+	    quid       	"39C9270E0360"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270F0040"
+		    supplier   	"Component View::java::net::InetAddress"
+		    quidu      	"39C926E90353"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270F0041"
+		    supplier   	"Component View::java::net::UnknownHostException"
+		    quidu      	"39C9270F0036"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270F004A"
+		    supplier   	"Component View::java::util::Vector"
+		    quidu      	"39C926BF00DC"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270F004B"
+		    supplier   	"Component View::javax::mail::event::ConnectionEvent"
+		    quidu      	"39C927030225"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270F0054"
+		    supplier   	"Component View::javax::mail::event::ConnectionListener"
+		    quidu      	"39C92703022E"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9270F005E"
+		    supplier   	"Component View::javax::mail::event::MailEvent"
+		    quidu      	"39C92703023A"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "URLName" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"URLName.java"))
+	    quid       	"39C9270E0376"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271601A9"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271601AA"
+		    supplier   	"Component View::java::net"
+		    quidu      	"39C9266E0035"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271601AB"
+		    supplier   	"Component View::java::util::BitSet"
+		    quidu      	"39C9271600CD"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Transport" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Transport.java"))
+	    quid       	"39C927140174"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271401D4"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271401D8"
+		    supplier   	"Component View::javax::mail::event::TransportEvent"
+		    quidu      	"39C9271401C8"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271401D9"
+		    supplier   	"Component View::javax::mail::event::TransportListener"
+		    quidu      	"39C9271401D0"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "StoreClosedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"StoreClosedException.java"))
+	    quid       	"39C9271401EC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Provider" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Provider.java"))
+	    quid       	"39C927160217"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "MessageRemovedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"MessageRemovedException.java"))
+	    quid       	"39C927180166"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FetchProfile$Item" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"FetchProfile$Item.class"))
+	    quid       	"39CA92700080"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "UIDFolder$FetchProfileItem" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UIDFolder$FetchProfileItem.class"))
+	    quid       	"39CA92710208"
+	    stereotype 	""
+	    realized_interfaces 	(list realize_rel_list
+		(object Realize_Relationship
+		    quid       	"39CABC99031E"
+		    supplier   	"Logical View::javax::mail::UIDFolder"
+		    quidu      	"39CABC9901FC"))
+	    language   	"Java")
+	(object module "UIDFolder" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UIDFolder.class"))
+	    quid       	"39CA92710258"
+	    stereotype 	""
+	    language   	"Java")
+	(object SubSystem "event"
+	    quid       	"39C927030224"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92719003D"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271903D4"
+		    supplier   	"Component View::javax::mail"
+		    quidu      	"39C926FC021A"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "ConnectionEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ConnectionEvent.java"))
+		    quid       	"39C927030225"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ConnectionListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ConnectionListener.java"))
+		    quid       	"39C92703022E"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92719003E"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "FolderEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FolderEvent.java"))
+		    quid       	"39C927030232"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271903D5"
+			    supplier   	"Component View::javax::mail::Folder"
+			    quidu      	"39C92703001B"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "FolderListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FolderListener.java"))
+		    quid       	"39C927030236"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271A0082"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MailEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MailEvent.java"))
+		    quid       	"39C92703023A"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271A02BD"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MessageChangedEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageChangedEvent.java"))
+		    quid       	"39C92703023E"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271B01F7"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MessageChangedListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageChangedListener.java"))
+		    quid       	"39C927030242"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271B0284"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MessageCountEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageCountEvent.java"))
+		    quid       	"39C927030246"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271B0337"
+			    supplier   	"Component View::javax::mail::Folder"
+			    quidu      	"39C92703001B"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271B0338"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MessageCountListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageCountListener.java"))
+		    quid       	"39C92703024A"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271B03C4"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "StoreEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"StoreEvent.java"))
+		    quid       	"39C9271302E5"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271C0306"
+			    supplier   	"Component View::javax::mail::Store"
+			    quidu      	"39C927030026"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "StoreListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"StoreListener.java"))
+		    quid       	"39C9271302E9"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271C03A6"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "TransportEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TransportEvent.java"))
+		    quid       	"39C9271401C8"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271D03D0"
+			    supplier   	"Component View::javax::mail"
+			    quidu      	"39C926FC021A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "TransportListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TransportListener.java"))
+		    quid       	"39C9271401D0"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271E0075"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ConnectionAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ConnectionAdapter.java"))
+		    quid       	"39C92718018E"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "FolderAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FolderAdapter.java"))
+		    quid       	"39C92719004F"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MessageCountAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageCountAdapter.java"))
+		    quid       	"39C9271B0297"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "TransportAdapter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"TransportAdapter.java"))
+		    quid       	"39C9271C03BA"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "search"
+	    quid       	"39C92703024E"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271E0377"
+		    supplier   	"Component View::javax::mail"
+		    quidu      	"39C926FC021A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9271F00D0"
+		    supplier   	"Component View::javax::mail::internet"
+		    quidu      	"39C9271F00C6"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927200031"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "SearchTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SearchTerm.java"))
+		    quid       	"39C92703024F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927240271"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "AddressTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AddressTerm.java"))
+		    quid       	"39C9271E0345"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271E0378"
+			    supplier   	"Component View::javax::mail::Address"
+			    quidu      	"39C926FC0224"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "AddressStringTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AddressStringTerm.java"))
+		    quid       	"39C9271F00A8"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271F00CB"
+			    supplier   	"Component View::javax::mail::Address"
+			    quidu      	"39C926FC0224"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271F00D1"
+			    supplier   	"Component View::javax::mail::internet::InternetAddress"
+			    quidu      	"39C9271F00C7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "StringTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"StringTerm.java"))
+		    quid       	"39C9271F00B2"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "AndTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AndTerm.java"))
+		    quid       	"39C9271F00EE"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271F0122"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "BodyTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"BodyTerm.java"))
+		    quid       	"39C9271F0148"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9271F0167"
+			    supplier   	"Component View::javax::mail"
+			    quidu      	"39C926FC021A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "ComparisonTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ComparisonTerm.java"))
+		    quid       	"39C9271F0170"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "DateTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"DateTerm.java"))
+		    quid       	"39C9271F03E7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927200032"
+			    supplier   	"Component View::java::util::Date"
+			    quidu      	"39C926A702A3"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "FlagTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FlagTerm.java"))
+		    quid       	"39C927200316"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927200349"
+			    supplier   	"Component View::javax::mail::Flags"
+			    quidu      	"39C927000003"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927200352"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "FromTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FromTerm.java"))
+		    quid       	"39C927200370"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92720038F"
+			    supplier   	"Component View::javax::mail::Address"
+			    quidu      	"39C926FC0224"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927200398"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "FromStringTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"FromStringTerm.java"))
+		    quid       	"39C9272003C0"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272003DE"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HeaderTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HeaderTerm.java"))
+		    quid       	"39C9272101D7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927210214"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "IntegerComparisonTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"IntegerComparisonTerm.java"))
+		    quid       	"39C927210227"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MessageIDTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageIDTerm.java"))
+		    quid       	"39C92721026D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927210283"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MessageNumberTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MessageNumberTerm.java"))
+		    quid       	"39C92721029F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272102BD"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "NotTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NotTerm.java"))
+		    quid       	"39C9272102D1"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927210303"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "OrTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"OrTerm.java"))
+		    quid       	"39C927210321"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92721035D"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "RecipientTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RecipientTerm.java"))
+		    quid       	"39C927230071"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92723009A"
+			    supplier   	"Component View::javax::mail::Address"
+			    quidu      	"39C926FC0224"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272300A3"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "RecipientStringTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"RecipientStringTerm.java"))
+		    quid       	"39C9272300E9"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92723011B"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SearchException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SearchException.java"))
+		    quid       	"39C927240005"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927240023"
+			    supplier   	"Component View::javax::mail::MessagingException"
+			    quidu      	"39C926FC0256"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SentDateTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SentDateTerm.java"))
+		    quid       	"39C92724009B"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272400B9"
+			    supplier   	"Component View::java::util::Date"
+			    quidu      	"39C926A702A3"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272400BA"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ReceivedDateTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ReceivedDateTerm.java"))
+		    quid       	"39C927240131"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927240150"
+			    supplier   	"Component View::java::util::Date"
+			    quidu      	"39C926A702A3"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927240159"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SizeTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SizeTerm.java"))
+		    quid       	"39C92724016D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92724018B"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "SubjectTerm" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"SubjectTerm.java"))
+		    quid       	"39C927240221"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92724023F"
+			    supplier   	"Component View::javax::mail::Message"
+			    quidu      	"39C9270B0009"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "internet"
+	    quid       	"39C9271F00C6"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92728005C"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927280064"
+		    supplier   	"Component View::java::net"
+		    quidu      	"39C9266E0035"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92728006E"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927280078"
+		    supplier   	"Component View::javax::mail"
+		    quidu      	"39C926FC021A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9272D02CE"
+		    supplier   	"::com::sun::mail::util"
+		    quidu      	"39C92712038F"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9272D02DA"
+		    supplier   	"Component View::javax::activation"
+		    quidu      	"39C926610004"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273701ED"
+		    supplier   	"Component View::java::text"
+		    quidu      	"39C9273701D9"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "InternetAddress" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InternetAddress.java"))
+		    quid       	"39C9271F00C7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92728005D"
+			    supplier   	"Component View::java::io::UnsupportedEncodingException"
+			    quidu      	"39C927280050"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927280065"
+			    supplier   	"Component View::java::net::InetAddress"
+			    quidu      	"39C926E90353"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927280066"
+			    supplier   	"Component View::java::net::UnknownHostException"
+			    quidu      	"39C9270F0036"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92728006F"
+			    supplier   	"Component View::java::util::StringTokenizer"
+			    quidu      	"39C927280054"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927280070"
+			    supplier   	"Component View::java::util::Vector"
+			    quidu      	"39C926BF00DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927280079"
+			    supplier   	"Component View::javax::mail::Address"
+			    quidu      	"39C926FC0224"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927280082"
+			    supplier   	"Component View::javax::mail::Session"
+			    quidu      	"39C9270B0032"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "AddressException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AddressException.java"))
+		    quid       	"39C9272800B5"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ParseException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ParseException.java"))
+		    quid       	"39C9272800C0"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272900FC"
+			    supplier   	"Component View::javax::mail::MessagingException"
+			    quidu      	"39C926FC0256"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HeaderTokenizer" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HeaderTokenizer.java"))
+		    quid       	"39C9272801CD"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "MimeUtility" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeUtility.java"))
+		    quid       	"39C9272D013E"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272D02CF"
+			    supplier   	"::com::sun::mail::util"
+			    quidu      	"39C92712038F"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272D02D0"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272D02D9"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272D02DB"
+			    supplier   	"Component View::javax::activation::DataHandler"
+			    quidu      	"39C9266D02DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272D02E3"
+			    supplier   	"Component View::javax::activation::DataSource"
+			    quidu      	"39C9266D02F2"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272D02E4"
+			    supplier   	"Component View::javax::mail::MessagingException"
+			    quidu      	"39C926FC0256"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "AsciiOutputStream" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"AsciiOutputStream.java"))
+		    quid       	"39C9272E00C7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272E0110"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "ContentType" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContentType.java"))
+		    quid       	"39C9272E0171"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "ParameterList" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ParameterList.java"))
+		    quid       	"39C9272E01C2"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272E0352"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272E035C"
+			    supplier   	"Component View::java::util::Hashtable"
+			    quidu      	"39C92682021E"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "InternetHeaders" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"InternetHeaders.java"))
+		    quid       	"39C9272F026D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272F02D1"
+			    supplier   	"::com::sun::mail::util::LineInputStream"
+			    quidu      	"39C927120390"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272F02DB"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272F02DC"
+			    supplier   	"Component View::java::io::InputStream"
+			    quidu      	"39C926A70286"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272F02E5"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9272F02E6"
+			    supplier   	"Component View::javax::mail::MessagingException"
+			    quidu      	"39C926FC0256"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "hdr" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"hdr.java"))
+		    quid       	"39C9272F0321"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "matchEnum" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"matchEnum.java"))
+		    quid       	"39C9273002AB"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927300319"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92730031A"
+			    supplier   	"Component View::javax::mail::Header"
+			    quidu      	"39C9270A021A"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MimeBodyPart" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeBodyPart.java"))
+		    quid       	"39C927330006"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92733018F"
+			    supplier   	"::com::sun::mail::util::ASCIIUtility"
+			    quidu      	"39C927330183"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927330197"
+			    supplier   	"::com::sun::mail::util::LineOutputStream"
+			    quidu      	"39C927330187"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927330198"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273301A1"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273301A2"
+			    supplier   	"Component View::java::util::Vector"
+			    quidu      	"39C926BF00DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273301AB"
+			    supplier   	"Component View::javax::activation::DataHandler"
+			    quidu      	"39C9266D02DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273301AC"
+			    supplier   	"Component View::javax::mail"
+			    quidu      	"39C926FC021A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "MimePart" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimePart.java"))
+		    quid       	"39C92733001B"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927390308"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927390309"
+			    supplier   	"Component View::javax::mail::MessagingException"
+			    quidu      	"39C926FC0256"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927390312"
+			    supplier   	"Component View::javax::mail::Part"
+			    quidu      	"39C926FE008D"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "MimeMessage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeMessage.java"))
+		    quid       	"39C927360340"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273701E9"
+			    supplier   	"::com::sun::mail::util"
+			    quidu      	"39C92712038F"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273701EA"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273701EE"
+			    supplier   	"Component View::java::text::DateFormat"
+			    quidu      	"39C9273701DA"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273701EF"
+			    supplier   	"Component View::java::text::ParseException"
+			    quidu      	"39C9273701E5"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273701F7"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273701F8"
+			    supplier   	"Component View::javax::activation::DataHandler"
+			    quidu      	"39C9266D02DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927370201"
+			    supplier   	"Component View::javax::mail"
+			    quidu      	"39C926FC021A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "MimeMultipart" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimeMultipart.java"))
+		    quid       	"39C9273802DE"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92738032E"
+			    supplier   	"::com::sun::mail::util::LineInputStream"
+			    quidu      	"39C927120390"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927380338"
+			    supplier   	"::com::sun::mail::util::LineOutputStream"
+			    quidu      	"39C927330187"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927380339"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927380342"
+			    supplier   	"Component View::java::util::Vector"
+			    quidu      	"39C926BF00DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927380343"
+			    supplier   	"Component View::javax::activation::DataSource"
+			    quidu      	"39C9266D02F2"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92738034C"
+			    supplier   	"Component View::javax::mail"
+			    quidu      	"39C926FC021A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "MimePartDataSource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"MimePartDataSource.java"))
+		    quid       	"39C9273A036D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273A03AE"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273A03B4"
+			    supplier   	"Component View::java::net::UnknownServiceException"
+			    quidu      	"39C9273A03AA"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273A03B5"
+			    supplier   	"Component View::javax::activation::DataSource"
+			    quidu      	"39C9266D02F2"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273A03BE"
+			    supplier   	"Component View::javax::mail"
+			    quidu      	"39C926FC021A"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "NewsAddress" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NewsAddress.java"))
+		    quid       	"39C9273B00F8"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273B018E"
+			    supplier   	"Component View::java::util::StringTokenizer"
+			    quidu      	"39C927280054"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273B0198"
+			    supplier   	"Component View::java::util::Vector"
+			    quidu      	"39C926BF00DC"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273B0199"
+			    supplier   	"Component View::javax::mail::Address"
+			    quidu      	"39C926FC0224"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "ContentDisposition" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"ContentDisposition.java"))
+		    quid       	"39C9273B01D4"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "UniqueValue" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"UniqueValue.java"))
+		    quid       	"39C9273B0260"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9273B0275"
+			    supplier   	"Component View::javax::mail::Session"
+			    quidu      	"39C9270B0032"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

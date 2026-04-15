@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.smbms.dao.role.RoleMapper">
+<!-- 
+（1）实现角色信息的增加操作。
+（2）实现根据角色id修改角色信息的操作。
+（3）实现根据角色id删除角色信息的操作，
+注意：删除角色之前，需要先判断该角色下是否有用户信息，
+若有，需要先删除该角色下的用户信息，再删除该角色，若无，直接删除该角色信息。
+（4）实现根据角色名称模糊查询角色信息列表的操作。 
+-->
+
+	<!-- 根据角色名称查询角色信息列表（模糊查询）-->
+	<select id="getRoleListByRoleName" resultType="Role" parameterType="String">
+		select * from smbms_role where roleName like CONCAT ('%',#{roleName},'%')
+	</select>
+	
+	<!-- 增加角色 -->
+	<insert id="add" parameterType="Role">
+		insert into smbms_role (roleCode,roleName,createdBy,creationDate) 
+				values (#{roleCode},#{roleName},#{createdBy},#{creationDate})
+	</insert>
+	
+	<!-- 根据角色id修改角色信息 -->
+	<update id="modify" parameterType="Role">
+		update smbms_role set roleCode=#{roleCode},roleName=#{roleName},
+							modifyBy=#{modifyBy},modifyDate=#{modifyDate}
+		 		where id = #{id}
+	</update>
+	
+	<!-- 根据角色id查询该角色下是否有用户信息-->
+	<select id="getUserCountByRoleId" parameterType="Integer" resultType="Int">
+		select count(*) as count from smbms_user where userRole =#{userRole}
+	</select>
+	
+	<!-- 根据角色ID删除角色信息 -->
+	<delete id="deleteRoleById" parameterType="Integer">
+		delete from smbms_role where id = #{id}
+	</delete>
+	
+</mapper>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+ <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@color/green">
+        <Button 
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            />"
+
+        <TextView
+            android:id="@+id/showName"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="菜名"
+            android:textColor="#000000"
+            android:textSize="22dp" />
+
+       <Button
+           android:id="@+id/size_plus_bt"
+           android:layout_width="40dip"
+           android:layout_height="40dip"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="40dp"
+           android:background="@drawable/text_size_plus"/>
+   <Button
+            android:id="@+id/size_minus_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/text_size_minus" />
+     </RelativeLayout> 
+    <Gallery 
+        android:id="@+id/galleryshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="5dip"
+        android:background="@color/lightgreen"
+        />
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+            android:id="@+id/showIntro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:ems="10"
+            />
+    </ScrollView>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+    </LinearLayout>
+
+</LinearLayout>

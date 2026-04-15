@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 菜谱浏览页 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/menu_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_general" />			<!-- 标题栏 -->
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <com.example.MyListView.MyListView
+                android:id="@+id/menu_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.example.MyListView.MyListView>	<!-- 自定义ListView -->
+        </LinearLayout>
+</LinearLayout>

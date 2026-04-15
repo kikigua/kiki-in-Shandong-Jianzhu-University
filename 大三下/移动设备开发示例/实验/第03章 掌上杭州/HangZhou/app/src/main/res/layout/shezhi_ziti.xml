@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/biaoti_bg" >
+
+        <TextView
+            android:id="@+id/shezhi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="设置字体" >
+        </TextView>
+        
+         <ImageButton
+            android:id="@+id/szzt_back"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/back_bg" />
+        
+     </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        android:background="@drawable/bb">      
+    <TextView
+        android:id="@+id/daxiao"
+        android:layout_width="120dip"
+        android:layout_height="50dip"
+        android:layout_weight="0.79"
+        android:paddingLeft="15dip"
+        android:paddingTop="7dip"
+        android:scaleType="center"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        />
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="fill_parent"        
+        android:src="@drawable/row_r"
+        android:scaleType="center">
+      </ImageView>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        android:background="@drawable/bb">      
+    <TextView
+        android:id="@+id/yanse"
+        android:layout_width="120dip"
+        android:layout_height="50dip"
+        android:layout_weight="0.79"
+        android:paddingLeft="15dip"
+        android:paddingTop="7dip"
+        android:scaleType="center"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        />
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="fill_parent"        
+        android:src="@drawable/row_r"
+        android:scaleType="center">
+      </ImageView>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        android:background="@drawable/bb">      
+    <TextView
+        android:id="@+id/yanshi"
+        android:layout_width="120dip"
+        android:layout_height="50dip"
+        android:layout_weight="0.79"
+        android:paddingLeft="15dip"
+        android:paddingTop="7dip"
+        android:scaleType="center"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        />
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="fill_parent"        
+        android:src="@drawable/row_r"
+        android:scaleType="center">
+      </ImageView>
+    </LinearLayout>
+</LinearLayout>

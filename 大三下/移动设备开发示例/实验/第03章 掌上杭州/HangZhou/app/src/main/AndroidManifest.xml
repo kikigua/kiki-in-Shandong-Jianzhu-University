@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cn.hangzhou"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zshz"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        
+          <meta-data android:name="com.baidu.lbsapi.API_KEY"
+		    android:value="VwwzFRjAQHqgSNAYp8grRRH5" />
+        
+         <activity
+            android:name="com.cn.loading.LoginActivity"                      
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name="com.cn.loading.LoadingActivity"
+            android:screenOrientation="portrait" /> 
+             <activity
+            android:name="com.cn.meishi.DetailsActivity"
+            android:screenOrientation="portrait"  /> 
+             <activity
+            android:name="com.cn.meishi.FenLeiActivity"
+            android:screenOrientation="portrait"  /> 
+             <activity
+            android:name="com.cn.meishi.MeiShiActivity"
+            android:screenOrientation="portrait" /> 
+             <activity
+            android:name="com.cn.meishi.MaxActivity"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.gouwu.GouWuActivity"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.gouwu.GyActivity"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.yiliao.YiLiaoActivity"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.yiliao.YyActivity"
+            android:screenOrientation="portrait" />
+             <activity
+            android:name="com.cn.yule.YuLeActivity"
+            android:screenOrientation="portrait" />
+             <activity
+            android:name="com.cn.yule.DtActivity"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.zhusu.ZhuSuActivity"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.zhusu.ZyActivity"
+            android:screenOrientation="portrait" />
+             <activity
+            android:name="com.cn.hangzhou.DaActivity"
+            android:screenOrientation="portrait"   /> 
+             <activity
+            android:name="com.cn.hangzhou.MainActivityGroup"
+            android:screenOrientation="portrait"  /> 
+            <activity
+            android:name="com.cn.shezhi.ShiZhiActivity"
+            android:screenOrientation="portrait"  /> 
+            <activity
+            android:name="com.cn.shezhi.SheZhiZiTiActivity"
+            android:screenOrientation="portrait"  /> 
+            <activity
+            android:name="com.cn.shezhi.DetailFLActivity"
+            android:screenOrientation="portrait"  /> 
+             <activity
+            android:name="com.cn.hangzhou.ShouYeActivity"
+            android:screenOrientation="portrait"  /> 
+             <activity
+            android:name="com.cn.sousuo.SouSuoActivity"
+            android:screenOrientation="portrait"   />
+            <activity
+            android:name="com.cn.hangzhou.JieActivity"
+            android:screenOrientation="portrait"  />
+
+            
+            
+            <!-- 授权认证 -->
+           <activity android:name="com.cn.weibo.WBMainActivity" />
+             <!-- 分享 -->
+           <activity
+            android:name="com.cn.weibo.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+            
+            
+            
+            <activity
+            android:name="com.cn.jingdian.JDJYActivity"
+             android:screenOrientation="portrait" />
+            <activity
+            android:name="com.cn.jingdian.JDMaxActivity"
+            android:screenOrientation="portrait"  />
+            <activity
+            android:name="com.cn.jingdian.JDMainAvtivity"
+            android:screenOrientation="portrait"  />
+            <activity
+            android:name="com.cn.jingdian.JDSearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor" />
+            <activity
+            android:name="com.cn.jingdian.JDNewActivity"
+            android:screenOrientation="portrait"  />
+             <activity
+            android:name="com.cn.jingdian.JDAllActivity"
+            android:screenOrientation="landscape"  />
+            
+        
+        <activity
+            android:name="com.cn.map.BusLineActivity"
+            android:screenOrientation="portrait"  />  
+        <activity
+            android:name="com.cn.map.BNavigatorActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+        <activity
+            android:name="com.cn.map.RoutePlanDemo"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+         <activity
+            android:name="com.cn.map.MapActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+         <activity
+            android:name="com.cn.map.WalkActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+         <activity
+            android:name="com.cn.map.BusActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+           <activity
+            android:name="com.cn.map.ChangePlanActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+            
+       <service android:name="com.baidu.navi.location.f" android:enabled="true"/>
+    </application>
+    
+     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    	<!-- 设置系统语言权限 -->
+		<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+		
+		    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>   
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission> 
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    
+    
+</manifest>

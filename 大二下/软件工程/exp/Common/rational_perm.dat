@@ -1,0 +1,560 @@
+PACKAGE RSPS_Evaluation rational 1.5 1C0AB0D69C73 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:10 LTvu:7.1:100 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE RSPS_Base_License rational 1.5 AAEC0768D8DA \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+
+PACKAGE RSPS_TLA_500VU rational 1.5 7EBAF9407ED4 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:500 LTvu:7.1:500 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE RSPS_TLA_100KVU rational 1.5 E2A84565831B \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:500 LTvu:7.1:100000 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE LT_All_VU_Protocols rational 7.5 CD8298ACC192 \
+	COMPONENTS="LT_All_Protocols:7.1:1"
+
+PACKAGE PerformanceStudioOEM rational 7.5 768CFCB275A5 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:1 LTvu:7.1:1 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE LoadTest_Base rational 7.5 27CCA9A18283 \
+	COMPONENTS="LoadTestSuite:7.5:1 \
+	LTmaster:7.1:1 LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+
+PACKAGE TMvtpool rational 8.0 FE4376C9DEE0 \
+	COMPONENTS="TMvirtualtester:8.0:5"
+
+
+PACKAGE RSPS_Evaluation rational 1.5 1C0AB0D69C73 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:10 LTvu:7.1:100 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE RSPS_Base_License rational 1.5 AAEC0768D8DA \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE RSPS_TLA_500VU rational 1.5 7EBAF9407ED4 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:500 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE RSPS_TLA_100KVU rational 1.5 E2A84565831B \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:100000 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE LT_All_VU_Protocols rational 7.5 CD8298ACC192 \
+	COMPONENTS=LT_All_Protocols:7.1:1
+PACKAGE PerformanceStudioOEM rational 7.5 768CFCB275A5 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:1 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE LoadTest_Base rational 7.5 27CCA9A18283 \
+	COMPONENTS="LoadTestSuite:7.5:1 LTmaster:7.1:1 LTgui:7.1:1 \
+	LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE TMvtpool rational 8.0 FE4376C9DEE0 \
+	COMPONENTS=TMvirtualtester:8.0:5
+PACKAGE RSPS_Evaluation rational 1.5 1C0AB0D69C73 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:10 LTvu:7.1:100 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE RSPS_Base_License rational 1.5 AAEC0768D8DA \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE RSPS_TLA_500VU rational 1.5 7EBAF9407ED4 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:500 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE RSPS_TLA_100KVU rational 1.5 E2A84565831B \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:100000 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE LT_All_VU_Protocols rational 7.5 CD8298ACC192 \
+	COMPONENTS=LT_All_Protocols:7.1:1
+PACKAGE PerformanceStudioOEM rational 7.5 768CFCB275A5 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:1 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE LoadTest_Base rational 7.5 27CCA9A18283 \
+	COMPONENTS="LoadTestSuite:7.5:1 LTmaster:7.1:1 LTgui:7.1:1 \
+	LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE TMvtpool rational 8.0 FE4376C9DEE0 \
+	COMPONENTS=TMvirtualtester:8.0:5
+PACKAGE RSPS_Evaluation rational 1.5 1C0AB0D69C73 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:10 LTvu:7.1:100 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE RSPS_Base_License rational 1.5 AAEC0768D8DA \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE RSPS_TLA_500VU rational 1.5 7EBAF9407ED4 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:500 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE RSPS_TLA_100KVU rational 1.5 E2A84565831B \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:100000 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE LT_All_VU_Protocols rational 7.5 CD8298ACC192 \
+	COMPONENTS=LT_All_Protocols:7.1:1
+PACKAGE PerformanceStudioOEM rational 7.5 768CFCB275A5 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:1 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE LoadTest_Base rational 7.5 27CCA9A18283 \
+	COMPONENTS="LoadTestSuite:7.5:1 LTmaster:7.1:1 LTgui:7.1:1 \
+	LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE TMvtpool rational 8.0 FE4376C9DEE0 \
+	COMPONENTS=TMvirtualtester:8.0:5
+PACKAGE RSPS_Evaluation rational 1.5 1C0AB0D69C73 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:10 LTvu:7.1:100 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE RSPS_Base_License rational 1.5 AAEC0768D8DA \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE LT_Playback_100VU rational 7.5 10B297DCA509 \
+	COMPONENTS="LTvu:7.1:100 LT_100VT:8.0:1"
+PACKAGE LT_Playback_250VU rational 7.5 46D73E06F8CA \
+	COMPONENTS="LTvu:7.1:250 LT_250VT:8.0:1"
+PACKAGE LT_Playback_500VU rational 7.5 EF451B5CFD15 \
+	COMPONENTS="LTvu:7.1:500 LT_500VT:8.0:1"
+PACKAGE LT_Playback_1000VU rational 7.5 68C15DACA3A7 \
+	COMPONENTS="LTvu:7.1:1000 LT_1000VT:8.0:1"
+PACKAGE LT_Playback_2500VU rational 7.5 41BCC971EFB0 \
+	COMPONENTS="LTvu:7.1:2500 LT_2500VT:8.0:1"
+PACKAGE LT_Playback_5000VU rational 7.5 E809693053EF \
+	COMPONENTS="LTvu:7.1:5000 LT_5000VT:8.0:1"
+PACKAGE LT_Playback_10000VU rational 7.5 79F52A91E693 \
+	COMPONENTS="LTvu:7.1:10000 LT_10000VT:8.0:1"
+PACKAGE LT_Playback_20000VU rational 7.5 0ED4D35282E1 \
+	COMPONENTS="LTvu:7.1:20000 LT_20000VT:8.0:1"
+PACKAGE LT_Playback_50000VU rational 7.5 D8A40635DE7B \
+	COMPONENTS="LTvu:7.1:50000 LT_50000VT:8.0:1"
+PACKAGE LT_Playback_100000VU rational 7.5 2624850A2BBE \
+	COMPONENTS="LTvu:7.1:100000 LT_100000VT:8.0:1"
+PACKAGE RSPS_TLA_500VU rational 1.5 7EBAF9407ED4 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:500 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE RSPS_TLA_100KVU rational 1.5 E2A84565831B \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:500 LTvu:7.1:100000 LTjolt:7.1:1 LTtux:7.1:1 \
+	LTsql:7.1:1 LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 \
+	LTdcom:7.1:1"
+PACKAGE LT_All_VU_Protocols rational 7.5 CD8298ACC192 \
+	COMPONENTS=LT_All_Protocols:7.1:1
+PACKAGE PerformanceStudioOEM rational 7.5 768CFCB275A5 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 LTmaster:7.1:1 \
+	LTgui:7.1:1 LTvu:7.1:1 LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+PACKAGE LoadTest_Base rational 7.5 27CCA9A18283 \
+	COMPONENTS="LoadTestSuite:7.5:1 LTmaster:7.1:1 LTgui:7.1:1 \
+	LTvu:7.1:50 LThttp:7.1:1"
+PACKAGE TMvtpool rational 8.0 FE4376C9DEE0 \
+	COMPONENTS=TMvirtualtester:8.0:5
+PACKAGE LT_Playback_50VU rational 7.5 24DE0865AC61 \
+	COMPONENTS="LTvu:7.1:50 LT_50VT:8.0:1"
+FEATURE ada_intelnt rational 3.2 permanent uncounted 1550E869B485 \
+	HOSTID=ANY NOTICE="Team oDDiTy" ck=92
+FEATURE adaoe_intelnt rational 3.2 permanent uncounted E182029E2754 \
+	HOSTID=ANY NOTICE="Team oDDiTy" ck=49
+FEATURE cmvc_intelnt rational 3.2 permanent uncounted 629CC6EAC892 \
+	HOSTID=ANY NOTICE="Team oDDiTy" ck=189
+INCREMENT ClearQuest rational 1.1 permanent uncounted 4607E778C203 \
+	VENDOR_STRING=3121-08498|Nodelocked||ClearQuest:1.1 HOSTID=ANY \
+	vendor_info="|Rational ClearQuest|<B.0.V.>" NOTICE="Team \
+	oDDiTy" ck=92
+INCREMENT UnifiedProcess rational 5.1 permanent uncounted \
+	B74D755F7EEF \
+	VENDOR_STRING=3121-08488|Nodelocked||UnifiedProcess:5.1 \
+	HOSTID=ANY vendor_info="|Rational Unified Process|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=166
+INCREMENT UnifiedProcess rational 5.1 permanent uncounted \
+	B74D755F7EEF \
+	VENDOR_STRING=3121-08488|Nodelocked||UnifiedProcess:5.1 \
+	HOSTID=ANY vendor_info="|Rational Unified Process|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=166
+INCREMENT TestManager rational 7.1 permanent uncounted C65CA8735D77 \
+	VENDOR_STRING=3121-09735|Nodelocked||TestManager:7.1 \
+	HOSTID=ANY vendor_info="|Rational TestManager|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=148
+INCREMENT LT_Playback_50VU rational 7.5 permanent uncounted \
+	BB8682EC7BCB \
+	VENDOR_STRING=3121-08978|Nodelocked||LT_Playback_50VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 50 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=148
+INCREMENT LT_Playback_100VU rational 7.5 permanent uncounted \
+	109BC1882F39 \
+	VENDOR_STRING=3121-08979|Nodelocked||LT_Playback_100VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 100 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=247
+INCREMENT LT_Playback_250VU rational 7.5 permanent uncounted \
+	8D2DE250D7CB \
+	VENDOR_STRING=3121-08980|Nodelocked||LT_Playback_250VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 250 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=60
+INCREMENT LT_Playback_500VU rational 7.5 permanent uncounted \
+	40D4BEC7ED04 \
+	VENDOR_STRING=3121-08981|Nodelocked||LT_Playback_500VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 500 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=193
+INCREMENT LT_Playback_1000VU rational 7.5 permanent uncounted \
+	B752F7A10572 \
+	VENDOR_STRING=3121-08982|Nodelocked||LT_Playback_1000VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 1000 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=111
+INCREMENT LT_Playback_2500VU rational 7.5 permanent uncounted \
+	998EB402B893 \
+	VENDOR_STRING=3121-08983|Nodelocked||LT_Playback_2500VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 2500 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=161
+INCREMENT LT_Playback_5000VU rational 7.5 permanent uncounted \
+	BD7375795DD6 \
+	VENDOR_STRING=3121-08984|Nodelocked||LT_Playback_5000VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 5000 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=177
+INCREMENT LT_Playback_10000VU rational 7.5 permanent uncounted \
+	8A9818FA3704 \
+	VENDOR_STRING=3121-08985|Nodelocked||LT_Playback_10000VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 10000 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=99
+INCREMENT LT_Playback_20000VU rational 7.5 permanent uncounted \
+	49EFCAB7A805 \
+	VENDOR_STRING=3121-08986|Nodelocked||LT_Playback_20000VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 20000 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=165
+INCREMENT LT_Playback_50000VU rational 7.5 permanent uncounted \
+	B8D57C72F574 \
+	VENDOR_STRING=3121-08987|Nodelocked||LT_Playback_50000VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 50000 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=158
+INCREMENT LT_Playback_100000VU rational 7.5 permanent uncounted \
+	1EB3F7ED2B6D \
+	VENDOR_STRING=3121-08988|Nodelocked||LT_Playback_100000VU:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test 100000 Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=123
+INCREMENT LTmaster rational 7.1 permanent uncounted 4A0EF96A2221 \
+	VENDOR_STRING=3121-08761|Nodelocked||LTmaster:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test Master|<B.0.V.>" NOTICE="Team \
+	oDDiTy" ck=116
+INCREMENT ODT rational 7.1 permanent uncounted 707B2399600F \
+	VENDOR_STRING=3121-99999|Nodelocked||u-suck:7.1 HOSTID=ANY \
+	vendor_info="|Rational Swim Protection|<B.0.V.>" NOTICE="Team \
+	oDDiTy - learn to swim!" ck=148
+INCREMENT LTgui rational 7.1 permanent uncounted 01CE7F0D19CC \
+	VENDOR_STRING=3121-08762|Nodelocked||LTgui:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test GUI Agent|<B.0.V.>" NOTICE="Team \
+	oDDiTy" ck=126
+INCREMENT LThttp rational 7.1 permanent uncounted 08EE6063E935 \
+	VENDOR_STRING=3121-08774|Nodelocked||LThttp:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - HTTP Protocol|<B.O.V.>" \
+	NOTICE="Team oDDiTy" ck=49
+INCREMENT LTsql rational 7.1 permanent uncounted 7359F43A24F7 \
+	VENDOR_STRING=3121-08775|Nodelocked||LTsql:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - SQL Protocol|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=50
+INCREMENT LTtux rational 7.1 permanent uncounted 2EB70D044BB5 \
+	VENDOR_STRING=3121-08778|Nodelocked||LTtux:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - Tuxedo Protocol|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=110
+INCREMENT LTjolt rational 7.1 permanent uncounted 039BC505634F \
+	VENDOR_STRING=3121-08777|Nodelocked||LTjolt:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - Jolt Protocol|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=71
+INCREMENT LTsap rational 7.1 permanent uncounted 9468406B9687 \
+	VENDOR_STRING=3121-08776|Nodelocked||LTsap:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - SAP Protocol|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=85
+INCREMENT LTdcom rational 7.1 permanent uncounted 211983528900 \
+	VENDOR_STRING=3121-08779|Nodelocked||LTdcom:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - DCOM Protocol|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=21
+INCREMENT LTcorba rational 7.1 permanent uncounted CAAE9FCD397B \
+	VENDOR_STRING=3121-08780|Nodelocked||LTcorba:7.1 HOSTID=ANY \
+	vendor_info="|Rational Test - CORBA Protocol|<B.0.V.>" \
+	NOTICE="Team oDDiTy"
+INCREMENT LT_All_VU_Protocols rational 7.5 permanent uncounted \
+	6899370C1D5E \
+	VENDOR_STRING=3121-08996|Nodelocked||LT_All_VU_Protocols:7.5 \
+	HOSTID=ANY vendor_info="|Rational Test - All \
+	Protocols|<B.0.V.>" NOTICE="Team oDDiTy"
+INCREMENT TeamTest rational 7.1 permanent uncounted C7A95261C1F5 \
+	VENDOR_STRING="3121-08496|Nodelocked||Robot:7.1, \
+	TestManager:7.1, LogViewer:7.1, ClearQuest_TeamTest:1.1" \
+	HOSTID=ANY vendor_info="|Rational TeamTest|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=102
+INCREMENT TestRealTime rational 1.0 permanent uncounted 089E8BDE392D \
+	VENDOR_STRING=3121-10310|Nodelocked||TestRealTime:1.0 \
+	HOSTID=ANY vendor_info="|Rational Test RealTime|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=190
+INCREMENT TestStudio rational 1.0 permanent uncounted 8D365885C56A \
+	VENDOR_STRING="3121-08476|Nodelocked||RequisitePro:4.0, \
+	soda_word:3.5, TestFactory:7.1, ClearQuest:1.1, Robot:7.1, \
+	TestManager:7.1, LogViewer:7.1, VisualPureCoverage:6.0, \
+	PurifyNT:6.0, VisualQuantify:6.0, UnifiedProcess:5.1" \
+	HOSTID=ANY vendor_info="|Rational Suite TestStudio|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=135
+INCREMENT UnifyingPlatform rational 1.0 permanent uncounted \
+	A72EA046E19D \
+	VENDOR_STRING="3121-09814|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, TestManager:7.1, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	Team Unifying Platform|<B.0.V.>" NOTICE="Team oDDiTy" ck=137
+INCREMENT RationalSuiteEnterprise rational 1.0 permanent uncounted \
+	A8B91C86131C \
+	VENDOR_STRING="3121-08470|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	TestFactory:7.1, Robot:7.1, TestManager:7.1, LogViewer:7.1, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	Enterprise|<B.0.V.>" NOTICE="Team oDDiTy" ck=132
+INCREMENT DevelopmentStudioUNIXWeb rational 1.0 permanent uncounted \
+	DE7C95839194 \
+	VENDOR_STRING="3121-08506|Nodelocked||RequisitePro:4.0, \
+	ClearQuest:1.1" HOSTID=ANY vendor_info="|Rational Suite \
+	DevelopmentStudio for UNIX (NT Components)|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=172
+INCREMENT RoseRealTimeDevelopmentStudio rational 6.1 permanent \
+	uncounted 0F18592F04C4 \
+	VENDOR_STRING="3121-09036|Nodelocked||RoseRealTime:6.1, \
+	ClearQuest:1.1, RequisitePro:4.0, soda_word:3.5, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	DevelopmentStudio - RealTime Edition|<B.0.V.>" NOTICE="Team \
+	oDDiTy" ck=130
+INCREMENT TestAccelerator rational 7.1 permanent uncounted \
+	4FA53B705C04 \
+	VENDOR_STRING="3121-08491|Nodelocked||TestAccelerator:7.1, \
+	VisualPureCoverage:6.0" HOSTID=ANY vendor_info="|Rational \
+	TestAccelerator|<B.0.V.>" NOTICE="Team oDDiTy" ck=63
+INCREMENT DevelopmentStudio rational 1.0 permanent uncounted \
+	58EC761F2A19 \
+	VENDOR_STRING="3121-08474|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	DevelopmentStudio|<B.0.V.>" NOTICE="Team oDDiTy" ck=115
+INCREMENT AnalystStudio rational 1.0 permanent uncounted 87925E8035EE \
+	VENDOR_STRING="3121-08472|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_modeler_windows:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	AnalystStudio|<B.0.V.>" NOTICE="Team oDDiTy" ck=154
+INCREMENT SoDA_Frame rational 3.0 permanent uncounted 87B6A9AB13E0 \
+	VENDOR_STRING=3121-08486|Nodelocked||SoDA_Frame:3.0.2 \
+	HOSTID=ANY vendor_info="|Rational SoDA with Frame|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=204
+INCREMENT soda_word rational 3.5 permanent uncounted BF12D8F748E5 \
+	VENDOR_STRING=3121-08484|Nodelocked||soda_word:3.5 HOSTID=ANY \
+	vendor_info="|Rational SoDA for Word|<B.0.V.>" NOTICE="Team \
+	oDDiTy" ck=140
+INCREMENT RoseRealTime rational 6.1 permanent uncounted 13DB57021B0F \
+	VENDOR_STRING=3121-09022|Nodelocked||RoseRealTime:6.1 \
+	HOSTID=ANY vendor_info="|Rational Rose RealTime|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=68
+INCREMENT atbuCQTeamTest rational 7.1 permanent uncounted \
+	D47F041231FD \
+	VENDOR_STRING="3121-08740|Nodelocked||ClearQuest_TeamTest:1.1, \
+	TestManager:7.1" HOSTID=ANY vendor_info="|Rational \
+	ClearQuest/TeamTest Edition|<B.0.V.>" NOTICE="Team oDDiTy" \
+	ck=123
+INCREMENT rose_j_windows rational 6.0 permanent uncounted \
+	6FC1B39AB0D4 \
+	VENDOR_STRING=3121-08400|Nodelocked||rose_j_windows:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Professional J \
+	Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=195
+INCREMENT rose_windows_datamodeler rational 6.0 permanent uncounted \
+	93C1AC3801BB \
+	VENDOR_STRING=3121-09200|Nodelocked||rose_windows_datamodeler:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Professional Data \
+	Modeler Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=110
+INCREMENT rose_cpp_windows rational 6.0 permanent uncounted \
+	45A18679B69F \
+	VENDOR_STRING=3121-08392|Nodelocked||rose_cpp_windows:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Professional C+-+- \
+	Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=151
+INCREMENT rose_ada_windows rational 6.0 permanent uncounted \
+	0033888879A0 \
+	VENDOR_STRING=3121-08622|Nodelocked||rose_ada_windows:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Professional Ada \
+	Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=83
+INCREMENT rose_modeler_windows rational 6.0 permanent uncounted \
+	006D5D6B3D4D \
+	VENDOR_STRING=3121-08396|Nodelocked||rose_modeler_windows:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Modeler \
+	Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=114
+INCREMENT inline_standard rational 1.2 permanent uncounted \
+	6BBCE326F37A \
+	VENDOR_STRING=3121-09218|Nodelocked||inline_standard:1.2 \
+	HOSTID=ANY vendor_info="|Rational Rose Inline EJB \
+	Addin|<B.0.V.>" NOTICE="Team oDDiTy" ck=149
+INCREMENT rose_enterprise_windows rational 6.0 permanent uncounted \
+	3C71209464AE \
+	VENDOR_STRING=3121-08408|Nodelocked||rose_enterprise_windows:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Enterprise \
+	Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=103
+INCREMENT Robot_PS rational 7.1 permanent uncounted 50F96E2A91F5 \
+	VENDOR_STRING="3121-08997|Nodelocked||Robot_PS:7.1, \
+	TestManager:7.1, LogViewer:7.1" HOSTID=ANY \
+	vendor_info="|Rational Robot for PeopleSoft|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=93
+INCREMENT Robot rational 7.1 permanent uncounted 6124D55B172C \
+	VENDOR_STRING="3121-08494|Nodelocked||Robot:7.1, \
+	TestManager:7.1, LogViewer:7.1" HOSTID=ANY \
+	vendor_info="|Rational Robot|<B.0.V.>" NOTICE="Team oDDiTy" \
+	ck=155
+INCREMENT RequisitePro rational 4.0 permanent uncounted 477AC94F26B2 \
+	VENDOR_STRING=3121-08478|Nodelocked||RequisitePro:4.0 \
+	HOSTID=ANY vendor_info="|Rational RequisitePro|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=127
+INCREMENT RequisiteWeb rational 4.0 permanent uncounted C1C87A49F351 \
+	VENDOR_STRING=3121-08481|Nodelocked||RequisiteWeb:4.0 \
+	HOSTID=ANY vendor_info="|Rational RequisiteWeb|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=166
+INCREMENT VisualQuantify rational 6.0 permanent uncounted \
+	9D194660DDFF \
+	VENDOR_STRING=3121-08502|Nodelocked||VisualQuantify:6.0 \
+	HOSTID=ANY vendor_info="|Rational Quantify for \
+	Windows|<B.0.V.>" NOTICE="Team oDDiTy" ck=134
+INCREMENT PurifyNT rational 6.0 permanent uncounted 5598B5788E48 \
+	VENDOR_STRING=3121-08500|Nodelocked||PurifyNT:6.0 HOSTID=ANY \
+	vendor_info="|Rational Purify for Windows|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=134
+INCREMENT PurifyPlus rational 1.0 permanent uncounted ABEC6A6E726B \
+	VENDOR_STRING="3121-10157|Nodelocked||PurifyNT:6.0 \
+	VisualQuantify:6.0, VisualPureCoverage:6.0" HOSTID=ANY \
+	vendor_info="|Rational Purify Plus for Windows|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=110
+INCREMENT VisualPureCoverage rational 6.0 permanent uncounted \
+	C89CCCB9FA99 \
+	VENDOR_STRING=3121-08504|Nodelocked||VisualPureCoverage:6.0 \
+	HOSTID=ANY vendor_info="|Rational PureCoverage for \
+	Windows|<B.0.V.>" NOTICE="Team oDDiTy" ck=201
+INCREMENT RationalProcessWorkbench rational 1.0 permanent uncounted \
+	FFF46FBB98EE \
+	VENDOR_STRING=3121-09699|Nodelocked||RationalProcessWorkbench:1.0 \
+	HOSTID=ANY vendor_info="|Rational Process Workbench|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=218
+INCREMENT LoadTest_Base rational 7.5 permanent uncounted ADFF65DEDF80 \
+	VENDOR_STRING="3121-09732|Nodelocked||Robot:7.1, \
+	TestManager:7.1, LogViewer:7.1, ClearQuest_TeamTest:1.1" \
+	HOSTID=ANY vendor_info="|Rational LoadTest Base \
+	License|<B.0.V.>" NOTICE="Team oDDiTy" ck=3
+INCREMENT DeveloperKitNT rational 1.0 permanent uncounted \
+	EADA2829A9F1 \
+	VENDOR_STRING="3121-09041|Nodelocked||rose_modeler_windows:6.0, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0" \
+	HOSTID=ANY vendor_info="|Rational Developer Kit|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=151
+INCREMENT rose_vb_windows rational 6.0 permanent uncounted \
+	8C4887F05DDE \
+	VENDOR_STRING=3121-08404|Nodelocked||rose_vb_windows:6.0 \
+	HOSTID=ANY vendor_info="|Rational Rose Professional Visual \
+	Basic Edition|<B.0.V.>" NOTICE="Team oDDiTy" ck=124
+INCREMENT ContentStudio rational 1.0 permanent uncounted 7EB1A1B5AE94 \
+	VENDOR_STRING="3121-09878|Nodelocked||ClearQuest:1.1 \
+	RequisitePro:4.0, soda_word:3.5, TestManager:7.1, \
+	UnifiedProcess:5.1 ClearCase_LT:1.0" HOSTID=ANY \
+	vendor_info="|Rational Suite ContentStudio |<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=132
+INCREMENT TestRealTimeVT5 rational 1.0 permanent uncounted \
+	D177B53DF77D \
+	VENDOR_STRING=3121-10314|Nodelocked||TestRealTimeVT5:1.0 \
+	HOSTID=ANY vendor_info="|Rational Test RealTime Virtual \
+	Testers 2-5|<B.0.V.>" NOTICE="Team oDDiTy" ck=162
+INCREMENT TestRealTimeVT25 rational 1.0 permanent uncounted \
+	9AD8F46ADAF0 \
+	VENDOR_STRING=3121-10315|Nodelocked||TestRealTimeVT25:1.0 \
+	HOSTID=ANY vendor_info="|Rational Test RealTime Virtual \
+	Testers 6-25|<B.0.V.>" NOTICE="Team oDDiTy" ck=140
+INCREMENT TestRealTimeVT100 rational 1.0 permanent uncounted \
+	FE7989FB5AC0 \
+	VENDOR_STRING=3121-10316|Nodelocked||TestRealTimeVT100:1.0 \
+	HOSTID=ANY vendor_info="|Rational Test RealTime Virtual \
+	Testers 26-100|<B.0.V.>" NOTICE="Team oDDiTy" ck=163
+INCREMENT TestRealTimeVT100plus rational 1.0 permanent uncounted \
+	F7FFA99A3A0A \
+	VENDOR_STRING=3121-10317|Nodelocked||TestRealTimeVT100plus:1.0 \
+	HOSTID=ANY vendor_info="|Rational Test RealTime Virtual \
+	Testers 100+|<B.0.V.>" NOTICE="Team oDDiTy" ck=103
+INCREMENT ClearCase_LT rational 1.0 permanent uncounted 07D4C6754377 \
+	VENDOR_STRING=3121-09475|Nodelocked||ClearCase_LT:1.0 \
+	HOSTID=ANY vendor_info="|Rational ClearCase LT|<B.0.V.>" \
+	NOTICE="Team oDDiTy" ck=70
+INCREMENT ClearQuestMultiSite rational 1.0 permanent uncounted \
+	E182795292F9 \
+	VENDOR_STRING=3121-10064|Nodelocked||ClearQuestMultiSite:1.0 \
+	HOSTID=ANY vendor_info="|Rational ClearQuest \
+	MultiSite|<B.0.V.>" NOTICE="Team oDDiTy" ck=114
+INCREMENT TMvtpool rational 8.0 permanent uncounted 4C2B7350D54D \
+	VENDOR_STRING=3121-09726|Nodelocked||TMvtpool:8.0 HOSTID=ANY \
+	vendor_info="|Rational Test 5 Pooled Virtual Tester \
+	Pack|<B.0.V.>" NOTICE="Team oDDiTy" ck=120
+INCREMENT RSPS_Evaluation rational 1.5 permanent uncounted \
+	79CC84809DB8 \
+	VENDOR_STRING="3121-08978|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	TestFactory:7.1, Robot:7.1, TestManager:7.1, LogViewer:7.1, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	PerformanceStudioEvaluation|<B.0.V.>" NOTICE="Team oDDiTy" \
+	ck=171
+INCREMENT PerformanceStudioOEM rational 7.5 permanent uncounted \
+	D105577D861B VENDOR_STRING="3121-08991|Nodelocked||Robot:7.1, \
+	TestManager:7.1, LogViewer:7.1, ClearQuest_TeamTest:1.1" \
+	HOSTID=ANY vendor_info="|Rational PerformanceStudio \
+	OEM|<B.0.V.>" NOTICE="Team oDDiTy" ck=142
+INCREMENT RSPS_Base_License rational 1.5 permanent uncounted \
+	4E458C1C9095 \
+	VENDOR_STRING="3121-08977|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	TestFactory:7.1, Robot:7.1, TestManager:7.1, LogViewer:7.1, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	PerformanceStudio|<B.0.V.>" NOTICE="Team oDDiTy" ck=131
+INCREMENT RSPS_TLA_500VU rational 1.5 permanent uncounted \
+	2F476AC9796F \
+	VENDOR_STRING="3121-08989|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	TestFactory:7.1, Robot:7.1, TestManager:7.1, LogViewer:7.1, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	PerformanceStudio TLA - 500 VU, 500 GUI, All \
+	Protocols|<B.0.V.>" NOTICE="Team oDDiTy" ck=144
+INCREMENT RSPS_TLA_100KVU rational 1.5 permanent uncounted \
+	DAAE0C48FB4D \
+	VENDOR_STRING="3121-08990|Nodelocked||ClearQuest:1.1, \
+	RequisitePro:4.0, soda_word:3.5, rose_enterprise_windows:6.0, \
+	TestFactory:7.1, Robot:7.1, TestManager:7.1, LogViewer:7.1, \
+	VisualPureCoverage:6.0, PurifyNT:6.0, VisualQuantify:6.0, \
+	UnifiedProcess:5.1" HOSTID=ANY vendor_info="|Rational Suite \
+	PerformanceStudio TLA - 100000 VU, 500 GUI, All \
+	Protocols|<B.0.V.>" NOTICE="Team oDDiTy" ck=150
+INCREMENT DevelopmentStudioUNIXWebRT rational 1.0 permanent uncounted \
+	6F15BFD02BCC \
+	VENDOR_STRING="3121-10573|Nodelocked||RequisitePro:4.0, \
+	ClearQuest:1.1|dsbuRSDSRTU, TestManager:7.1, ClearCase_LT:1.0" \
+	HOSTID=ANY vendor_info="|Rational Suite DevelopmentStudio \
+	RealTime for UNIX (Windows Components) |<B.0.V.>" NOTICE="Team \
+	oDDiTy" ck=139
+INCREMENT PurifyPlusRealTime rational 1.0 permanent uncounted \
+	C572D7734AD6 \
+	VENDOR_STRING=33121-11213|3121-11214|Nodelocked||PurifyPlusRealTime:1.0|atbuPurifyPlusRealTime \
+	HOSTID=ANY vendor_info="|Rational PurifyPlus RealTime \
+	|<B.0.V.>" NOTICE="Team oDDiTy" ck=94

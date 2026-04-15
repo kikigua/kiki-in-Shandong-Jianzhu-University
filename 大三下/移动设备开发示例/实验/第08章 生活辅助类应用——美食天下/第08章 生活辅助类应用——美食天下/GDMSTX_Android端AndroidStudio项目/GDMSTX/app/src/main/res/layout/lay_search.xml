@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1" 
+    android:id="@+id/parent">
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:orientation="horizontal"
+        android:paddingBottom="5.0dip"
+        android:paddingTop="5.0dip" >
+
+        <ImageView
+            android:id="@+id/search_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/btnback" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:background="@drawable/search_lay_border"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/search_pop_text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:drawablePadding="10.0dip"
+                android:drawableRight="@drawable/pulltoselect"
+                android:gravity="center_vertical"
+                android:paddingLeft="10.0dip"
+                android:text="菜谱"
+                android:textColor="#ff333333" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="10.0dip"
+                android:background="#ffb0b0b0" />
+
+            <ImageView
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:alpha="0.5"
+                android:src="@drawable/btnsearch" />
+
+            <EditText
+                android:id="@+id/search_et"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2.0dip"
+                android:background="@drawable/search_edit_border"
+                android:gravity="center_vertical"
+                android:hint="想找什么，这里输入"
+                android:imeOptions="actionSearch"
+                android:paddingRight="20.0dip"
+                android:singleLine="true"
+                android:textColorHint="#ffb0b0b0"
+                android:textSize="15sp" >
+
+                <requestFocus android:layout_height="match_parent" />
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/search_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-20.0dip"
+                android:background="@drawable/img_selector_delete"
+                android:padding="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_linear_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55.0dip"
+        android:background="#fff8f8f8"
+        android:orientation="vertical" >
+
+        <View 
+            android:background="@drawable/app_line"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"/>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View  
+                android:background="@drawable/app_line"
+            	android:layout_width="fill_parent"
+           		android:layout_height="1.0dip"/>
+
+            <LinearLayout 
+                android:id="@+id/line_red"
+                android:layout_width="0.0dip"
+                android:layout_height="3.0dip"
+                android:background="#ffff0000"
+                android:orientation="horizontal" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/search_content_listview"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_linear_lay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80.0dip"
+        android:divider="@null"
+        android:paddingTop="5.0dip" />
+
+    <RelativeLayout
+        android:id="@+id/search_clearHistory_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/view_border"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@+id/search_clearHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/clearhistory"
+            android:drawablePadding="20.0dip"
+            android:gravity="bottom"
+            android:text="清除历史"
+            android:textColor="#ff888888" />
+    </RelativeLayout>
+
+</RelativeLayout>

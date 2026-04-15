@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/meishi_bg"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/wenben_bg" >
+        <TextView
+        android:id="@+id/cm"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="菜名"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+       <Button
+           android:id="@+id/bt_xiala"
+           android:layout_width="40dip"
+           android:layout_height="40dip"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="18dp"
+           android:background="@drawable/xiala"/>
+  
+     </RelativeLayout> 
+     <Gallery 
+	    android:id="@+id/Gallery01" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="210dip"
+	    android:spacing="2dip"
+        />
+ 
+    <ScrollView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:scrollbars="vertical"
+	     android:fadingEdge="vertical">
+        
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    
+    
+   
+    
+    <TextView 
+        android:id="@+id/msdetail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="详细介绍美食"
+        android:textColor="#000000"
+        />
+    </LinearLayout>
+    
+  </ScrollView>
+</LinearLayout>
+
+

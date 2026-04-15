@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.smbms.dao.bill.BillMapper">
+
+    <!-- 根据条件查询订单表(分页显示) -->
+    <select id="getBillList" resultType="Bill">
+        select b.*,p.proName as providerName from smbms_bill b,smbms_provider p
+        where b.providerId = p.id
+        <if test="productName != null and productName != ''">
+            and b.productName like CONCAT ('%',#{productName},'%')
+        </if>
+        <if test="providerId != null">
+            and b.providerId = #{providerId}
+        </if>
+        <if test="isPayment != null">
+            and b.isPayment = #{isPayment}
+        </if>
+        order by creationDate DESC limit #{from},#{pageSize}
+    </select>
+
+
+    <!-- 根据供应商列表，获取该供应商列表下订单列表信息-foreach_array -->
+    <select id="getBillByProviderId_foreach_array" resultMap="billMapByProIds">
+        select * from smbms_bill where providerId in
+        <foreach collection="array" item="proIds" open="(" separator="," close=")">
+            #{proIds}
+        </foreach>
+    </select>
+    <resultMap type="Bill" id="billMapByProIds">
+        <id property="id" column="id"/>
+        <result property="billCode" column="billCode"/>
+        <result property="productName" column="productName"/>
+        <result property="totalPrice" column="totalPrice"/>
+    </resultMap>
+
+
+    <!-- 根据供应商列表，获取该供应商列表下订单列表信息-foreach_list -->
+    <select id="getBillByProviderId_foreach_list" resultMap="billMapByProIds">
+        select * from smbms_bill where providerId in
+        <foreach collection="list" item="proList" open="(" separator="," close=")">
+            #{proList}
+        </foreach>
+    </select>
+
+    <!-- 根据供应商列表和订单编码(多参数)，获取该供应商列表下指定订单编码的订单列表表信息-foreach_map -->
+    <select id="getBillByConditionMap_foreach_map" resultMap="billMapByProIds">
+        select * from smbms_bill
+        where billCode like CONCAT ('%',#{billCode},'%') and providerId in
+        <foreach collection="providerIds" item="proList" open="(" separator="," close=")">
+            #{proList}
+        </foreach>
+    </select>
+
+</mapper>

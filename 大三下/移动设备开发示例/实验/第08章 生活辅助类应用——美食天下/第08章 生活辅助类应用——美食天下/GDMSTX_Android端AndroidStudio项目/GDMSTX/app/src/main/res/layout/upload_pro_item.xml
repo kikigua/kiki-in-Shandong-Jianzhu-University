@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 上传菜品过程 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:layout_margin="5dip">
+    <TextView 
+        android:id="@+id/order"
+        android:hint="1"
+        android:layout_width="20dip"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:layout_margin="5dip"
+        />
+    <ImageView 
+        android:id="@+id/image"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recipe_defult_img"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:hint="点击添加步骤"
+		android:layout_marginLeft="5dip"
+		/>
+    
+</LinearLayout>

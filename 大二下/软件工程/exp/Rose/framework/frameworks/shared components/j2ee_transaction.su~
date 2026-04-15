@@ -1,0 +1,204 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "transaction"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C9269F008F"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C9269F00A5"
+	    supplier   	"Component View::java::rmi"
+	    quidu      	"39C9268C01D7"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C926A001EA"
+	    supplier   	"Component View::javax::transaction::xa"
+	    quidu      	"39C926A001E5"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "InvalidTransactionException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"InvalidTransactionException.java"))
+	    quid       	"39C9269F0090"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9269F00A6"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "TransactionRequiredException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TransactionRequiredException.java"))
+	    quid       	"39C9269F011C"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9269F0130"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "TransactionRolledbackException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TransactionRolledbackException.java"))
+	    quid       	"39C9269F0194"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9269F01AA"
+		    supplier   	"Component View::java::rmi::RemoteException"
+		    quidu      	"39C9269303E1"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Status" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Status.java"))
+	    quid       	"39C9269F01BC"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "HeuristicCommitException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"HeuristicCommitException.java"))
+	    quid       	"39C9269F03B1"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "HeuristicMixedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"HeuristicMixedException.java"))
+	    quid       	"39C9269F03D9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "HeuristicRollbackException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"HeuristicRollbackException.java"))
+	    quid       	"39C926A0000F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "TransactionManager" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"TransactionManager.java"))
+	    quid       	"39C926A00037"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "NotSupportedException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"NotSupportedException.java"))
+	    quid       	"39C926A00069"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "SystemException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SystemException.java"))
+	    quid       	"39C926A00087"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "RollbackException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RollbackException.java"))
+	    quid       	"39C926A000B9"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Transaction" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Transaction.java"))
+	    quid       	"39C926A001BD"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A001EB"
+		    supplier   	"Component View::javax::transaction::xa::XAResource"
+		    quidu      	"39C926A001E6"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Synchronization" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Synchronization.java"))
+	    quid       	"39C926A001EF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "UserTransaction" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UserTransaction.java"))
+	    quid       	"39C926A0020D"
+	    stereotype 	""
+	    language   	"Java")
+	(object SubSystem "xa"
+	    quid       	"39C926A001E5"
+	    physical_models 	(list unit_reference_list
+		(object module "XAResource" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"XAResource.java"))
+		    quid       	"39C926A001E6"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Xid" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Xid.java"))
+		    quid       	"39C926A00236"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "XAException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"XAException.java"))
+		    quid       	"39C926A1002E"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

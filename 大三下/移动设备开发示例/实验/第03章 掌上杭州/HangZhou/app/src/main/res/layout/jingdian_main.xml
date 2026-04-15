@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+        android:id="@+id/bb"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/meishi_bg"
+	    android:layout_height="60dip"
+	    >
+	    <!-- 褰撳墠鏅偣 -->
+	    <LinearLayout
+	        android:id="@+id/curbutton"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/bg_delwords"
+	        android:layout_marginTop="5dp"
+	        
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/current"
+	            android:layout_gravity="center|center_vertical"
+	            />
+	        <TextView 
+	            android:text="@string/curbuttonText"
+	            android:textColor="@color/black"
+	            android:layout_width="wrap_content"
+	       		android:layout_height="wrap_content"
+	       		android:layout_gravity="center"
+	            />
+	    </LinearLayout>
+	    
+	    <!-- 鎵�鏈夋櫙鐐� -->
+
+	    <LinearLayout
+	        android:id="@+id/allbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="5dp"	    
+	        android:background="@drawable/bg_delwords"
+	        android:orientation="vertical" >
+
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             android:layout_gravity="center|center_vertical"
+	            android:src="@drawable/all" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="@string/allbuttonText"
+	            android:textColor="@color/black" />
+	    </LinearLayout>
+
+	    <!-- 閿佸畾浣嶇疆 -->
+	    <LinearLayout
+	        android:id="@+id/suoding"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/bg_delwords"
+	        android:layout_marginTop="5dp"
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/location"
+	            android:layout_gravity="center|center_vertical"
+	            />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="@string/suoding"
+	            android:textColor="@color/black" />
+
+	    </LinearLayout>
+	     <!-- 鐓х浉鏈� -->
+	    <LinearLayout
+	        android:id="@+id/camera"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/bg_delwords"
+	        android:layout_marginTop="5dp"
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/takecamera"
+	            android:layout_gravity="center|center_vertical"
+	           
+	            />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             android:layout_gravity="center"
+	            android:layout_marginLeft="2dp"
+	            android:text="@string/camera"
+	            android:textColor="@color/black" />
+
+	    </LinearLayout>
+	     <!-- 鏇村 -->
+	    <LinearLayout
+	        android:id="@+id/more"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"	        
+	        android:background="@drawable/bg_delwords"
+	        android:layout_marginTop="7dp"
+	         	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/more"
+	            android:layout_gravity="center|center_vertical"
+	            />
+	        <TextView 
+	            android:text="@string/more"
+	            android:textColor="@color/black"
+	            android:layout_width="wrap_content"
+	       		android:layout_height="wrap_content"
+	       		 android:layout_gravity="center"
+	            />
+	    </LinearLayout>
+	    
+	     <!-- 閫�鍑� -->
+	    <LinearLayout
+	        android:id="@+id/exit"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/bg_delwords"
+	        android:layout_marginTop="5dp"
+	         
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/exit"
+	            android:layout_gravity="center|center_vertical"
+	            />
+	        <TextView 
+	            android:text="@string/exit"
+	            android:textColor="@color/black"
+	            android:layout_width="wrap_content"
+	       		android:layout_height="wrap_content"
+	       		 android:layout_gravity="center"
+	            />
+	    </LinearLayout>
+		    
+	</LinearLayout>
+	  <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/bb" />
+
+	  <ImageButton
+	      android:id="@+id/ib"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentBottom="true"
+	      android:layout_alignParentRight="true"
+	      android:layout_marginBottom="17dp"
+	      android:layout_marginRight="20dp"
+	      android:background="@drawable/ib_mapbt" />
+ 
+</RelativeLayout>

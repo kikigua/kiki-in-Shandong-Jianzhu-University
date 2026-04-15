@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout 
+        android:layout_margin="10dip"
+        android:id="@+id/menu_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" 
+        android:layout_centerInParent="true"
+        android:padding="10dip"
+        android:background="@drawable/shape_dialog"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提示"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <View 
+            android:layout_width="match_parent"
+            android:background="@color/gray"
+            android:layout_height="0.5dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"/>
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="20sp" 
+            android:layout_marginBottom="5dip"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:padding="5dip"
+                android:id="@+id/ok_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="@color/black" 
+                />
+            <View 
+                android:layout_width="10dip"
+                android:layout_height="2dip"/>
+
+            <Button
+                android:padding="5dip"
+                android:id="@+id/cancel_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

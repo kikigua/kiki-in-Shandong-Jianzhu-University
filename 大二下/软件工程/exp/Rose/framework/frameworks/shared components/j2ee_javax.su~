@@ -1,0 +1,77 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "javax"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C9266003D8"
+    physical_models 	(list unit_reference_list
+	(object SubSystem "activation"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_activation.sub"
+	    quid       	"39C926610004")
+	(object SubSystem "rmi"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_rmi.sub"
+	    quid       	"39C9268C015A")
+	(object SubSystem "transaction"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_transaction.sub"
+	    quid       	"39C9269F008F")
+	(object SubSystem "security"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_security.sub"
+	    quid       	"39C926A10309")
+	(object SubSystem "sql"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_sql.sub"
+	    quid       	"39C926A9030B")
+	(object SubSystem "jms"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_jms.sub"
+	    quid       	"39C926B30157")
+	(object SubSystem "naming"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_naming.sub"
+	    quid       	"39C926B80334")
+	(object SubSystem "net"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_net.sub"
+	    quid       	"39C926E90321")
+	(object SubSystem "mail"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_mail.sub"
+	    quid       	"39C926FC021A")
+	(object SubSystem "servlet"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_servlet.sub"
+	    quid       	"39C9273B03A1")
+	(object SubSystem "ejb"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2ee_ejb.sub"
+	    quid       	"39C9275C0312")
+	(object SubSystem "swing"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_swing.sub"
+	    quid       	"39C92A7801C2")
+	(object SubSystem "accessibility"
+	    is_unit    	TRUE
+	    is_loaded  	FALSE
+	    file_name  	"$FRAMEWORK_PATH\\Shared Components\\j2se_1_3_accessibility.sub"
+	    quid       	"39C92B400012"))
+    physical_presentations 	(list unit_reference_list))

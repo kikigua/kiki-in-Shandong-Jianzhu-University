@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+html {   
+	font-size: 12px;
+}
+body {
+	font-family: Arial;
+	background-color: #333;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+header {
+	height: 200px;
+	background-image: url(images/header_bg.jpg);
+}
+header h1 {
+	height: 160px;
+	font: bold italic 6em/160px 'Times New Roman';
+	margin-left: 1.5em;
+	color: rgb(6, 66, 126);
+	text-shadow:2px 2px 2px rgba(128, 128, 128, 0.8);
+}
+.menu {
+	margin-top: 1px;	
+	list-style-type: none;/* 设置列表元素前的圆点样式*/
+	height: 39px;
+	line-height: 39px;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-size: 0;       /*消除inline元素间的空格*/
+}
+.menu li {
+    color: #8b1a01;
+	display: inline-block;
+	text-align: center;	
+	padding: 0 9px;	
+	font-size: 1.2rem; 
+   	cursor: pointer;/*一些不同的光标，光标呈现为指示链接的指针（一只手）*/
+}
+.menu li:hover {
+	text-decoration: underline;
+    color: #ef3a25;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.menu li:not(:last-child) {
+	border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+.container {
+	display: flex;
+}
+main {
+	width: 60%;	
+}
+aside {
+	width: 20%;	
+}
+.left {
+	text-align:center;
+}
+aside h3{
+	margin-top: 20px;
+}
+h3{
+	font-size: 1.5em;
+	padding: 2px 10px 5px;
+}
+aside input[type="text"], input[type="password"] {
+	padding: .6em .5em .5em .5em;
+	border: 1px solid #ccc;
+	border-radius: .25em;
+	outline: 0;	
+	margin: 0 auto 10px;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	border: 1px solid #f38752;
+}
+input[type="submit"] {
+	background-color: #5e92f8;
+	color: white;
+	border: none;
+	border-radius: 12px;
+	width: 8em;
+	padding: .5em;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+    font-size: 1.3em;
+}
+input[type="submit"]:hover {	
+	color: orange;	
+}
+input[type="submit"]:active {
+	color:red;
+	box-shadow: 0px 0px #999;
+}
+.right {
+    display: flex;
+    align-items: center;/*将弹性 <div> 元素的所有项目的居中对齐：*/
+	color: white;
+	background-color: #759bc9;
+	margin: 0 0 0 .5rem;
+	width: calc(20% - .5rem);
+    height: 700px;
+}
+.right p {
+    font: 1.5em/1.2em 'Book Antiqua','Times New Roman',serif;       /* 相对父元素字体大小 */
+	padding: 0px 20px 0px;
+	font-style: italic;
+	text-align: center;
+}
+footer {
+	height: 100px;
+	color: white;
+	background-color: #ebaf67;
+	padding: 0px 10px; 
+	line-height: 80px;
+}
+main h2 {
+	font-size: 2.5em;
+	padding: 15px 6px 9px;
+}
+.intro {
+	column-count: 3;
+	column-gap: 1rem;
+	text-align: justify;
+	margin-bottom: 1em;
+}
+#gallary {
+	display:flex;
+	justify-content:space-between;
+}
+#gallary img {
+	display: block;
+	width: calc( (100% - 2rem) / 3);	/* (100% - 1em * 2) / 3 */
+}
+#table1 {
+	border-collapse: collapse;
+	width: calc(100% - 1em);
+	margin: 5px auto;
+}
+#table1 td, th {	
+	padding: 3px 5px;
+	border: 1px solid #666;
+}	
+#table1 th {
+	background-color: #759bc9;
+	color: white;
+}
+#table1 tbody tr:nth-child(odd) {	/* 奇数行 */
+	background-color: white;
+}
+#table1 tbody tr:nth-child(even) {	/* 偶数行 */
+	background-color: #d8e5ff;
+}

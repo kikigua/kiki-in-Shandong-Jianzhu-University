@@ -1,0 +1,147 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "security"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C926A10309"
+    physical_models 	(list unit_reference_list
+	(object SubSystem "cert"
+	    quid       	"39C926A10313"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A20174"
+		    supplier   	"Component View::java::security"
+		    quidu      	"39C9268C01B7"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A702A7"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A702A9"
+		    supplier   	"Component View::java::lang::reflect"
+		    quidu      	"39C926A7028A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A702AE"
+		    supplier   	"Component View::java::math"
+		    quidu      	"39C926A70296"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C926A702B9"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "CertificateException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CertificateException.java"))
+		    quid       	"39C926A10314"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CertificateEncodingException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CertificateEncodingException.java"))
+		    quid       	"39C926A10331"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CertificateExpiredException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CertificateExpiredException.java"))
+		    quid       	"39C926A10345"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CertificateNotYetValidException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CertificateNotYetValidException.java"))
+		    quid       	"39C926A10363"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "CertificateParsingException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"CertificateParsingException.java"))
+		    quid       	"39C926A10381"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "Certificate" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Certificate.java"))
+		    quid       	"39C926A20152"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A20175"
+			    supplier   	"Component View::java::security"
+			    quidu      	"39C9268C01B7"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "X509Certificate" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"X509Certificate.java"))
+		    quid       	"39C926A70222"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702A8"
+			    supplier   	"Component View::java::io::InputStream"
+			    quidu      	"39C926A70286"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702AA"
+			    supplier   	"Component View::java::lang::reflect::Constructor"
+			    quidu      	"39C926A7028B"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702AB"
+			    supplier   	"Component View::java::lang::reflect::InvocationTargetException"
+			    quidu      	"39C926A70292"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702AF"
+			    supplier   	"Component View::java::math::BigInteger"
+			    quidu      	"39C926A70297"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702B0"
+			    supplier   	"Component View::java::security::Principal"
+			    quidu      	"39C926A7029B"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702B8"
+			    supplier   	"Component View::java::security::Security"
+			    quidu      	"39C926A7029F"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C926A702BA"
+			    supplier   	"Component View::java::util::Date"
+			    quidu      	"39C926A702A3"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))

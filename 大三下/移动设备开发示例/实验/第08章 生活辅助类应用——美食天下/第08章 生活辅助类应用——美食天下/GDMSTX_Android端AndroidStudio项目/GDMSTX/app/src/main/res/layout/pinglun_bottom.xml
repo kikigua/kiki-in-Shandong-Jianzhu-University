@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.chat.ChatBottomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FaceRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rl_input"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_pinglun_head"
+        android:orientation="horizontal"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip" >
+
+        <ImageButton
+            android:id="@+id/take_ph"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:background="@null"
+            android:minWidth="0.0dip"
+            android:padding="5sp"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="5.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/xiangji" />
+
+        <ToggleButton
+            android:id="@+id/btn_face"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:background="@drawable/ag"
+            android:minWidth="0.0dip"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="5.0dip"
+            android:scaleType="centerInside"
+            android:textOff="@null"
+            android:textOn="@null" />
+
+        <EditText
+            android:id="@+id/et_sendmessage"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_pinglun_input"
+            android:hint="我来说两句"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="@color/gray"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:text="发送" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_facechoose"
+        android:layout_width="fill_parent"
+        android:layout_height="124dip"
+        android:layout_below="@id/rl_input"
+        android:background="#f6f5f5"
+        android:visibility="gone" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_contains"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.example.chat.ChatBottomLayout>

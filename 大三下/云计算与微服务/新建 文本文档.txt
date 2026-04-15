@@ -1,0 +1,10 @@
+java -Dserver.port=9090 -Dcsp.sentinel.dashboard.server=localhost:9090 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.8.6.jar
+
+网操配置
+dns.example.com 192.168.137.133
+
+www.example.com 192.168.137.7
+
+exam.example.com 192.168.137.10
+
+cwc.example.com 192.168.137.22

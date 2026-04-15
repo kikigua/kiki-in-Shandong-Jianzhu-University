@@ -1,0 +1,72 @@
+PACKAGE RSPS_Evaluation rational 1.5 1C0AB0D69C73 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:10 LTvu:7.1:100 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE RSPS_Base_License rational 1.5 AAEC0768D8DA \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+
+PACKAGE LT_Playback_100VU rational 7.5 10B297DCA509 \
+	COMPONENTS="LTvu:7.1:100 LT_100VT:8.0:1"
+
+PACKAGE LT_Playback_250VU rational 7.5 46D73E06F8CA \
+	COMPONENTS="LTvu:7.1:250 LT_250VT:8.0:1"
+
+PACKAGE LT_Playback_500VU rational 7.5 EF451B5CFD15 \
+	COMPONENTS="LTvu:7.1:500 LT_500VT:8.0:1"
+
+PACKAGE LT_Playback_1000VU rational 7.5 68C15DACA3A7 \
+	COMPONENTS="LTvu:7.1:1000 LT_1000VT:8.0:1"
+
+PACKAGE LT_Playback_2500VU rational 7.5 41BCC971EFB0 \
+	COMPONENTS="LTvu:7.1:2500 LT_2500VT:8.0:1"
+
+PACKAGE LT_Playback_5000VU rational 7.5 E809693053EF \
+	COMPONENTS="LTvu:7.1:5000 LT_5000VT:8.0:1"
+
+PACKAGE LT_Playback_10000VU rational 7.5 79F52A91E693 \
+	COMPONENTS="LTvu:7.1:10000 LT_10000VT:8.0:1"
+
+PACKAGE LT_Playback_20000VU rational 7.5 0ED4D35282E1 \
+	COMPONENTS="LTvu:7.1:20000 LT_20000VT:8.0:1"
+
+PACKAGE LT_Playback_50000VU rational 7.5 D8A40635DE7B \
+	COMPONENTS="LTvu:7.1:50000 LT_50000VT:8.0:1"
+
+PACKAGE LT_Playback_100000VU rational 7.5 2624850A2BBE \
+	COMPONENTS="LTvu:7.1:100000 LT_100000VT:8.0:1"
+
+PACKAGE RSPS_TLA_500VU rational 1.5 7EBAF9407ED4 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:500 LTvu:7.1:500 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE RSPS_TLA_100KVU rational 1.5 E2A84565831B \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:500 LTvu:7.1:100000 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE LT_All_VU_Protocols rational 7.5 CD8298ACC192 \
+	COMPONENTS="LT_All_Protocols:7.1:1"
+
+PACKAGE PerformanceStudioOEM rational 7.5 768CFCB275A5 \
+	COMPONENTS="PerformanceStudioSuite:1.0:1 \
+	LTmaster:7.1:1 LTgui:7.1:1 LTvu:7.1:1 \
+	LTjolt:7.1:1 LTtux:7.1:1 LTsql:7.1:1 \
+	LThttp:7.1:1 LTsap:7.1:1 LTcorba:7.1:1 LTdcom:7.1:1"
+
+PACKAGE LoadTest_Base rational 7.5 27CCA9A18283 \
+	COMPONENTS="LoadTestSuite:7.5:1 \
+	LTmaster:7.1:1 LTgui:7.1:1 LTvu:7.1:50 LThttp:7.1:1"
+
+PACKAGE TMvtpool rational 8.0 FE4376C9DEE0 \
+	COMPONENTS="TMvirtualtester:8.0:5"
+
+PACKAGE LT_Playback_50VU rational 7.5 24DE0865AC61 \
+	COMPONENTS="LTvu:7.1:50 LT_50VT:8.0:1"
+
+

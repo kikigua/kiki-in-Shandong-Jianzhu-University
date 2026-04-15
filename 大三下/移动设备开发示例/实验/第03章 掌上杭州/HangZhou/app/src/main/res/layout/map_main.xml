@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical">"
+     
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/biaoti_bg" >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFF0"
+            android:textSize="25dip"
+            android:text="鏉窞鍦板浘" >
+        </TextView>
+     </RelativeLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll_calc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:padding="8dip"
+        android:background="@drawable/main_bg"
+        android:orientation="horizontal">
+	     
+	     <Button android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="14sp"
+	        android:id="@+id/bt_drive"
+	        android:text="椹捐溅鎼滅储"/>
+	      <Button android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/bt_bus"
+	        android:textSize="14sp"
+	        android:text="鍏氦鎼滅储"/>   
+	     <Button android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/bt_walk"
+	        android:textSize="14sp"
+	        android:text="姝ヨ鎼滅储"/>
+    </LinearLayout>
+
+	    <com.baidu.mapapi.map.MapView
+	        android:id="@+id/bmapView"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_below="@id/ll_calc_btn" />
+</LinearLayout>

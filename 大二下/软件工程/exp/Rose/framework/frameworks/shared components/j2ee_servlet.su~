@@ -1,0 +1,1139 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object SubSystem "servlet"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"39C9273B03A1"
+    visible_modules 	(list dependency_list
+	(object Module_Visibility_Relationship
+	    quid       	"39C9273C001D"
+	    supplier   	"Component View::java::io"
+	    quidu      	"39C92669000A"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9273C0027"
+	    supplier   	"Component View::java::util"
+	    quidu      	"39C926800070"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9273D0228"
+	    supplier   	"Component View::java::net"
+	    quidu      	"39C9266E0035"
+	    supplier_is_subsystem 	TRUE)
+	(object Module_Visibility_Relationship
+	    quid       	"39C9274101B5"
+	    supplier   	"Component View::java::text"
+	    quidu      	"39C9273701D9"
+	    supplier_is_subsystem 	TRUE))
+    physical_models 	(list unit_reference_list
+	(object module "GenericServlet" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"GenericServlet.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273B03A2"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C001E"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C001F"
+		    supplier   	"Component View::java::io::Serializable"
+		    quidu      	"39C926930379"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C0028"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "Servlet" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"Servlet.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273B03AE"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C03AC"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServletConfig" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletConfig.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273B03C0"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273D0047"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServletInputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletInputStream.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273C0294"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C02B2"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C02B3"
+		    supplier   	"Component View::java::io::InputStream"
+		    quidu      	"39C926A70286"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "RequestDispatcher" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"RequestDispatcher.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273C0316"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273C032D"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServletContext" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletContext.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273D01B9"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273D0227"
+		    supplier   	"Component View::java::io::InputStream"
+		    quidu      	"39C926A70286"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273D0229"
+		    supplier   	"Component View::java::net::MalformedURLException"
+		    quidu      	"39C926CC0397"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273D0231"
+		    supplier   	"Component View::java::net::URL"
+		    quidu      	"39C9266E0036"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9273D0232"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServletException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C9273E01CF"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServletOutputStream" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletOutputStream.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C92741010B"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9274101AF"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9274101B6"
+		    supplier   	"Component View::java::text::MessageFormat"
+		    quidu      	"39C9274101AB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9274101B7"
+		    supplier   	"Component View::java::util::ResourceBundle"
+		    quidu      	"39C927410147"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServletRequest" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletRequest.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927420293"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9274202F7"
+		    supplier   	"Component View::java::io::BufferedReader"
+		    quidu      	"39C9274202E5"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9274202F8"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927420301"
+		    supplier   	"Component View::java::util::Enumeration"
+		    quidu      	"39C926820283"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927420302"
+		    supplier   	"Component View::java::util::Locale"
+		    quidu      	"39C9274202EF"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "ServletResponse" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"ServletResponse.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927430027"
+	    stereotype 	""
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C927430063"
+		    supplier   	"Component View::java::io::IOException"
+		    quidu      	"39C9266902DB"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927430064"
+		    supplier   	"Component View::java::io::PrintWriter"
+		    quidu      	"39C926AB02C8"
+		    supplier_is_spec 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92743006D"
+		    supplier   	"Component View::java::util::Locale"
+		    quidu      	"39C9274202EF"
+		    supplier_is_spec 	TRUE))
+	    language   	"Java")
+	(object module "SingleThreadModel" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"SingleThreadModel.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C927430077"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "UnavailableException" "NotAModuleType" "NotAModulePart"
+	    attributes 	(list Attribute_Set
+		(object Attribute
+		    tool       	"Java"
+		    name       	"FileName"
+		    value      	"UnavailableException.java")
+		(object Attribute
+		    tool       	"Java"
+		    name       	"RootPath"
+		    value      	""))
+	    quid       	"39C92743009F"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "Filter" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F33D02C7"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilterChain" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F3470127"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "FilterConfig" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F3510276"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServletContextAttributeEvent" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F35D002E"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServletContextAttributeListener" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F37503E0"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServletRequestWrapper" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F38D00F6"
+	    stereotype 	""
+	    language   	"Java")
+	(object module "ServletResponseWrapper" "NotAModuleType" "NotAModulePart"
+	    quid       	"3AB4F3A20290"
+	    stereotype 	""
+	    language   	"Java")
+	(object SubSystem "http"
+	    quid       	"39C927460144"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C92747004B"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92747004D"
+		    supplier   	"Component View::java::lang::reflect"
+		    quidu      	"39C926A7028A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927470056"
+		    supplier   	"Component View::java::text"
+		    quidu      	"39C9273701D9"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92747005F"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C927470069"
+		    supplier   	"Component View::javax::servlet"
+		    quidu      	"39C9273B03A1"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9274C0138"
+		    supplier   	"Component View::java::security"
+		    quidu      	"39C9268C01B7"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "HttpServlet" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpServlet.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C927460145"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92747004C"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927470055"
+			    supplier   	"Component View::java::lang::reflect::Method"
+			    quidu      	"39C92712013F"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927470057"
+			    supplier   	"Component View::java::text::MessageFormat"
+			    quidu      	"39C9274101AB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927470060"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927470061"
+			    supplier   	"Component View::java::util::ResourceBundle"
+			    quidu      	"39C927410147"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92747006A"
+			    supplier   	"Component View::javax::servlet"
+			    quidu      	"39C9273B03A1"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "NoBodyResponse" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NoBodyResponse.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274800E3"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274801E7"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274801F1"
+			    supplier   	"Component View::java::util::Locale"
+			    quidu      	"39C9274202EF"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274801F2"
+			    supplier   	"Component View::javax::servlet::ServletOutputStream"
+			    quidu      	"39C92741010B"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274801FB"
+			    supplier   	"Component View::javax::servlet::ServletResponse"
+			    quidu      	"39C927430027"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpServletResponse" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpServletResponse.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274800F7"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274D0194"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274D0195"
+			    supplier   	"Component View::javax::servlet::ServletResponse"
+			    quidu      	"39C927430027"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "NoBodyOutputStream" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"NoBodyOutputStream.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C92748010D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C92749013E"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92749013F"
+			    supplier   	"Component View::java::util::ResourceBundle"
+			    quidu      	"39C927410147"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927490148"
+			    supplier   	"Component View::javax::servlet::ServletOutputStream"
+			    quidu      	"39C92741010B"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "Cookie" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"Cookie.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274A009F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274A028A"
+			    supplier   	"Component View::java::text::MessageFormat"
+			    quidu      	"39C9274101AB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274A028B"
+			    supplier   	"Component View::java::util::ResourceBundle"
+			    quidu      	"39C927410147"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpSessionBindingEvent" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpSessionBindingEvent.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274B00DD"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274B012D"
+			    supplier   	"Component View::java::util::EventObject"
+			    quidu      	"39C926A90317"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpServletRequest" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpServletRequest.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274C00D4"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274C0139"
+			    supplier   	"Component View::java::security::Principal"
+			    quidu      	"39C926A7029B"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274C0143"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274C0144"
+			    supplier   	"Component View::javax::servlet::ServletRequest"
+			    quidu      	"39C927420293"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpSession" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpSession.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274D0202"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274D0252"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpSessionBindingListener" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpSessionBindingListener.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274E0087"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274E00AF"
+			    supplier   	"Component View::java::util::EventListener"
+			    quidu      	"39C926AA0384"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpSessionContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpSessionContext.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274E011D"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274E013B"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpUtils" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpUtils.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274F0179"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274F01FB"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274F01FC"
+			    supplier   	"Component View::java::io::InputStream"
+			    quidu      	"39C926A70286"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274F01FD"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274F0205"
+			    supplier   	"Component View::javax::servlet::ServletInputStream"
+			    quidu      	"39C9273C0294"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9274F020F"
+			    supplier   	"Component View::javax::servlet::ServletRequest"
+			    quidu      	"39C927420293"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "HttpServletRequestWrapper" "NotAModuleType" "NotAModulePart"
+		    quid       	"3AB4F3C30189"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HttpSessionActivationListener" "NotAModuleType" "NotAModulePart"
+		    quid       	"3AB4F3D5037A"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HttpSessionAttributeListener" "NotAModuleType" "NotAModulePart"
+		    quid       	"3AB4F3E90012"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HttpSessionEvent" "NotAModuleType" "NotAModulePart"
+		    quid       	"3AB4F3FE0365"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HttpSessionListener" "NotAModuleType" "NotAModulePart"
+		    quid       	"3AB4F40B0237"
+		    stereotype 	""
+		    language   	"Java"))
+	    physical_presentations 	(list unit_reference_list))
+	(object SubSystem "jsp"
+	    quid       	"39C9274F0219"
+	    visible_modules 	(list dependency_list
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275001D4"
+		    supplier   	"Component View::java::io"
+		    quidu      	"39C92669000A"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275001DE"
+		    supplier   	"Component View::javax::servlet"
+		    quidu      	"39C9273B03A1"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C9275001E0"
+		    supplier   	"Component View::javax::servlet::http"
+		    quidu      	"39C927460144"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92753035F"
+		    supplier   	"Component View::java::util"
+		    quidu      	"39C926800070"
+		    supplier_is_subsystem 	TRUE)
+		(object Module_Visibility_Relationship
+		    quid       	"39C92753036A"
+		    supplier   	"Component View::javax::servlet::jsp::tagext"
+		    quidu      	"39C92753034B"
+		    supplier_is_subsystem 	TRUE))
+	    physical_models 	(list unit_reference_list
+		(object module "JspTagException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"JspTagException.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274F0223"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "JspException" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"JspException.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9274F0230"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "HttpJspPage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"HttpJspPage.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9275001AC"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9275001D5"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9275001DF"
+			    supplier   	"Component View::javax::servlet::ServletException"
+			    quidu      	"39C9273E01CF"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9275001E1"
+			    supplier   	"Component View::javax::servlet::http::HttpServletRequest"
+			    quidu      	"39C9274C00D4"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9275001E8"
+			    supplier   	"Component View::javax::servlet::http::HttpServletResponse"
+			    quidu      	"39C9274800F7"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "JspPage" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"JspPage.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9275001C0"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927510334"
+			    supplier   	"Component View::javax::servlet::Servlet"
+			    quidu      	"39C9273B03AE"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "JspEngineInfo" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"JspEngineInfo.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9275001F3"
+		    stereotype 	""
+		    language   	"Java")
+		(object module "JspFactory" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"JspFactory.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C927510009"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927510047"
+			    supplier   	"Component View::javax::servlet"
+			    quidu      	"39C9273B03A1"
+			    supplier_is_subsystem 	TRUE))
+		    language   	"Java")
+		(object module "PageContext" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"PageContext.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C9275300A2"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927530359"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927530360"
+			    supplier   	"Component View::java::util::Enumeration"
+			    quidu      	"39C926820283"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927530361"
+			    supplier   	"Component View::javax::servlet"
+			    quidu      	"39C9273B03A1"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927530369"
+			    supplier   	"Component View::javax::servlet::http::HttpSession"
+			    quidu      	"39C9274D0202"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92753036B"
+			    supplier   	"Component View::javax::servlet::jsp::tagext::BodyContent"
+			    quidu      	"39C927530355"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object module "JspWriter" "NotAModuleType" "NotAModulePart"
+		    attributes 	(list Attribute_Set
+			(object Attribute
+			    tool       	"Java"
+			    name       	"FileName"
+			    value      	"JspWriter.java")
+			(object Attribute
+			    tool       	"Java"
+			    name       	"RootPath"
+			    value      	""))
+		    quid       	"39C92755000F"
+		    stereotype 	""
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C9275500A5"
+			    supplier   	"Component View::java::io::IOException"
+			    quidu      	"39C9266902DB"
+			    supplier_is_spec 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C9275500AF"
+			    supplier   	"Component View::java::io::Writer"
+			    quidu      	"39C92755001A"
+			    supplier_is_spec 	TRUE))
+		    language   	"Java")
+		(object SubSystem "tagext"
+		    quid       	"39C92753034B"
+		    visible_modules 	(list dependency_list
+			(object Module_Visibility_Relationship
+			    quid       	"39C927550327"
+			    supplier   	"Component View::javax::servlet::jsp"
+			    quidu      	"39C9274F0219"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C927560170"
+			    supplier   	"Component View::java::io"
+			    quidu      	"39C92669000A"
+			    supplier_is_subsystem 	TRUE)
+			(object Module_Visibility_Relationship
+			    quid       	"39C92758001D"
+			    supplier   	"Component View::java::util"
+			    quidu      	"39C926800070"
+			    supplier_is_subsystem 	TRUE))
+		    physical_models 	(list unit_reference_list
+			(object module "BodyContent" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"BodyContent.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C927530355"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C927560171"
+				    supplier   	"Component View::java::io"
+				    quidu      	"39C92669000A"
+				    supplier_is_subsystem 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C927560179"
+				    supplier   	"Component View::javax::servlet::jsp::JspWriter"
+				    quidu      	"39C92755000F"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "BodyTagSupport" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"BodyTagSupport.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275502CC"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C927550328"
+				    supplier   	"Component View::javax::servlet::jsp::JspException"
+				    quidu      	"39C9274F0230"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C927550330"
+				    supplier   	"Component View::javax::servlet::jsp::JspWriter"
+				    quidu      	"39C92755000F"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "TagSupport" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"TagSupport.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275502E2"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275C004B"
+				    supplier   	"Component View::java::io::Serializable"
+				    quidu      	"39C926930379"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275C0055"
+				    supplier   	"Component View::java::util::Enumeration"
+				    quidu      	"39C926820283"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275C0056"
+				    supplier   	"Component View::java::util::Hashtable"
+				    quidu      	"39C92682021E"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275C005F"
+				    supplier   	"Component View::javax::servlet::jsp::JspException"
+				    quidu      	"39C9274F0230"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275C0060"
+				    supplier   	"Component View::javax::servlet::jsp::PageContext"
+				    quidu      	"39C9275300A2"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "BodyTag" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"BodyTag.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275502F4"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275601BF"
+				    supplier   	"Component View::javax::servlet::jsp::JspException"
+				    quidu      	"39C9274F0230"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "Tag" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"Tag.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275601A1"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C927580172"
+				    supplier   	"Component View::javax::servlet::jsp::JspException"
+				    quidu      	"39C9274F0230"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C927580173"
+				    supplier   	"Component View::javax::servlet::jsp::PageContext"
+				    quidu      	"39C9275300A2"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "TagData" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"TagData.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275703B5"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C92758001E"
+				    supplier   	"Component View::java::util::Enumeration"
+				    quidu      	"39C926820283"
+				    supplier_is_spec 	TRUE)
+				(object Module_Visibility_Relationship
+				    quid       	"39C927580027"
+				    supplier   	"Component View::java::util::Hashtable"
+				    quidu      	"39C92682021E"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "TagAttributeInfo" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"TagAttributeInfo.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C927580367"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "TagExtraInfo" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"TagExtraInfo.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C927590065"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "TagInfo" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"TagInfo.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C927590070"
+			    stereotype 	""
+			    language   	"Java")
+			(object module "TagLibraryInfo" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"TagLibraryInfo.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275902D2"
+			    stereotype 	""
+			    visible_modules 	(list dependency_list
+				(object Module_Visibility_Relationship
+				    quid       	"39C9275A0233"
+				    supplier   	"Component View::java::io::PrintStream"
+				    quidu      	"39C926BB01B2"
+				    supplier_is_spec 	TRUE))
+			    language   	"Java")
+			(object module "VariableInfo" "NotAModuleType" "NotAModulePart"
+			    attributes 	(list Attribute_Set
+				(object Attribute
+				    tool       	"Java"
+				    name       	"FileName"
+				    value      	"VariableInfo.java")
+				(object Attribute
+				    tool       	"Java"
+				    name       	"RootPath"
+				    value      	""))
+			    quid       	"39C9275C00A5"
+			    stereotype 	""
+			    language   	"Java"))
+		    physical_presentations 	(list unit_reference_list)))
+	    physical_presentations 	(list unit_reference_list)))
+    physical_presentations 	(list unit_reference_list))
