@@ -1,0 +1,73 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+.title {
+    font-family: "华文细黑","思源黑体CN","微软雅黑","黑体";
+    color: #333;
+    font-size: 2em;
+    line-height: 60px;
+}
+.v_border{
+    border-style: solid;
+    color: #933;
+    border-width: 0.2em;
+    border-top-width: 15px;
+    border-bottom-width:10px ;
+}
+.v_border1{
+    border-top:1px solid #000 ;
+    border-width: 1px;
+    width: 300px;
+}
+.liebiao{
+    width: 300px;
+    padding: 0.5em;
+    list-style: none;
+    font-weight: 600;
+}
+.lianjie{
+    color: #369;
+}
+a.lianjie:hover {
+    color: #933;
+}
+.v_border2{
+    width: 300px;
+    border-top: 1px dotted #000;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+/* 使用 before 伪元素在 <a/> 元素之前创建一个元素 */
+li::before {
+    /* 内容为一个空格，没有内容的元素不显示 */
+    content: ' ';
+    /*
+    定义为行内块级 (inline-block) 元素，只有块级元素可以设置宽、高，
+    使用行内块级元素使其与 <a/> 排列在一行上（<a/> 同样要定义为行内块级）
+    */
+    display: inline-block;
+    /* 空格可能大于盒子宽、高，隐藏溢出的部分 */
+    overflow: hidden;
+    width: .25em;
+    height: .25em;
+    background-color: #933;
+    /* 调整垂直位置 */
+    vertical-align: 0.375em;
+    margin-right: 0.5em;
+    margin-left: 1px; 
+}
+a {
+    /* 定义为行内块级元素，只有块级元素可设置文字溢出后的替换效果 */
+    display: inline-block;
+    /*
+    宽度 =100%-左侧装饰符的宽度 (0.25em)-装饰符左 (1px)、右 (0.5em) 外边距
+    注意：calc 函数中运算符的左、右两边一定要有一个空格，否则无效！
+    */
+    width: calc(100% - 0.75rem - 1px);
+    overflow: hidden; /* 隐藏溢出部分 */
+    text-overflow: ellipsis; /* 文字溢出部分使用···替代 */
+    color: #369;
+    text-decoration: none;
+    white-space: nowrap; 
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>html demo</title>
+  <style>
+  p {
+    margin: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  b {
+    text-decoration: underline;
+	color:red;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+<p>
+  <b>jQuery</b> 是最好用的<span id="tag">JavaScript</span>库
+</p>
+<p id="html_output">
+ html（）方式输出结果区
+</p>
+<p id="text_output">
+text（）方式输出结果区
+</p>
+<label for="gender" id="city1_label">性别： </label>
+<input id="gender" type="text" value="男">
+<button>点我修改性别</button>
+<script>
+$("p").click(function() {
+  var htmlString = $(this).html();
+  $("#html_output").text(htmlString);
+});
+$("p").click(function() {
+  var textString = $(this).text();
+  $("#text_output").text(textString);
+});
+$("button").click(function(){
+  $(this).prev().val("女");
+});
+</script>
+</body>
+</html>

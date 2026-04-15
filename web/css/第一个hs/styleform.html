@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Starbuzz Bean Machine</title>
+    <link rel="stylesheet" href="starbuzz.css">
+    <link rel="stylesheet" href="styledform1.css">
+</head>
+<body>
+    <!-- 主标题 -->
+    <h1>The Starbuzz Bean Machine</h1>
+    <!-- 副标题 -->
+    <h2>Fill out the form below and click "order now" to order</h2>
+    <!-- 在HTML中，form标签被用于定义表单域，以实现用户信息的收集和传递，form中的所有内容都会被提交给服务器。 -->
+	<!-- <form action="url地址" method="提交方式" name="表单名称"> -->
+    <form action="https://starbuzzcoffee.com/processorder.php" method="post">
+    <div class="tableRow">
+            <span>choose your beans:</span>
+            <span>
+                <!-- 下拉框 -->
+                <select name="beans" id="">
+                    <option value="House Blend">House Blend</option>
+                    <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                    <option value="Guatemala">Organic Guatemala</option>
+                    <option value="Kenya"><kenya></option>
+                </select>
+            </span>
+        </div>
+        <div class="tableRow">
+            <p>
+                Type:
+                <!-- 定义单选按钮 -->
+                <input type="radio" name="beantype" value="whole" checked="checkde">whole Bean<br />
+                <input type="radio" name="beantype" value="ground" >ground
+            </p>
+                
+            
+
+        </div>
+        <div class="tableRow">
+            <div>
+                Number of bags:
+            </div>
+            <div>   <!-- 输入的是数字类型的数据 -->
+                <input type="number" name="bags" min="0" max="10"></div>
+        </div>
+        <div class="tableRow">
+            <p>
+            Must arrive by date:
+            
+            
+                <!-- 输入日期 -->
+                <input type="date" name="date">
+            </p>
+        </div>
+            <div class="tableRow">
+                <p>
+                    Extras:
+                
+                    <input type="checkbox" name="extras[]" value="catelog"checked="checked">Include catalog with order
+                    <input type="checkbox" name="extras[]" value="giftwrap">giftwrap<br />
+                </p>
+                
+
+            </div>
+            <div class="tableRow">
+                <p class="heading">
+                Ship to:
+                </p>
+            </div>
+            <div class="tableRow">
+                <p> name:
+                <!-- placeholder是默认显示，required是必填的意思 -->
+                <input type="text" name="name" value="" placeholder="Buckaroo Banzai"required></p>
+            </div>
+            <div class="tableRow">
+                <p> address:
+                <input type="text" name="address" value="" placeholder="Banzai Institute"required></p>
+            </div>
+            <div class="tableRow">
+                <p> city:
+                <input type="text" name="city" value="" placeholder="Los Angeles"required></p>
+            </div>
+            <div class="tableRow">
+                <p> state:
+                <input type="text" name="state" value="" placeholder="CA"required></p>
+            </div>
+            <div class="tableRow">
+                <p> zip:
+                <input type="text" name="zip" value="" placeholder="90050"required></p>
+            </div>
+            <div class="tableRow">
+                <p> phone:
+                <input type="tel" name="phone" value="" placeholder="310-555-1212"required></p>
+            </div>
+            <div class="tableRow">
+                <p> Customer Comments: 
+                
+                    <textarea name="comments"></textarea>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p><input type="submit" value="Order Now"></p>
+
+            </div>
+    </form>
+</body>
+</html>

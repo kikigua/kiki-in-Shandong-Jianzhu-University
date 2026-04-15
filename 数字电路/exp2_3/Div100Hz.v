@@ -1,0 +1,25 @@
+module Div100Hz(clkin, clkout);
+input clkin;
+output clkout;
+
+integer cnt20M;
+reg clkout;
+
+//20MHZÈë1HZÊä³ö
+always @(posedge clkin)
+	begin
+	   if(cnt20M >= 19_999_999)
+		 cnt20M <=0;
+	   else 
+		 cnt20M <= cnt20M + 1;
+		   
+	   if (cnt20M < 10_000_000)
+		  clkout <= 1'b1;
+	   else
+		  clkout <= 1'b0; 
+	end
+	
+endmodule
+
+
+	

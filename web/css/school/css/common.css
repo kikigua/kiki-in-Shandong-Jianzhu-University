@@ -1,0 +1,20 @@
+/* 版心 */
+.w {
+    width: 1280px;
+    margin: 0 auto;
+}
+/* 快捷导航 */
+.shortcut {
+    height: 50px;
+    background-color: #f1f1f1;
+}
+.first {
+    height: 150px;
+    background-color: rgb(153, 12, 40);
+}
+.fl {
+    float: left;;
+}
+.fr {
+    float: right;
+}

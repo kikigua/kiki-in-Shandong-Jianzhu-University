@@ -1,0 +1,116 @@
+|exp2_3
+T1 <= myD:inst3.q
+CLK => Div100Hz:inst.clkin
+STEP => myD:inst8.R
+STEP => myD:inst12.R
+STEP => myD:inst5.R
+STEP => myD:inst7.R
+STEP => myD:inst3.R
+T2 <= myD:inst5.q
+T3 <= myD:inst7.q
+T4 <= myD:inst8.q
+T5 <= myD:inst12.q
+
+
+|exp2_3|myD:inst3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qn <= qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q~reg0.DATAIN
+d => qn~reg0.DATAIN
+clk => q~reg0.CLK
+clk => qn~reg0.CLK
+S => q~0.IN0
+R => q~0.IN1
+R => q~reg0.ACLR
+R => qn~reg0.PRESET
+
+
+|exp2_3|myD:inst7
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qn <= qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q~reg0.DATAIN
+d => qn~reg0.DATAIN
+clk => q~reg0.CLK
+clk => qn~reg0.CLK
+S => q~0.IN0
+R => q~0.IN1
+R => q~reg0.ACLR
+R => qn~reg0.PRESET
+
+
+|exp2_3|myD:inst5
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qn <= qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q~reg0.DATAIN
+d => qn~reg0.DATAIN
+clk => q~reg0.CLK
+clk => qn~reg0.CLK
+S => q~0.IN0
+R => q~0.IN1
+R => q~reg0.ACLR
+R => qn~reg0.PRESET
+
+
+|exp2_3|Div100Hz:inst
+clkin => cnt20M[31].CLK
+clkin => cnt20M[30].CLK
+clkin => cnt20M[29].CLK
+clkin => cnt20M[28].CLK
+clkin => cnt20M[27].CLK
+clkin => cnt20M[26].CLK
+clkin => cnt20M[25].CLK
+clkin => cnt20M[24].CLK
+clkin => cnt20M[23].CLK
+clkin => cnt20M[22].CLK
+clkin => cnt20M[21].CLK
+clkin => cnt20M[20].CLK
+clkin => cnt20M[19].CLK
+clkin => cnt20M[18].CLK
+clkin => cnt20M[17].CLK
+clkin => cnt20M[16].CLK
+clkin => cnt20M[15].CLK
+clkin => cnt20M[14].CLK
+clkin => cnt20M[13].CLK
+clkin => cnt20M[12].CLK
+clkin => cnt20M[11].CLK
+clkin => cnt20M[10].CLK
+clkin => cnt20M[9].CLK
+clkin => cnt20M[8].CLK
+clkin => cnt20M[7].CLK
+clkin => cnt20M[6].CLK
+clkin => cnt20M[5].CLK
+clkin => cnt20M[4].CLK
+clkin => cnt20M[3].CLK
+clkin => cnt20M[2].CLK
+clkin => cnt20M[1].CLK
+clkin => cnt20M[0].CLK
+clkin => clkout~reg0.CLK
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp2_3|myD:inst12
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qn <= qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q~reg0.DATAIN
+d => qn~reg0.DATAIN
+clk => q~reg0.CLK
+clk => qn~reg0.CLK
+S => q~0.IN0
+R => q~0.IN1
+R => q~reg0.ACLR
+R => qn~reg0.PRESET
+
+
+|exp2_3|myD:inst8
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qn <= qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q~reg0.DATAIN
+d => qn~reg0.DATAIN
+clk => q~reg0.CLK
+clk => qn~reg0.CLK
+S => q~0.IN0
+R => q~0.IN1
+R => q~reg0.ACLR
+R => qn~reg0.PRESET
+
+

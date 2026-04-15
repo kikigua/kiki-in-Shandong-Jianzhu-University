@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>event对象的属性</title>
+  <style>
+     div#parent{
+	   width: 200px;
+       height: 200px;
+       background-color: pink;	   
+	 }
+	 p#output{
+	   width: 100px;
+       height: 100px;
+       background-color: green;	
+	   font-weight: bold;
+	   margin-top: 50px;
+	   margin-left: 50px;
+	 }
+  </style> 
+</head>
+<body>
+  <div id="parent">
+    <p id="output"></p>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script>
+	 //1. 给父元素绑定单击事件，分别查看target和currentTarget的区别
+	 /*
+	 $("div").click( function (event){
+	   //随着单击的元素不同，而显示不同元素被单击了
+       $("#output").html(event.target.nodeName +"被单击了");
+     });
+	 
+	 $("div").click( function (event){
+	   //输出DIV被单击了
+       $("#output").html(event.currentTarget.nodeName +"被单击了");
+     });
+	 */
+	 
+	 //2. 分别给父元素和子元素都绑定单击事件，查看事件的执行顺序
+	 $("p").click( function (event){
+       //$("#output").html(event.currentTarget.nodeName +"被单击了");
+	   console.log(event.currentTarget.nodeName +"被单击了");
+     });
+	 $("div").click( function (event){
+       //$("#output").html(event.currentTarget.nodeName +"被单击了");
+	    console.log(event.currentTarget.nodeName +"被单击了");
+     }); 
+  </script>
+</body>
+</html>

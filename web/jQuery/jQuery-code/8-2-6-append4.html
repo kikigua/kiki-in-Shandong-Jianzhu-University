@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>html,val, text demo</title>
+  <style>
+  p {
+    margin: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  b {
+    text-decoration: underline;
+	color: red;
+  }
+  </style>
+  <script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+<h2>Greetings</h2>
+<div class="container">
+  <p>你吃饭了吗</p><b>请问</b>
+  <p>有什么可以帮您</p>
+</div>
+<button>点我帮你补全问候语</button>
+<script>
+   $( "button" ).click(function(){
+     $( "p" ).prepend( "你好，" );
+     $( "p" ).append( "<strong>？</strong>" );
+     $( "p" ).before($("b"));
+     $( "div" ).after("<hr/>");
+   });
+</script>
+</body>
+</html>
