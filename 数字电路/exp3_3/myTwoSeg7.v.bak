@@ -1,0 +1,26 @@
+module myTwoSeg7(rst_n,clkin,dig_sel_n,seg_out,Q7,Q6,Q5,Q4,Q3,Q2,Q1,Q0);
+input clkin,rst_n,Q7,Q6,Q5,Q4,Q3,Q2,Q1,Q0;
+output [7:0]dig_sel_n,seg_out;
+
+reg [7:0]dig_sel_n,seg_out;
+
+function [7:0]seg7;
+input Q7,Q6,Q5,Q4,Q3,Q2,Q1,Q0;
+begin
+  case({Q7,Q6,Q5,Q4,Q3,Q2,Q1,Q0})
+     0:seg7=8'b11000000;
+     1:seg7=8'b11111001;
+     2:seg7=8'b11111001;
+     3:seg7=8'b11111001;
+     4:seg7=8'b11111001;
+     5:seg7=8'b11111001;
+     6:seg7=8'b11111001;
+     7:seg7=8'b11111001;
+     8:seg7=8'b11111001;
+     9:seg7=8'b11111001;
+     default: seg7=8'b11111111;
+  endcase
+end
+
+endfunction
+endmodule

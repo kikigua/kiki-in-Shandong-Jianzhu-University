@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="exp3_2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp3_2|My74161:inst7|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_4rh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp3_2|My74161:inst|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_4rh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

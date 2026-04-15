@@ -1,0 +1,29 @@
+|myTwoSeg7
+rst_n => ~NO_FANOUT~
+clkin => ~NO_FANOUT~
+dig_sel_n[0] <= <GND>
+dig_sel_n[1] <= <GND>
+dig_sel_n[2] <= <GND>
+dig_sel_n[3] <= <GND>
+dig_sel_n[4] <= <GND>
+dig_sel_n[5] <= <GND>
+dig_sel_n[6] <= <GND>
+dig_sel_n[7] <= <GND>
+seg_out[0] <= <GND>
+seg_out[1] <= <GND>
+seg_out[2] <= <GND>
+seg_out[3] <= <GND>
+seg_out[4] <= <GND>
+seg_out[5] <= <GND>
+seg_out[6] <= <GND>
+seg_out[7] <= <GND>
+Q7 => ~NO_FANOUT~
+Q6 => ~NO_FANOUT~
+Q5 => ~NO_FANOUT~
+Q4 => ~NO_FANOUT~
+Q3 => ~NO_FANOUT~
+Q2 => ~NO_FANOUT~
+Q1 => ~NO_FANOUT~
+Q0 => ~NO_FANOUT~
+
+

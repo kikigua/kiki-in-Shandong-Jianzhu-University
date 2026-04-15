@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-cn">
+ <head>
+  <meta charset="UTF-8">
+  <title>添加新评论</title>
+  <style>
+    #plArea{
+		height: 300px;
+		background:#eee;
+		margin-top:5px;
+		padding:20px;
+		width:1000px;
+		margin: 0 auto;
+	}
+    #plItem li{
+		display:table;
+		width:920px;
+		margin-bottom:20px;
+		padding-bottom:10px;
+		border-bottom:1px solid #ddd;
+	}
+	#plItem li>b{
+		color: red;
+	}
+	#plItem li>span{
+		margin-left:10px;
+		font-size:14px;
+	}
+	#plItem li>p{
+		margin-top:20px;
+		font-size:14px;
+	}
+	#plItem div{
+		width:40px;
+		float:right;
+		
+	}
+	#plItem div.like>img{
+		width: 20px;
+		height:20px;
+	}
+  </style>
+ </head>
+ <body>
+	<div id="plArea">
+		    <ul id="plItem">
+			   <li>
+			    <b>游云ing</b>
+				<span>2017年6月14日</span>
+				<p>做一个电动车要用多长时间？</p>
+				<div class="like">
+				   <img src="img/like.png"/>
+				   <span>0</span>
+				</div>
+			   </li>
+			   <li>
+			    <b>游云ing</b>
+				<span>2018年7月14日</span>
+				<p>做一个飞机要用多长时间？</p>
+				<div class="like">
+				   <img src="img/like.png"/>
+				   <span>0</span>
+				</div>
+			   </li>
+			</ul>
+	</div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+    $(".like img").click(function(){
+	   var num=$(this).next().text();
+	   num++;
+       $(this).next().text(num);
+    });
+</script>
+</html>

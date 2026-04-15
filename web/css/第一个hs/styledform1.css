@@ -1,0 +1,40 @@
+/* 整个页面主体 */
+body {
+    /* 背景颜色 背景图片 url（图片路径） 图片位于页面的位置 */
+    background: #efe5d0 url(images/background.gif) top left;
+    /* 外边距 */
+    margin: 20px;
+}
+/* form表单 */
+form {
+    /* 显示模式 */
+    display: table;
+    /* 内边距 */
+    padding: 10px;
+    /* 边框粗细及颜色 */
+    border: thin dotted #836016;
+    /* 表单背景颜色 */
+    background-color: #efe5d0;
+}
+/* 表单文本区域大小 */
+form textarea {
+    width: 500px;
+    height: 200px;
+}
+/* 后代选择器 */
+div.tableRow {
+    /* 显示模式 */
+    display: table-row;
+    /* 垂直对齐方式 */
+    vertical-align: top;
+    /* 内边距 */
+    padding: 3px;
+}
+/* 后代选择器 */
+div.tableRow {
+    /* 文本对齐 */
+    text-align: left;
+}
+p.heading {
+    font-weight: bold;
+}

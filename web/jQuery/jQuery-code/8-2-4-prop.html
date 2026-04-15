@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-cn">
+ <head>
+  <meta charset="UTF-8">
+  <title>attr改变文本颜色</title>
+  <style>
+    #summary{
+	   color: green;
+	}
+  </style>
+ </head>
+ <body>
+    <h2>请勾选你希望去以下哪个城市工作（可多选）：</h2>
+    <input id="city1" type="checkbox" checked="checked">
+    <label for="city1" id="city1_label">北京 </label>
+	<input id="city2" type="checkbox" checked="checked">
+    <label for="city2" id="city1_label">上海</label>
+	<input id="city3" type="checkbox" checked="checked">
+    <label for="city3" id="city1_label">海南</label>
+	<input id="city4" type="checkbox" checked="checked">
+    <label for="city4" id="city1_label">广州</label>
+	
+	<div id="summary"></div>
+ </body>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+   $( "input" ).change(function() {
+     var $input = $(this);
+	 var label_str = $input.next('label').text();
+	 if (!$input.prop( "checked" ))
+	     $( "#summary" ).html(label_str+"已取消");
+	});
+</script> 
+</html>

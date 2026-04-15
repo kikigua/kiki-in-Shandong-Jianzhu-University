@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>event.target 示例</title>
+  <style>
+  </style>
+</head>
+<body>
+ 
+<ul>
+  <li>理科
+    <ul>
+      <li>物理</li>
+      <li>地理</li>
+    </ul>
+  </li>
+  <li>文科
+    <ul>
+      <li>政治</li>
+      <li>历史</li>
+    </ul>
+  </li>
+</ul>
+<script src="js/jquery-1.11.3.js"></script> 
+<script>
+function handler( event ) {
+  var target = $( event.target );
+  if ( target.is( "li" ) ) {
+    target.css("cursor","default");
+    target.children().toggle();
+  }
+}
+$( "ul" ).click( handler ).find( "ul" ).hide();
+</script>
+ 
+</body>
+</html>
